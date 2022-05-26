@@ -26,9 +26,11 @@ jobs:
           java-version: "11"
           distribution: "adopt-hotspot"
           check-latest: true
-        run: ./gradlew run
 
-      - name: Build with Gradle
+      - name: Run code gen with Gradle
+        run: gradle run
+
+      - name: Publish with Gradle
         run: gradle clean publishMavenPublicationToGitHubPackagesRepository
         env:
           GITHUB_REF_NAME: ${{ github.GITHUB_REF_NAME }}
