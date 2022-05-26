@@ -1,2 +1,3 @@
-# emoji-string
-emoji-string desc
+# emoji-jvm-string
+
+emoji-jvm-string desc
