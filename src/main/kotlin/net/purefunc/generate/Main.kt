@@ -12,7 +12,7 @@ fun main() {
         if (flag) lines.add(line)
         if (line.startsWith("# subgroup: ")) flag = true
     }
-    val result = lines.filter { it.contains("fully-qualified") }.map { it.split(" ") }.map {
+    val resulta = lines.filter { it.contains("fully-qualified") }.map { it.split(" ") }.map {
         val items = mutableListOf<String>()
         items.add(it[0])
         var idx = 0
@@ -34,34 +34,48 @@ fun main() {
                     .replace("package", "packages")
                     .replace("#", "hash")
                     .replace("*", "star")
-                    .replace(",", "")
-                    .replace("&", "")
+                    .replace(",", "comma")
+                    .replace("&", "and")
             }
         )
         items
     }
-    val fos = FileOutputStream(File("src/main/kotlin/net/purefunc/emoji/Emoji.kt"))
-    fos.write("package net.purefunc.emoji\n".toByteArray())
-    fos.write("\n".toByteArray())
-    fos.write("enum class Emoji(\n".toByteArray())
-    fos.write("    private val code: Int,\n".toByteArray())
-    fos.write(") {\n".toByteArray())
-    fos.write("\n".toByteArray())
 
-    result.forEachIndexed { index, strings ->
-        val s = "    ${
-            strings.subList(1, strings.size).joinToString("_") { it.uppercase(Locale.getDefault()) }
-        }(0x${strings[0]})"
-        if (index == result.size - 1) {
-            fos.write("$s;\n".toByteArray())
+    val size = (resulta.size / 1000)
+
+    val resultList = (0..size).map {
+        if (resulta.size < 1000 * (it + 1)) {
+            resulta.subList(1000 * it, resulta.size)
         } else {
-            fos.write("$s,\n".toByteArray())
+
+            resulta.subList(1000 * it, 1000 * (it + 1))
         }
     }
 
-    fos.write("\n".toByteArray())
-    fos.write("    override fun toString(): String {\n".toByteArray())
-    fos.write("        return String(Character.toChars(code))\n".toByteArray())
-    fos.write("    }\n".toByteArray())
-    fos.write("}\n".toByteArray())
+    resultList.forEachIndexed { idx, result ->
+        val fos = FileOutputStream(File("src/main/kotlin/net/purefunc/emoji/Emoji$idx.kt"))
+        fos.write("package net.purefunc.emoji\n".toByteArray())
+        fos.write("\n".toByteArray())
+        fos.write("enum class Emoji$idx(\n".toByteArray())
+        fos.write("    private val code: Int,\n".toByteArray())
+        fos.write(") {\n".toByteArray())
+        fos.write("\n".toByteArray())
+
+        result.forEachIndexed { index, strings ->
+            val s = "    ${
+                strings.subList(1, strings.size).joinToString("_") { it.uppercase(Locale.getDefault()) }
+            }(0x${strings[0]})"
+            if (index == result.size - 1) {
+                fos.write("$s;\n".toByteArray())
+            } else {
+                fos.write("$s,\n".toByteArray())
+            }
+        }
+
+        fos.write("\n".toByteArray())
+        fos.write("    override fun toString(): String {\n".toByteArray())
+        fos.write("        return String(Character.toChars(code))\n".toByteArray())
+        fos.write("    }\n".toByteArray())
+        fos.write("}\n".toByteArray())
+    }
 }
