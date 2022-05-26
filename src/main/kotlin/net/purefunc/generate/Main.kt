@@ -12,7 +12,7 @@ fun main() {
         if (flag) lines.add(line)
         if (line.startsWith("# subgroup: ")) flag = true
     }
-    val result = lines.filter { it.contains("fully-qualified") }.map { it.split(" ") }.filter { it[1] == "" }.map {
+    val result = lines.filter { it.contains("fully-qualified") }.map { it.split(" ") }.map {
         val items = mutableListOf<String>()
         items.add(it[0])
         var idx = 0
@@ -32,6 +32,10 @@ fun main() {
                     .replace("2nd", "second")
                     .replace("3rd", "third")
                     .replace("package", "packages")
+                    .replace("#", "hash")
+                    .replace("*", "star")
+                    .replace(",", "")
+                    .replace("&", "")
             }
         )
         items
