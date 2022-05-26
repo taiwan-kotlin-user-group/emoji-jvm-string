@@ -6,7 +6,16 @@ class EmojiTests {
 
     @Test
     internal fun `println emoji`() {
-        Emoji.values().forEach {
+        Emoji0.values().forEach {
+            println(it)
+        }
+        Emoji1.values().forEach {
+            println(it)
+        }
+        Emoji2.values().forEach {
+            println(it)
+        }
+        Emoji3.values().forEach {
             println(it)
         }
     }
