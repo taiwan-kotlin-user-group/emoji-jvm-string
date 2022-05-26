@@ -9,14 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Delete old package
-        uses: actions/delete-package-versions@v3
-        with:
-          package-name: net.purefunc.emoji-jvm-string
-          min-versions-to-keep: 3
-          token: ${{ secrets.PUBLISH_TOKEN }}
-          ignore-versions: "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.0$"
-
       - name: Checkout
         uses: actions/checkout@v3
 
@@ -27,11 +19,5 @@ jobs:
           distribution: "adopt-hotspot"
           check-latest: true
 
-      - name: Gralde Test for Codegen
-        run: gradle clean test
-
-      - name: Build with Gradle
-        run: gradle clean publishMavenPublicationToGitHubPackagesRepository
-        env:
-          GITHUB_REF_NAME: ${{ github.GITHUB_REF_NAME }}
-          GITHUB_PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+      - name: Gralde build
+        run: gradle clean build
