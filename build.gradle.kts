@@ -7,7 +7,6 @@ plugins {
 }
 
 group = "net.purefunc"
-version = System.getenv("GITHUB_REF_NAME")
 java.sourceCompatibility = JavaVersion.VERSION_11
 java.targetCompatibility = JavaVersion.VERSION_11
 
