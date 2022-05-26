@@ -9,6 +9,7 @@ plugins {
 group = "net.purefunc"
 version = System.getenv("GITHUB_REF_NAME")
 java.sourceCompatibility = JavaVersion.VERSION_11
+java.targetCompatibility = JavaVersion.VERSION_11
 
 repositories {
     mavenCentral()
@@ -31,17 +32,6 @@ tasks.withType<Test> {
 }
 
 publishing {
-    repositories {
-        maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/PureFuncInc/emoji-jvm-string")
-            credentials {
-                username = "Pure-Func-Inc"
-                password = System.getenv("GITHUB_PUBLISH_TOKEN")
-            }
-        }
-    }
-
     publications {
         create<MavenPublication>("maven") {
             from(components["java"])
