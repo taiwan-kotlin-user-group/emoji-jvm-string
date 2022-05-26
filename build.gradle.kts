@@ -33,7 +33,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/PureFuncInc/pure-platform-core")
+            url = uri("https://maven.pkg.github.com/" + System.getenv("GITHUB_REPOSITORY"))
             credentials {
                 username = "Pure-Func-Inc"
                 password = System.getenv("GITHUB_PUBLISH_TOKEN")
