@@ -1,7 +1,6 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    id("maven-publish")
     kotlin("jvm") version "1.6.21"
 }
 
@@ -11,6 +10,9 @@ java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
     mavenCentral()
+    maven {
+        url = uri("https://jitpack.io")
+    }
 }
 
 dependencies {
@@ -27,23 +29,4 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
     useJUnitPlatform()
-}
-
-publishing {
-    repositories {
-        maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/" + System.getenv("GITHUB_REPOSITORY"))
-            credentials {
-                username = "Pure-Func-Inc"
-                password = System.getenv("GITHUB_PUBLISH_TOKEN")
-            }
-        }
-    }
-
-    publications {
-        create<MavenPublication>("maven") {
-            from(components["java"])
-        }
-    }
 }
