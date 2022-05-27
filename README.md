@@ -19,16 +19,16 @@ println("Damn it! Who writes these shit ${Emoji.PILE_OF_POO}${Emoji.PILE_OF_POO}
 <repositories>
     <repository>
         <id>jitpack.io</id>
-		<url>https://jitpack.io</url>
-	</repository>
+	<url>https://jitpack.io</url>
+    </repository>
 </repositories>
 
 <dependencies>
     <dependency>
-	    <groupId>com.github.PureFuncInc</groupId>
-	    <artifactId>emoji-jvm-string</artifactId>
-	    <version>$version</version>
-	</dependency>
+        <groupId>com.github.PureFuncInc</groupId>
+        <artifactId>emoji-jvm-string</artifactId>
+        <version>$version</version>
+    </dependency>
 </dependencies>
 ```
 
