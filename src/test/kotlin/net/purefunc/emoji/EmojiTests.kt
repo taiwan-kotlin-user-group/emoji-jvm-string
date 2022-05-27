@@ -6,9 +6,6 @@ class EmojiTests {
 
     @Test
     internal fun `println emoji`() {
-        val ints = arrayOf(0x263A, 0xFE0F).toIntArray()
-        println(String(ints, 0, ints.size))
-
         Emoji0.values().forEach {
             println(it)
         }

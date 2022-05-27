@@ -6,6 +6,7 @@ import java.util.Locale
 
 fun main() {
     // collect emoji lines
+    // 1F636 200D 1F32B FE0F                                  ; fully-qualified     # 😶‍🌫️ E13.1 face in clouds
     val lines = mutableListOf<String>()
     var flag = false
     File("emoji-test.txt").forEachLine { line ->
@@ -18,23 +19,24 @@ fun main() {
         it.contains("fully-qualified")
     }.map {
         it.split(" ")
-    }.map {
+    }.map { elements ->
+        // [1F636, 200D, 1F32B, FE0F, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ;, fully-qualified, , , , , #, 😶‍🌫️, E13.1, face, in, cloud]
+
         val items = mutableListOf<String>()
 
-        // find code part
-        var codeIdx = 0
-        it.forEachIndexed { index, element -> if (element == "") codeIdx = index }
-        (0 until codeIdx).forEach { i ->
-            items.add(it[i])
-        }
+        val codePartIdxs = elements.mapIndexed { idx, element -> if (element == "" || element == ";") idx else -1 }
+        val codeIdx = codePartIdxs.filter { idx -> idx != -1 }[0]
 
-        // find index start from E
-        var idx = 0
-        it.forEachIndexed { index, element -> if (element.startsWith("E") && element.contains(".")) idx = index }
+        (0 until codeIdx).forEach { i -> items.add(elements[i]) }
+        items.add(";")
+
+        val namePartIdxs =
+            elements.mapIndexed { idx, element -> if (element.startsWith("E") && element.contains(".")) idx else -1 }
+        val nameIdx = namePartIdxs.filter { idx -> idx != -1 }[0]
 
         items.addAll(
-            // process item name
-            it.subList(idx + 1, it.size).map { str ->
+            // replace item name contains invalid char
+            elements.subList(nameIdx + 1, elements.size).map { str ->
                 str.replace("“", "")
                     .replace("”", "")
                     .replace("’", "")
@@ -58,6 +60,7 @@ fun main() {
         items
     }
 
+    // all enum in one .kt is will exceed jvm limit 64K
     val pageCount = 1000
     val pageSize = (bigEnum.size / pageCount)
     val pagingItems = (0..pageSize).map { page ->
@@ -77,21 +80,23 @@ fun main() {
         fos.write(") {\n".toByteArray())
         fos.write("\n".toByteArray())
 
-        item.forEachIndexed { idx, strings ->
-            val s = "    ${
-                strings.subList(1, strings.size).joinToString("_") { it.uppercase(Locale.getDefault()) }
-            }(intArrayOf(0x${strings[0]}))"
+        item.forEachIndexed { idx, element ->
+            val idxListThird = element.mapIndexed { i, e -> if (e == ";") i else -1 }
+            val splitIdx = idxListThird.filter { i -> i != -1 }[0]
+
+            val name = element.subList(splitIdx + 1, element.size).joinToString("_").uppercase(Locale.getDefault())
+            val hexs = element.subList(0, splitIdx).map { hex -> "0x$hex" }.joinToString(",")
+
+            val enum = "    $name(intArrayOf($hexs))"
             if (idx == item.size - 1) {
-                fos.write("$s;\n".toByteArray())
+                fos.write("$enum;\n".toByteArray())
             } else {
-                fos.write("$s,\n".toByteArray())
+                fos.write("$enum,\n".toByteArray())
             }
         }
 
         fos.write("\n".toByteArray())
-        fos.write("    override fun toString(): String {\n".toByteArray())
-        fos.write("        return String(Character.toChars(code))\n".toByteArray())
-        fos.write("    }\n".toByteArray())
+        fos.write("    override fun toString() = String(intArray, 0, intArray.size)\n".toByteArray())
         fos.write("}\n".toByteArray())
     }
 }
