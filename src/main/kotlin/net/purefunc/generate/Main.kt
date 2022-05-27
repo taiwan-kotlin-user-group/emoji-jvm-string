@@ -5,6 +5,7 @@ import java.io.FileOutputStream
 import java.util.Locale
 
 fun main() {
+    // collect emoji lines
     val lines = mutableListOf<String>()
     var flag = false
     File("emoji-test.txt").forEachLine { line ->
@@ -12,12 +13,27 @@ fun main() {
         if (flag) lines.add(line)
         if (line.startsWith("# subgroup: ")) flag = true
     }
-    val resulta = lines.filter { it.contains("fully-qualified") }.map { it.split(" ") }.map {
+
+    val bigEnum = lines.filter {
+        it.contains("fully-qualified")
+    }.map {
+        it.split(" ")
+    }.map {
         val items = mutableListOf<String>()
-        items.add(it[0])
+
+        // find code part
+        var codeIdx = 0
+        it.forEachIndexed { index, element -> if (element == "") codeIdx = index }
+        (0 until codeIdx).forEach { i ->
+            items.add(it[i])
+        }
+
+        // find index start from E
         var idx = 0
         it.forEachIndexed { index, element -> if (element.startsWith("E") && element.contains(".")) idx = index }
+
         items.addAll(
+            // process item name
             it.subList(idx + 1, it.size).map { str ->
                 str.replace("“", "")
                     .replace("”", "")
@@ -38,34 +54,34 @@ fun main() {
                     .replace("&", "and")
             }
         )
+
         items
     }
 
-    val size = (resulta.size / 1000)
-
-    val resultList = (0..size).map {
-        if (resulta.size < 1000 * (it + 1)) {
-            resulta.subList(1000 * it, resulta.size)
+    val pageCount = 1000
+    val pageSize = (bigEnum.size / pageCount)
+    val pagingItems = (0..pageSize).map { page ->
+        if (pageCount * (page + 1) > bigEnum.size) {
+            bigEnum.subList(pageCount * page, bigEnum.size)
         } else {
-
-            resulta.subList(1000 * it, 1000 * (it + 1))
+            bigEnum.subList(pageCount * page, pageCount * (page + 1))
         }
     }
 
-    resultList.forEachIndexed { idx, result ->
-        val fos = FileOutputStream(File("src/main/kotlin/net/purefunc/emoji/Emoji$idx.kt"))
+    pagingItems.forEachIndexed { fileIdx, item ->
+        val fos = FileOutputStream(File("src/main/kotlin/net/purefunc/emoji/Emoji$fileIdx.kt"))
         fos.write("package net.purefunc.emoji\n".toByteArray())
         fos.write("\n".toByteArray())
-        fos.write("enum class Emoji$idx(\n".toByteArray())
-        fos.write("    private val code: Int,\n".toByteArray())
+        fos.write("enum class Emoji$fileIdx(\n".toByteArray())
+        fos.write("    private val intArray: IntArray,\n".toByteArray())
         fos.write(") {\n".toByteArray())
         fos.write("\n".toByteArray())
 
-        result.forEachIndexed { index, strings ->
+        item.forEachIndexed { idx, strings ->
             val s = "    ${
                 strings.subList(1, strings.size).joinToString("_") { it.uppercase(Locale.getDefault()) }
-            }(0x${strings[0]})"
-            if (index == result.size - 1) {
+            }(intArrayOf(0x${strings[0]}))"
+            if (idx == item.size - 1) {
                 fos.write("$s;\n".toByteArray())
             } else {
                 fos.write("$s,\n".toByteArray())

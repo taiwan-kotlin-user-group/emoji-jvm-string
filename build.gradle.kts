@@ -3,7 +3,6 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     id("maven-publish")
     kotlin("jvm") version "1.6.21"
-    application
 }
 
 group = "net.purefunc"
@@ -36,8 +35,4 @@ publishing {
             from(components["java"])
         }
     }
-}
-
-application {
-    mainClass.set("net.purefunc.generate.MainKt")
 }
