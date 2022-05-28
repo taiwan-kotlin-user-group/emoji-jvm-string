@@ -86,12 +86,15 @@ fun main() {
 
             val name = element.subList(splitIdx + 1, element.size).joinToString("_").uppercase(Locale.getDefault())
             val hexs = element.subList(0, splitIdx).map { hex -> "0x$hex" }.joinToString(",")
+            val emojiIntArr = element.subList(0, splitIdx).map { hex -> hex.toInt(16) }.toIntArray()
+            val emoji = String(emojiIntArr, 0, emojiIntArr.size)
 
+            val comment = "    // $emoji $emoji $emoji"
             val enum = "    $name(intArrayOf($hexs))"
             if (idx == item.size - 1) {
-                fos.write("$enum;\n".toByteArray())
+                fos.write("$comment\n$enum;\n".toByteArray())
             } else {
-                fos.write("$enum,\n".toByteArray())
+                fos.write("$comment\n$enum,\n".toByteArray())
             }
         }
 
