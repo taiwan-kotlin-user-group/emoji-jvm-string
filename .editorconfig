@@ -1,0 +1,24 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+max_line_length = 160
+tab_width = 4
+ij_continuation_indent_size = 8
+ij_formatter_off_tag = @Off
+ij_formatter_on_tag = @On
+ij_formatter_tags_enabled = true
+ij_kotlin_allow_trailing_comma = true
+ij_smart_tabs = false
+ij_visual_guides = 140, 160
+ij_wrap_on_typing = false
+ij_java_names_count_to_use_import_on_demand = 999
+ij_kotlin_name_count_to_use_star_import = 999
