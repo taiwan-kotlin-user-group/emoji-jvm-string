@@ -68,3 +68,4 @@ dependencies {
     implementation("com.github.PureFuncInc:emoji-jvm-string:$version")
 }
 ```
+
