@@ -1,6 +1,8 @@
-# emoji-jvm-string
+# emoji-jvm-string 👺
 
 > Let's access emoji like Enum and print it easily 😎
+
+## Sample Code 📜
 
 * Java
 ```java
@@ -14,25 +16,34 @@ println("Damn it! Who writes these shit ${Emoji.PILE_OF_POO}${Emoji.PILE_OF_POO}
 
 <img width="404" alt="CleanShot 2022-05-26 at 13 32 31@2x" src="https://user-images.githubusercontent.com/6296280/170422970-f5a9f4bc-21c9-4a3d-8eac-2c184105dbd4.png">
 
-# For Maven
-```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-	<url>https://jitpack.io</url>
-    </repository>
-</repositories>
+## Dependency [![Release](https://jitpack.io/v/PureFuncInc/emoji-jvm-string.svg)](https://jitpack.io/#PureFuncInc/emoji-jvm-string)
 
-<dependencies>
-    <dependency>
-        <groupId>com.github.PureFuncInc</groupId>
-        <artifactId>emoji-jvm-string</artifactId>
-        <version>$version</version>
-    </dependency>
-</dependencies>
+* For Maven
+
+```xml
+<project>
+    ...
+    
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.PureFuncInc</groupId>
+            <artifactId>emoji-jvm-string</artifactId>
+            <version>$version</version>
+        </dependency>
+    </dependencies>
+    
+    ...
+</project>
 ```
 
-# For Gradle Groovy
+* For Gradle Groovy
 
 ```groovy
 repositories {
@@ -44,7 +55,7 @@ dependencies {
 }
 ```
 
-# For Kotlin Gradle DSL
+* For Kotlin Gradle DSL
 
 ```kotlin
 repositories {
