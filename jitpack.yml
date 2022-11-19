@@ -2,4 +2,3 @@ jdk:
   - openjdk11
 install:
   - ./gradlew clean publishToMavenLocal -Dorg.gradle.jvmargs=-Xmx1g
-
