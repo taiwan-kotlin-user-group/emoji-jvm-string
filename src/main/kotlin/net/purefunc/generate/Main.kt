@@ -1,18 +1,25 @@
 package net.purefunc.generate
 
+import java.io.BufferedReader
 import java.io.File
 import java.io.FileOutputStream
+import java.io.InputStreamReader
+import java.net.URL
 import java.util.Locale
 
 fun main() {
     // collect emoji lines
     // 1F636 200D 1F32B FE0F                                  ; fully-qualified     # 😶‍🌫️ E13.1 face in clouds
-    val lines = mutableListOf<String>()
     var flag = false
-    File("emoji-test.txt").forEachLine { line ->
-        if (line == "") flag = false
-        if (flag) lines.add(line)
-        if (line.startsWith("# subgroup: ")) flag = true
+    val lines = mutableListOf<String>()
+    val url = URL("https://unicode.org/Public/emoji/15.0/emoji-test.txt")
+    val reader = BufferedReader(InputStreamReader(url.openConnection().getInputStream()))
+    reader.useLines { readLines ->
+        readLines.forEach { line ->
+            if (line == "") flag = false
+            if (flag) lines.add(line)
+            if (line.startsWith("# subgroup: ")) flag = true
+        }
     }
 
     val bigEnum = lines.filter {
