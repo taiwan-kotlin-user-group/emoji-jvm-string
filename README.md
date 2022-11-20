@@ -68,3 +68,7 @@ dependencies {
     implementation("com.github.PureFuncInc:emoji-jvm-string:$version")
 }
 ```
+
+## Issue
+* Why not just one Emoji class ?
+  * all enum in one .kt is will exceed jvm limit 64K
