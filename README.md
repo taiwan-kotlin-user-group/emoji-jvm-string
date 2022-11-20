@@ -70,5 +70,5 @@ dependencies {
 ```
 
 ## Issue
-* Why not just one Emoji class ?
-  * all enum in one .kt is will exceed jvm limit 64K
+Q: Why not just one Emoji class ?
+> All enum in one .kt is will exceed jvm limit 64K.
