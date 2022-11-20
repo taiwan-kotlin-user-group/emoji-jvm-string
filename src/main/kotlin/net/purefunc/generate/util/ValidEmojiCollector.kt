@@ -47,6 +47,5 @@ class ValidEmojiCollector(private val soure: List<String>) {
             .replace("*", "star")
             .replace(",", "comma")
             .replace("&", "and")
-
     }
 }
