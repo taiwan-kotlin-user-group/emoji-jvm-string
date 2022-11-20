@@ -16,7 +16,7 @@ fun main() {
     val reader = BufferedReader(InputStreamReader(url.openConnection().getInputStream()))
     reader.useLines { readLines ->
         readLines.forEach { line ->
-            if (line == "") flag = false
+            if (line.isEmpty()) flag = false
             if (flag) lines.add(line)
             if (line.startsWith("# subgroup: ")) flag = true
         }
@@ -32,14 +32,14 @@ fun main() {
         val items = mutableListOf<String>()
 
         val codePartIdxs = elements.mapIndexed { idx, element -> if (element == "" || element == ";") idx else -1 }
-        val codeIdx = codePartIdxs.filter { idx -> idx != -1 }[0]
+        val codeIdx = codePartIdxs.first { idx -> idx != -1 }
 
         (0 until codeIdx).forEach { i -> items.add(elements[i]) }
         items.add(";")
 
         val namePartIdxs =
             elements.mapIndexed { idx, element -> if (element.startsWith("E") && element.contains(".")) idx else -1 }
-        val nameIdx = namePartIdxs.filter { idx -> idx != -1 }[0]
+        val nameIdx = namePartIdxs.first { idx -> idx != -1 }
 
         items.addAll(
             // replace item name contains invalid char
