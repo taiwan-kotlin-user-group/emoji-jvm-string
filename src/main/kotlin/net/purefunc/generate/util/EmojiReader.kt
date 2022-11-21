@@ -6,10 +6,10 @@ import java.net.URL
 
 class EmojiReader(private val targetUrl: String) {
 
-    fun readTargetUrl(): List<String> {
+    fun readTargetUrl(): List<String> =
         // collect emoji lines
         // 1F636 200D 1F32B FE0F                                  ; fully-qualified     # 😶‍🌫️ E13.1 face in clouds
-        return buildList {
+        buildList {
             var flag = false
             val reader = BufferedReader(InputStreamReader(URL(targetUrl).openConnection().getInputStream()))
             reader.useLines { readLines ->
@@ -20,5 +20,4 @@ class EmojiReader(private val targetUrl: String) {
                 }
             }
         }
-    }
 }
