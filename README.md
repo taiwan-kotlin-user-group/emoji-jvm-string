@@ -1,6 +1,6 @@
 # emoji-jvm-string 👺
 
-> Let's access emoji like Enum and print it easily 😎
+> Let's access emoji like Enum and print it easily. 😎
 
 ## Sample Code 📜
 
@@ -70,5 +70,5 @@ dependencies {
 ```
 
 ## Issue
-Q: Why not just one Emoji class ?
-> All enum in one .kt is will exceed jvm limit 64K.
+Q: Why not just one Emoji class?
+> All enum in one .kt will exceed jvm limit 64K.
