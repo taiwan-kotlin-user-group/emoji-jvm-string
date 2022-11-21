@@ -7,7 +7,7 @@ import java.util.*
 class EmojiFileCreator(private val pageCount: Int) {
     // all enum in one .kt is will exceed jvm limit 64K
     fun writeAsEnumFile(source: List<List<String>>): Unit {
-        val pagingItems = allocatePerPageItem(source);
+        val pagingItems = allocatePerPageItem(source)
 
         pagingItems.forEachIndexed { fileIdx, item ->
             val fos = FileOutputStream(File("src/main/kotlin/net/purefunc/emoji/Emoji$fileIdx.kt"))
@@ -37,38 +37,41 @@ class EmojiFileCreator(private val pageCount: Int) {
 
     private fun allocatePerPageItem(source: List<List<String>>): List<List<List<String>>> {
         val pageSize = (source.size / pageCount)
-
         return (0..pageSize).map { page ->
             val pageList: (Int) -> List<List<String>> = { source.subList(pageCount * page, it) }
-            if (pageCount * (page + 1) > source.size) {
+            if (pageCount * (page + 1) > source.size)
                 pageList(source.size)
-            } else {
+            else
                 pageList(pageCount * (page + 1))
-            }
+
         }
     }
 
-    private fun FileOutputStream.generateFileHeader(fileIdx: Int) {
-        write("package net.purefunc.emoji\n".toByteArray())
-        write("\n".toByteArray())
-        write("enum class Emoji$fileIdx(\n".toByteArray())
-        write("    private val intArray: IntArray,\n".toByteArray())
-        write(") {\n".toByteArray())
-        write("\n".toByteArray())
-    }
+    private fun FileOutputStream.generateFileHeader(fileIdx: Int) =
+        write(
+            """
+                package net.purefunc.emoji
+
+                enum class Emoji$fileIdx(
+                    private val intArray: IntArray,
+                ) {
 
 
-    private fun FileOutputStream.writeNextLine(comment: String, enum: String) {
-        write("$comment\n$enum,\n".toByteArray())
-    }
+            """.trimIndent().toByteArray()
+        )
 
-    private fun FileOutputStream.writeLastLine(comment: String, enum: String) {
-        write("$comment\n$enum;\n".toByteArray())
-    }
+    private fun FileOutputStream.writeNextLine(comment: String, enum: String) = write("$comment\n$enum,\n".toByteArray())
 
-    private fun FileOutputStream.generateFileFooter() {
-        write("\n".toByteArray())
-        write("    override fun toString() = String(intArray, 0, intArray.size)\n".toByteArray())
-        write("}\n".toByteArray())
-    }
+    private fun FileOutputStream.writeLastLine(comment: String, enum: String) = write("$comment\n$enum;\n".toByteArray())
+
+    private fun FileOutputStream.generateFileFooter() =
+        write(
+            """
+            
+                    override fun toString() = String(intArray, 0, intArray.size)
+                }
+
+            """.trimIndent().toByteArray()
+        )
+
 }
