@@ -2,6 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     id("maven-publish")
+    id("org.jmailen.kotlinter") version "3.10.0"
     kotlin("jvm") version "1.6.21"
 }
 
@@ -27,6 +28,10 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
     useJUnitPlatform()
+}
+
+kotlinter {
+    reporters = arrayOf("html")
 }
 
 publishing {

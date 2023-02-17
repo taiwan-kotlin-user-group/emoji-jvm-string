@@ -20,7 +20,7 @@ class EmojiFileCreator {
                     val splitIdx = idxListThird.first { i -> i != -1 }
 
                     val name = element.subList(splitIdx + 1, element.size).joinToString("_").uppercase(Locale.getDefault())
-                    val hexs = element.subList(0, splitIdx).joinToString(",") { hex -> "0x$hex" }
+                    val hexs = element.subList(0, splitIdx).joinToString(", ") { hex -> "0x$hex" }
                     val emojiIntArr = element.subList(0, splitIdx).map { hex -> hex.toInt(16) }.toIntArray()
                     val emoji = String(emojiIntArr, 0, emojiIntArr.size)
 
@@ -57,7 +57,7 @@ class EmojiFileCreator {
                     private val intArray: IntArray,
                 ) {
 
-            """.trimIndent().toByteArray()
+                """.trimIndent().toByteArray()
             )
 
         private fun FileOutputStream.writeNextLine(comment: String, enum: String) = write("$comment\n$enum,\n".toByteArray())
@@ -71,7 +71,7 @@ class EmojiFileCreator {
                 override fun toString() = String(intArray, 0, intArray.size)
             }
             
-            """.trimIndent().toByteArray()
+                """.trimIndent().toByteArray()
             )
     }
 }

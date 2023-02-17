@@ -12,11 +12,5 @@ class EmojiTests {
         Emoji1.values().forEach {
             println(it)
         }
-        Emoji2.values().forEach {
-            println(it)
-        }
-        Emoji3.values().forEach {
-            println(it)
-        }
     }
 }

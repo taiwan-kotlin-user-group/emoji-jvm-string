@@ -22,3 +22,4 @@ ij_visual_guides = 140, 160
 ij_wrap_on_typing = false
 ij_java_names_count_to_use_import_on_demand = 999
 ij_kotlin_name_count_to_use_star_import = 999
+ij_kotlin_name_count_to_use_star_import_for_members = 999
