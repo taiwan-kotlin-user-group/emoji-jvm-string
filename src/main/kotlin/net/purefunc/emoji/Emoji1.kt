@@ -16,29 +16,29 @@ enum class Emoji1(
     // 🌌 🌌 🌌
     MILKY_WAY(intArrayOf(0x1F30C)),
     // ☁️ ☁️ ☁️
-    CLOUD(intArrayOf(0x2601,0xFE0F)),
+    CLOUD(intArrayOf(0x2601, 0xFE0F)),
     // ⛅ ⛅ ⛅
     SUN_BEHIND_CLOUD(intArrayOf(0x26C5)),
     // ⛈️ ⛈️ ⛈️
-    CLOUD_WITH_LIGHTNING_AND_RAIN(intArrayOf(0x26C8,0xFE0F)),
+    CLOUD_WITH_LIGHTNING_AND_RAIN(intArrayOf(0x26C8, 0xFE0F)),
     // 🌤️ 🌤️ 🌤️
-    SUN_BEHIND_SMALL_CLOUD(intArrayOf(0x1F324,0xFE0F)),
+    SUN_BEHIND_SMALL_CLOUD(intArrayOf(0x1F324, 0xFE0F)),
     // 🌥️ 🌥️ 🌥️
-    SUN_BEHIND_LARGE_CLOUD(intArrayOf(0x1F325,0xFE0F)),
+    SUN_BEHIND_LARGE_CLOUD(intArrayOf(0x1F325, 0xFE0F)),
     // 🌦️ 🌦️ 🌦️
-    SUN_BEHIND_RAIN_CLOUD(intArrayOf(0x1F326,0xFE0F)),
+    SUN_BEHIND_RAIN_CLOUD(intArrayOf(0x1F326, 0xFE0F)),
     // 🌧️ 🌧️ 🌧️
-    CLOUD_WITH_RAIN(intArrayOf(0x1F327,0xFE0F)),
+    CLOUD_WITH_RAIN(intArrayOf(0x1F327, 0xFE0F)),
     // 🌨️ 🌨️ 🌨️
-    CLOUD_WITH_SNOW(intArrayOf(0x1F328,0xFE0F)),
+    CLOUD_WITH_SNOW(intArrayOf(0x1F328, 0xFE0F)),
     // 🌩️ 🌩️ 🌩️
-    CLOUD_WITH_LIGHTNING(intArrayOf(0x1F329,0xFE0F)),
+    CLOUD_WITH_LIGHTNING(intArrayOf(0x1F329, 0xFE0F)),
     // 🌪️ 🌪️ 🌪️
-    TORNADO(intArrayOf(0x1F32A,0xFE0F)),
+    TORNADO(intArrayOf(0x1F32A, 0xFE0F)),
     // 🌫️ 🌫️ 🌫️
-    FOG(intArrayOf(0x1F32B,0xFE0F)),
+    FOG(intArrayOf(0x1F32B, 0xFE0F)),
     // 🌬️ 🌬️ 🌬️
-    WIND_FACE(intArrayOf(0x1F32C,0xFE0F)),
+    WIND_FACE(intArrayOf(0x1F32C, 0xFE0F)),
     // 🌀 🌀 🌀
     CYCLONE(intArrayOf(0x1F300)),
     // 🌈 🌈 🌈
@@ -46,21 +46,21 @@ enum class Emoji1(
     // 🌂 🌂 🌂
     CLOSED_UMBRELLA(intArrayOf(0x1F302)),
     // ☂️ ☂️ ☂️
-    UMBRELLA(intArrayOf(0x2602,0xFE0F)),
+    UMBRELLA(intArrayOf(0x2602, 0xFE0F)),
     // ☔ ☔ ☔
     UMBRELLA_WITH_RAIN_DROPS(intArrayOf(0x2614)),
     // ⛱️ ⛱️ ⛱️
-    UMBRELLA_ON_GROUND(intArrayOf(0x26F1,0xFE0F)),
+    UMBRELLA_ON_GROUND(intArrayOf(0x26F1, 0xFE0F)),
     // ⚡ ⚡ ⚡
     HIGH_VOLTAGE(intArrayOf(0x26A1)),
     // ❄️ ❄️ ❄️
-    SNOWFLAKE(intArrayOf(0x2744,0xFE0F)),
+    SNOWFLAKE(intArrayOf(0x2744, 0xFE0F)),
     // ☃️ ☃️ ☃️
-    SNOWMAN(intArrayOf(0x2603,0xFE0F)),
+    SNOWMAN(intArrayOf(0x2603, 0xFE0F)),
     // ⛄ ⛄ ⛄
     SNOWMAN_WITHOUT_SNOW(intArrayOf(0x26C4)),
     // ☄️ ☄️ ☄️
-    COMET(intArrayOf(0x2604,0xFE0F)),
+    COMET(intArrayOf(0x2604, 0xFE0F)),
     // 🔥 🔥 🔥
     FIRE(intArrayOf(0x1F525)),
     // 💧 💧 💧
@@ -104,13 +104,13 @@ enum class Emoji1(
     // 🎁 🎁 🎁
     WRAPPED_GIFT(intArrayOf(0x1F381)),
     // 🎗️ 🎗️ 🎗️
-    REMINDER_RIBBON(intArrayOf(0x1F397,0xFE0F)),
+    REMINDER_RIBBON(intArrayOf(0x1F397, 0xFE0F)),
     // 🎟️ 🎟️ 🎟️
-    ADMISSION_TICKETS(intArrayOf(0x1F39F,0xFE0F)),
+    ADMISSION_TICKETS(intArrayOf(0x1F39F, 0xFE0F)),
     // 🎫 🎫 🎫
     TICKET(intArrayOf(0x1F3AB)),
     // 🎖️ 🎖️ 🎖️
-    MILITARY_MEDAL(intArrayOf(0x1F396,0xFE0F)),
+    MILITARY_MEDAL(intArrayOf(0x1F396, 0xFE0F)),
     // 🏆 🏆 🏆
     TROPHY(intArrayOf(0x1F3C6)),
     // 🏅 🏅 🏅
@@ -162,7 +162,7 @@ enum class Emoji1(
     // ⛳ ⛳ ⛳
     FLAG_IN_HOLE(intArrayOf(0x26F3)),
     // ⛸️ ⛸️ ⛸️
-    ICE_SKATE(intArrayOf(0x26F8,0xFE0F)),
+    ICE_SKATE(intArrayOf(0x26F8, 0xFE0F)),
     // 🎣 🎣 🎣
     FISHING_POLE(intArrayOf(0x1F3A3)),
     // 🤿 🤿 🤿
@@ -192,7 +192,7 @@ enum class Emoji1(
     // 🎮 🎮 🎮
     VIDEO_GAME(intArrayOf(0x1F3AE)),
     // 🕹️ 🕹️ 🕹️
-    JOYSTICK(intArrayOf(0x1F579,0xFE0F)),
+    JOYSTICK(intArrayOf(0x1F579, 0xFE0F)),
     // 🎰 🎰 🎰
     SLOT_MACHINE(intArrayOf(0x1F3B0)),
     // 🎲 🎲 🎲
@@ -208,15 +208,15 @@ enum class Emoji1(
     // 🪆 🪆 🪆
     NESTING_DOLLS(intArrayOf(0x1FA86)),
     // ♠️ ♠️ ♠️
-    SPADE_SUIT(intArrayOf(0x2660,0xFE0F)),
+    SPADE_SUIT(intArrayOf(0x2660, 0xFE0F)),
     // ♥️ ♥️ ♥️
-    HEART_SUIT(intArrayOf(0x2665,0xFE0F)),
+    HEART_SUIT(intArrayOf(0x2665, 0xFE0F)),
     // ♦️ ♦️ ♦️
-    DIAMOND_SUIT(intArrayOf(0x2666,0xFE0F)),
+    DIAMOND_SUIT(intArrayOf(0x2666, 0xFE0F)),
     // ♣️ ♣️ ♣️
-    CLUB_SUIT(intArrayOf(0x2663,0xFE0F)),
+    CLUB_SUIT(intArrayOf(0x2663, 0xFE0F)),
     // ♟️ ♟️ ♟️
-    CHESS_PAWN(intArrayOf(0x265F,0xFE0F)),
+    CHESS_PAWN(intArrayOf(0x265F, 0xFE0F)),
     // 🃏 🃏 🃏
     JOKER(intArrayOf(0x1F0CF)),
     // 🀄 🀄 🀄
@@ -226,7 +226,7 @@ enum class Emoji1(
     // 🎭 🎭 🎭
     PERFORMING_ARTS(intArrayOf(0x1F3AD)),
     // 🖼️ 🖼️ 🖼️
-    FRAMED_PICTURE(intArrayOf(0x1F5BC,0xFE0F)),
+    FRAMED_PICTURE(intArrayOf(0x1F5BC, 0xFE0F)),
     // 🎨 🎨 🎨
     ARTIST_PALETTE(intArrayOf(0x1F3A8)),
     // 🧵 🧵 🧵
@@ -240,7 +240,7 @@ enum class Emoji1(
     // 👓 👓 👓
     GLASSES(intArrayOf(0x1F453)),
     // 🕶️ 🕶️ 🕶️
-    SUNGLASSES(intArrayOf(0x1F576,0xFE0F)),
+    SUNGLASSES(intArrayOf(0x1F576, 0xFE0F)),
     // 🥽 🥽 🥽
     GOGGLES(intArrayOf(0x1F97D)),
     // 🥼 🥼 🥼
@@ -286,7 +286,7 @@ enum class Emoji1(
     // 👝 👝 👝
     CLUTCH_BAG(intArrayOf(0x1F45D)),
     // 🛍️ 🛍️ 🛍️
-    SHOPPING_BAGS(intArrayOf(0x1F6CD,0xFE0F)),
+    SHOPPING_BAGS(intArrayOf(0x1F6CD, 0xFE0F)),
     // 🎒 🎒 🎒
     BACKPACK(intArrayOf(0x1F392)),
     // 🩴 🩴 🩴
@@ -322,7 +322,7 @@ enum class Emoji1(
     // 🪖 🪖 🪖
     MILITARY_HELMET(intArrayOf(0x1FA96)),
     // ⛑️ ⛑️ ⛑️
-    RESCUE_WORKERS_HELMET(intArrayOf(0x26D1,0xFE0F)),
+    RESCUE_WORKERS_HELMET(intArrayOf(0x26D1, 0xFE0F)),
     // 📿 📿 📿
     PRAYER_BEADS(intArrayOf(0x1F4FF)),
     // 💄 💄 💄
@@ -356,11 +356,11 @@ enum class Emoji1(
     // 🎶 🎶 🎶
     MUSICAL_NOTES(intArrayOf(0x1F3B6)),
     // 🎙️ 🎙️ 🎙️
-    STUDIO_MICROPHONE(intArrayOf(0x1F399,0xFE0F)),
+    STUDIO_MICROPHONE(intArrayOf(0x1F399, 0xFE0F)),
     // 🎚️ 🎚️ 🎚️
-    LEVEL_SLIDER(intArrayOf(0x1F39A,0xFE0F)),
+    LEVEL_SLIDER(intArrayOf(0x1F39A, 0xFE0F)),
     // 🎛️ 🎛️ 🎛️
-    CONTROL_KNOBS(intArrayOf(0x1F39B,0xFE0F)),
+    CONTROL_KNOBS(intArrayOf(0x1F39B, 0xFE0F)),
     // 🎤 🎤 🎤
     MICROPHONE(intArrayOf(0x1F3A4)),
     // 🎧 🎧 🎧
@@ -394,7 +394,7 @@ enum class Emoji1(
     // 📲 📲 📲
     MOBILE_PHONE_WITH_ARROW(intArrayOf(0x1F4F2)),
     // ☎️ ☎️ ☎️
-    TELEPHONE(intArrayOf(0x260E,0xFE0F)),
+    TELEPHONE(intArrayOf(0x260E, 0xFE0F)),
     // 📞 📞 📞
     TELEPHONE_RECEIVER(intArrayOf(0x1F4DE)),
     // 📟 📟 📟
@@ -410,15 +410,15 @@ enum class Emoji1(
     // 💻 💻 💻
     LAPTOP(intArrayOf(0x1F4BB)),
     // 🖥️ 🖥️ 🖥️
-    DESKTOP_COMPUTER(intArrayOf(0x1F5A5,0xFE0F)),
+    DESKTOP_COMPUTER(intArrayOf(0x1F5A5, 0xFE0F)),
     // 🖨️ 🖨️ 🖨️
-    PRINTER(intArrayOf(0x1F5A8,0xFE0F)),
+    PRINTER(intArrayOf(0x1F5A8, 0xFE0F)),
     // ⌨️ ⌨️ ⌨️
-    KEYBOARD(intArrayOf(0x2328,0xFE0F)),
+    KEYBOARD(intArrayOf(0x2328, 0xFE0F)),
     // 🖱️ 🖱️ 🖱️
-    COMPUTER_MOUSE(intArrayOf(0x1F5B1,0xFE0F)),
+    COMPUTER_MOUSE(intArrayOf(0x1F5B1, 0xFE0F)),
     // 🖲️ 🖲️ 🖲️
-    TRACKBALL(intArrayOf(0x1F5B2,0xFE0F)),
+    TRACKBALL(intArrayOf(0x1F5B2, 0xFE0F)),
     // 💽 💽 💽
     COMPUTER_DISK(intArrayOf(0x1F4BD)),
     // 💾 💾 💾
@@ -432,9 +432,9 @@ enum class Emoji1(
     // 🎥 🎥 🎥
     MOVIE_CAMERA(intArrayOf(0x1F3A5)),
     // 🎞️ 🎞️ 🎞️
-    FILM_FRAMES(intArrayOf(0x1F39E,0xFE0F)),
+    FILM_FRAMES(intArrayOf(0x1F39E, 0xFE0F)),
     // 📽️ 📽️ 📽️
-    FILM_PROJECTOR(intArrayOf(0x1F4FD,0xFE0F)),
+    FILM_PROJECTOR(intArrayOf(0x1F4FD, 0xFE0F)),
     // 🎬 🎬 🎬
     CLAPPER_BOARD(intArrayOf(0x1F3AC)),
     // 📺 📺 📺
@@ -452,7 +452,7 @@ enum class Emoji1(
     // 🔎 🔎 🔎
     MAGNIFYING_GLASS_TILTED_RIGHT(intArrayOf(0x1F50E)),
     // 🕯️ 🕯️ 🕯️
-    CANDLE(intArrayOf(0x1F56F,0xFE0F)),
+    CANDLE(intArrayOf(0x1F56F, 0xFE0F)),
     // 💡 💡 💡
     LIGHT_BULB(intArrayOf(0x1F4A1)),
     // 🔦 🔦 🔦
@@ -488,13 +488,13 @@ enum class Emoji1(
     // 📰 📰 📰
     NEWSPAPER(intArrayOf(0x1F4F0)),
     // 🗞️ 🗞️ 🗞️
-    ROLLED_UP_NEWSPAPER(intArrayOf(0x1F5DE,0xFE0F)),
+    ROLLED_UP_NEWSPAPER(intArrayOf(0x1F5DE, 0xFE0F)),
     // 📑 📑 📑
     BOOKMARK_TABS(intArrayOf(0x1F4D1)),
     // 🔖 🔖 🔖
     BOOKMARK(intArrayOf(0x1F516)),
     // 🏷️ 🏷️ 🏷️
-    LABEL(intArrayOf(0x1F3F7,0xFE0F)),
+    LABEL(intArrayOf(0x1F3F7, 0xFE0F)),
     // 💰 💰 💰
     MONEY_BAG(intArrayOf(0x1F4B0)),
     // 🪙 🪙 🪙
@@ -516,7 +516,7 @@ enum class Emoji1(
     // 💹 💹 💹
     CHART_INCREASING_WITH_YEN(intArrayOf(0x1F4B9)),
     // ✉️ ✉️ ✉️
-    ENVELOPE(intArrayOf(0x2709,0xFE0F)),
+    ENVELOPE(intArrayOf(0x2709, 0xFE0F)),
     // 📧 📧 📧
     E_MAIL(intArrayOf(0x1F4E7)),
     // 📨 📨 📨
@@ -540,19 +540,19 @@ enum class Emoji1(
     // 📮 📮 📮
     POSTBOX(intArrayOf(0x1F4EE)),
     // 🗳️ 🗳️ 🗳️
-    BALLOT_BOX_WITH_BALLOT(intArrayOf(0x1F5F3,0xFE0F)),
+    BALLOT_BOX_WITH_BALLOT(intArrayOf(0x1F5F3, 0xFE0F)),
     // ✏️ ✏️ ✏️
-    PENCIL(intArrayOf(0x270F,0xFE0F)),
+    PENCIL(intArrayOf(0x270F, 0xFE0F)),
     // ✒️ ✒️ ✒️
-    BLACK_NIB(intArrayOf(0x2712,0xFE0F)),
+    BLACK_NIB(intArrayOf(0x2712, 0xFE0F)),
     // 🖋️ 🖋️ 🖋️
-    FOUNTAIN_PEN(intArrayOf(0x1F58B,0xFE0F)),
+    FOUNTAIN_PEN(intArrayOf(0x1F58B, 0xFE0F)),
     // 🖊️ 🖊️ 🖊️
-    PEN(intArrayOf(0x1F58A,0xFE0F)),
+    PEN(intArrayOf(0x1F58A, 0xFE0F)),
     // 🖌️ 🖌️ 🖌️
-    PAINTBRUSH(intArrayOf(0x1F58C,0xFE0F)),
+    PAINTBRUSH(intArrayOf(0x1F58C, 0xFE0F)),
     // 🖍️ 🖍️ 🖍️
-    CRAYON(intArrayOf(0x1F58D,0xFE0F)),
+    CRAYON(intArrayOf(0x1F58D, 0xFE0F)),
     // 📝 📝 📝
     MEMO(intArrayOf(0x1F4DD)),
     // 💼 💼 💼
@@ -562,15 +562,15 @@ enum class Emoji1(
     // 📂 📂 📂
     OPEN_FILE_FOLDER(intArrayOf(0x1F4C2)),
     // 🗂️ 🗂️ 🗂️
-    CARD_INDEX_DIVIDERS(intArrayOf(0x1F5C2,0xFE0F)),
+    CARD_INDEX_DIVIDERS(intArrayOf(0x1F5C2, 0xFE0F)),
     // 📅 📅 📅
     CALENDAR(intArrayOf(0x1F4C5)),
     // 📆 📆 📆
     TEAR_OFF_CALENDAR(intArrayOf(0x1F4C6)),
     // 🗒️ 🗒️ 🗒️
-    SPIRAL_NOTEPAD(intArrayOf(0x1F5D2,0xFE0F)),
+    SPIRAL_NOTEPAD(intArrayOf(0x1F5D2, 0xFE0F)),
     // 🗓️ 🗓️ 🗓️
-    SPIRAL_CALENDAR(intArrayOf(0x1F5D3,0xFE0F)),
+    SPIRAL_CALENDAR(intArrayOf(0x1F5D3, 0xFE0F)),
     // 📇 📇 📇
     CARD_INDEX(intArrayOf(0x1F4C7)),
     // 📈 📈 📈
@@ -588,19 +588,19 @@ enum class Emoji1(
     // 📎 📎 📎
     PAPERCLIP(intArrayOf(0x1F4CE)),
     // 🖇️ 🖇️ 🖇️
-    LINKED_PAPERCLIPS(intArrayOf(0x1F587,0xFE0F)),
+    LINKED_PAPERCLIPS(intArrayOf(0x1F587, 0xFE0F)),
     // 📏 📏 📏
     STRAIGHT_RULER(intArrayOf(0x1F4CF)),
     // 📐 📐 📐
     TRIANGULAR_RULER(intArrayOf(0x1F4D0)),
     // ✂️ ✂️ ✂️
-    SCISSORS(intArrayOf(0x2702,0xFE0F)),
+    SCISSORS(intArrayOf(0x2702, 0xFE0F)),
     // 🗃️ 🗃️ 🗃️
-    CARD_FILE_BOX(intArrayOf(0x1F5C3,0xFE0F)),
+    CARD_FILE_BOX(intArrayOf(0x1F5C3, 0xFE0F)),
     // 🗄️ 🗄️ 🗄️
-    FILE_CABINET(intArrayOf(0x1F5C4,0xFE0F)),
+    FILE_CABINET(intArrayOf(0x1F5C4, 0xFE0F)),
     // 🗑️ 🗑️ 🗑️
-    WASTEBASKET(intArrayOf(0x1F5D1,0xFE0F)),
+    WASTEBASKET(intArrayOf(0x1F5D1, 0xFE0F)),
     // 🔒 🔒 🔒
     LOCKED(intArrayOf(0x1F512)),
     // 🔓 🔓 🔓
@@ -612,21 +612,21 @@ enum class Emoji1(
     // 🔑 🔑 🔑
     KEY(intArrayOf(0x1F511)),
     // 🗝️ 🗝️ 🗝️
-    OLD_KEY(intArrayOf(0x1F5DD,0xFE0F)),
+    OLD_KEY(intArrayOf(0x1F5DD, 0xFE0F)),
     // 🔨 🔨 🔨
     HAMMER(intArrayOf(0x1F528)),
     // 🪓 🪓 🪓
     AXE(intArrayOf(0x1FA93)),
     // ⛏️ ⛏️ ⛏️
-    PICK(intArrayOf(0x26CF,0xFE0F)),
+    PICK(intArrayOf(0x26CF, 0xFE0F)),
     // ⚒️ ⚒️ ⚒️
-    HAMMER_AND_PICK(intArrayOf(0x2692,0xFE0F)),
+    HAMMER_AND_PICK(intArrayOf(0x2692, 0xFE0F)),
     // 🛠️ 🛠️ 🛠️
-    HAMMER_AND_WRENCH(intArrayOf(0x1F6E0,0xFE0F)),
+    HAMMER_AND_WRENCH(intArrayOf(0x1F6E0, 0xFE0F)),
     // 🗡️ 🗡️ 🗡️
-    DAGGER(intArrayOf(0x1F5E1,0xFE0F)),
+    DAGGER(intArrayOf(0x1F5E1, 0xFE0F)),
     // ⚔️ ⚔️ ⚔️
-    CROSSED_SWORDS(intArrayOf(0x2694,0xFE0F)),
+    CROSSED_SWORDS(intArrayOf(0x2694, 0xFE0F)),
     // 💣 💣 💣
     BOMB(intArrayOf(0x1F4A3)),
     // 🪃 🪃 🪃
@@ -634,7 +634,7 @@ enum class Emoji1(
     // 🏹 🏹 🏹
     BOW_AND_ARROW(intArrayOf(0x1F3F9)),
     // 🛡️ 🛡️ 🛡️
-    SHIELD(intArrayOf(0x1F6E1,0xFE0F)),
+    SHIELD(intArrayOf(0x1F6E1, 0xFE0F)),
     // 🪚 🪚 🪚
     CARPENTRY_SAW(intArrayOf(0x1FA9A)),
     // 🔧 🔧 🔧
@@ -644,17 +644,17 @@ enum class Emoji1(
     // 🔩 🔩 🔩
     NUT_AND_BOLT(intArrayOf(0x1F529)),
     // ⚙️ ⚙️ ⚙️
-    GEAR(intArrayOf(0x2699,0xFE0F)),
+    GEAR(intArrayOf(0x2699, 0xFE0F)),
     // 🗜️ 🗜️ 🗜️
-    CLAMP(intArrayOf(0x1F5DC,0xFE0F)),
+    CLAMP(intArrayOf(0x1F5DC, 0xFE0F)),
     // ⚖️ ⚖️ ⚖️
-    BALANCE_SCALE(intArrayOf(0x2696,0xFE0F)),
+    BALANCE_SCALE(intArrayOf(0x2696, 0xFE0F)),
     // 🦯 🦯 🦯
     WHITE_CANE(intArrayOf(0x1F9AF)),
     // 🔗 🔗 🔗
     LINK(intArrayOf(0x1F517)),
     // ⛓️ ⛓️ ⛓️
-    CHAINS(intArrayOf(0x26D3,0xFE0F)),
+    CHAINS(intArrayOf(0x26D3, 0xFE0F)),
     // 🪝 🪝 🪝
     HOOK(intArrayOf(0x1FA9D)),
     // 🧰 🧰 🧰
@@ -664,7 +664,7 @@ enum class Emoji1(
     // 🪜 🪜 🪜
     LADDER(intArrayOf(0x1FA9C)),
     // ⚗️ ⚗️ ⚗️
-    ALEMBIC(intArrayOf(0x2697,0xFE0F)),
+    ALEMBIC(intArrayOf(0x2697, 0xFE0F)),
     // 🧪 🧪 🧪
     TEST_TUBE(intArrayOf(0x1F9EA)),
     // 🧫 🧫 🧫
@@ -700,9 +700,9 @@ enum class Emoji1(
     // 🪟 🪟 🪟
     WINDOW(intArrayOf(0x1FA9F)),
     // 🛏️ 🛏️ 🛏️
-    BED(intArrayOf(0x1F6CF,0xFE0F)),
+    BED(intArrayOf(0x1F6CF, 0xFE0F)),
     // 🛋️ 🛋️ 🛋️
-    COUCH_AND_LAMP(intArrayOf(0x1F6CB,0xFE0F)),
+    COUCH_AND_LAMP(intArrayOf(0x1F6CB, 0xFE0F)),
     // 🪑 🪑 🪑
     CHAIR(intArrayOf(0x1FA91)),
     // 🚽 🚽 🚽
@@ -744,11 +744,11 @@ enum class Emoji1(
     // 🚬 🚬 🚬
     CIGARETTE(intArrayOf(0x1F6AC)),
     // ⚰️ ⚰️ ⚰️
-    COFFIN(intArrayOf(0x26B0,0xFE0F)),
+    COFFIN(intArrayOf(0x26B0, 0xFE0F)),
     // 🪦 🪦 🪦
     HEADSTONE(intArrayOf(0x1FAA6)),
     // ⚱️ ⚱️ ⚱️
-    FUNERAL_URN(intArrayOf(0x26B1,0xFE0F)),
+    FUNERAL_URN(intArrayOf(0x26B1, 0xFE0F)),
     // 🧿 🧿 🧿
     NAZAR_AMULET(intArrayOf(0x1F9FF)),
     // 🪬 🪬 🪬
@@ -786,7 +786,7 @@ enum class Emoji1(
     // 🛅 🛅 🛅
     LEFT_LUGGAGE(intArrayOf(0x1F6C5)),
     // ⚠️ ⚠️ ⚠️
-    WARNING(intArrayOf(0x26A0,0xFE0F)),
+    WARNING(intArrayOf(0x26A0, 0xFE0F)),
     // 🚸 🚸 🚸
     CHILDREN_CROSSING(intArrayOf(0x1F6B8)),
     // ⛔ ⛔ ⛔
@@ -808,37 +808,37 @@ enum class Emoji1(
     // 🔞 🔞 🔞
     NO_ONE_UNDER_EIGHTEEN(intArrayOf(0x1F51E)),
     // ☢️ ☢️ ☢️
-    RADIOACTIVE(intArrayOf(0x2622,0xFE0F)),
+    RADIOACTIVE(intArrayOf(0x2622, 0xFE0F)),
     // ☣️ ☣️ ☣️
-    BIOHAZARD(intArrayOf(0x2623,0xFE0F)),
+    BIOHAZARD(intArrayOf(0x2623, 0xFE0F)),
     // ⬆️ ⬆️ ⬆️
-    UP_ARROW(intArrayOf(0x2B06,0xFE0F)),
+    UP_ARROW(intArrayOf(0x2B06, 0xFE0F)),
     // ↗️ ↗️ ↗️
-    UP_RIGHT_ARROW(intArrayOf(0x2197,0xFE0F)),
+    UP_RIGHT_ARROW(intArrayOf(0x2197, 0xFE0F)),
     // ➡️ ➡️ ➡️
-    RIGHT_ARROW(intArrayOf(0x27A1,0xFE0F)),
+    RIGHT_ARROW(intArrayOf(0x27A1, 0xFE0F)),
     // ↘️ ↘️ ↘️
-    DOWN_RIGHT_ARROW(intArrayOf(0x2198,0xFE0F)),
+    DOWN_RIGHT_ARROW(intArrayOf(0x2198, 0xFE0F)),
     // ⬇️ ⬇️ ⬇️
-    DOWN_ARROW(intArrayOf(0x2B07,0xFE0F)),
+    DOWN_ARROW(intArrayOf(0x2B07, 0xFE0F)),
     // ↙️ ↙️ ↙️
-    DOWN_LEFT_ARROW(intArrayOf(0x2199,0xFE0F)),
+    DOWN_LEFT_ARROW(intArrayOf(0x2199, 0xFE0F)),
     // ⬅️ ⬅️ ⬅️
-    LEFT_ARROW(intArrayOf(0x2B05,0xFE0F)),
+    LEFT_ARROW(intArrayOf(0x2B05, 0xFE0F)),
     // ↖️ ↖️ ↖️
-    UP_LEFT_ARROW(intArrayOf(0x2196,0xFE0F)),
+    UP_LEFT_ARROW(intArrayOf(0x2196, 0xFE0F)),
     // ↕️ ↕️ ↕️
-    UP_DOWN_ARROW(intArrayOf(0x2195,0xFE0F)),
+    UP_DOWN_ARROW(intArrayOf(0x2195, 0xFE0F)),
     // ↔️ ↔️ ↔️
-    LEFT_RIGHT_ARROW(intArrayOf(0x2194,0xFE0F)),
+    LEFT_RIGHT_ARROW(intArrayOf(0x2194, 0xFE0F)),
     // ↩️ ↩️ ↩️
-    RIGHT_ARROW_CURVING_LEFT(intArrayOf(0x21A9,0xFE0F)),
+    RIGHT_ARROW_CURVING_LEFT(intArrayOf(0x21A9, 0xFE0F)),
     // ↪️ ↪️ ↪️
-    LEFT_ARROW_CURVING_RIGHT(intArrayOf(0x21AA,0xFE0F)),
+    LEFT_ARROW_CURVING_RIGHT(intArrayOf(0x21AA, 0xFE0F)),
     // ⤴️ ⤴️ ⤴️
-    RIGHT_ARROW_CURVING_UP(intArrayOf(0x2934,0xFE0F)),
+    RIGHT_ARROW_CURVING_UP(intArrayOf(0x2934, 0xFE0F)),
     // ⤵️ ⤵️ ⤵️
-    RIGHT_ARROW_CURVING_DOWN(intArrayOf(0x2935,0xFE0F)),
+    RIGHT_ARROW_CURVING_DOWN(intArrayOf(0x2935, 0xFE0F)),
     // 🔃 🔃 🔃
     CLOCKWISE_VERTICAL_ARROWS(intArrayOf(0x1F503)),
     // 🔄 🔄 🔄
@@ -856,23 +856,23 @@ enum class Emoji1(
     // 🛐 🛐 🛐
     PLACE_OF_WORSHIP(intArrayOf(0x1F6D0)),
     // ⚛️ ⚛️ ⚛️
-    ATOM_SYMBOL(intArrayOf(0x269B,0xFE0F)),
+    ATOM_SYMBOL(intArrayOf(0x269B, 0xFE0F)),
     // 🕉️ 🕉️ 🕉️
-    OM(intArrayOf(0x1F549,0xFE0F)),
+    OM(intArrayOf(0x1F549, 0xFE0F)),
     // ✡️ ✡️ ✡️
-    STAR_OF_DAVID(intArrayOf(0x2721,0xFE0F)),
+    STAR_OF_DAVID(intArrayOf(0x2721, 0xFE0F)),
     // ☸️ ☸️ ☸️
-    WHEEL_OF_DHARMA(intArrayOf(0x2638,0xFE0F)),
+    WHEEL_OF_DHARMA(intArrayOf(0x2638, 0xFE0F)),
     // ☯️ ☯️ ☯️
-    YIN_YANG(intArrayOf(0x262F,0xFE0F)),
+    YIN_YANG(intArrayOf(0x262F, 0xFE0F)),
     // ✝️ ✝️ ✝️
-    LATIN_CROSS(intArrayOf(0x271D,0xFE0F)),
+    LATIN_CROSS(intArrayOf(0x271D, 0xFE0F)),
     // ☦️ ☦️ ☦️
-    ORTHODOX_CROSS(intArrayOf(0x2626,0xFE0F)),
+    ORTHODOX_CROSS(intArrayOf(0x2626, 0xFE0F)),
     // ☪️ ☪️ ☪️
-    STAR_AND_CRESCENT(intArrayOf(0x262A,0xFE0F)),
+    STAR_AND_CRESCENT(intArrayOf(0x262A, 0xFE0F)),
     // ☮️ ☮️ ☮️
-    PEACE_SYMBOL(intArrayOf(0x262E,0xFE0F)),
+    PEACE_SYMBOL(intArrayOf(0x262E, 0xFE0F)),
     // 🕎 🕎 🕎
     MENORAH(intArrayOf(0x1F54E)),
     // 🔯 🔯 🔯
@@ -912,19 +912,19 @@ enum class Emoji1(
     // 🔂 🔂 🔂
     REPEAT_SINGLE_BUTTON(intArrayOf(0x1F502)),
     // ▶️ ▶️ ▶️
-    PLAY_BUTTON(intArrayOf(0x25B6,0xFE0F)),
+    PLAY_BUTTON(intArrayOf(0x25B6, 0xFE0F)),
     // ⏩ ⏩ ⏩
     FAST_FORWARD_BUTTON(intArrayOf(0x23E9)),
     // ⏭️ ⏭️ ⏭️
-    NEXT_TRACK_BUTTON(intArrayOf(0x23ED,0xFE0F)),
+    NEXT_TRACK_BUTTON(intArrayOf(0x23ED, 0xFE0F)),
     // ⏯️ ⏯️ ⏯️
-    PLAY_OR_PAUSE_BUTTON(intArrayOf(0x23EF,0xFE0F)),
+    PLAY_OR_PAUSE_BUTTON(intArrayOf(0x23EF, 0xFE0F)),
     // ◀️ ◀️ ◀️
-    REVERSE_BUTTON(intArrayOf(0x25C0,0xFE0F)),
+    REVERSE_BUTTON(intArrayOf(0x25C0, 0xFE0F)),
     // ⏪ ⏪ ⏪
     FAST_REVERSE_BUTTON(intArrayOf(0x23EA)),
     // ⏮️ ⏮️ ⏮️
-    LAST_TRACK_BUTTON(intArrayOf(0x23EE,0xFE0F)),
+    LAST_TRACK_BUTTON(intArrayOf(0x23EE, 0xFE0F)),
     // 🔼 🔼 🔼
     UPWARDS_BUTTON(intArrayOf(0x1F53C)),
     // ⏫ ⏫ ⏫
@@ -934,13 +934,13 @@ enum class Emoji1(
     // ⏬ ⏬ ⏬
     FAST_DOWN_BUTTON(intArrayOf(0x23EC)),
     // ⏸️ ⏸️ ⏸️
-    PAUSE_BUTTON(intArrayOf(0x23F8,0xFE0F)),
+    PAUSE_BUTTON(intArrayOf(0x23F8, 0xFE0F)),
     // ⏹️ ⏹️ ⏹️
-    STOP_BUTTON(intArrayOf(0x23F9,0xFE0F)),
+    STOP_BUTTON(intArrayOf(0x23F9, 0xFE0F)),
     // ⏺️ ⏺️ ⏺️
-    RECORD_BUTTON(intArrayOf(0x23FA,0xFE0F)),
+    RECORD_BUTTON(intArrayOf(0x23FA, 0xFE0F)),
     // ⏏️ ⏏️ ⏏️
-    EJECT_BUTTON(intArrayOf(0x23CF,0xFE0F)),
+    EJECT_BUTTON(intArrayOf(0x23CF, 0xFE0F)),
     // 🎦 🎦 🎦
     CINEMA(intArrayOf(0x1F3A6)),
     // 🔅 🔅 🔅
@@ -956,13 +956,13 @@ enum class Emoji1(
     // 📴 📴 📴
     MOBILE_PHONE_OFF(intArrayOf(0x1F4F4)),
     // ♀️ ♀️ ♀️
-    FEMALE_SIGN(intArrayOf(0x2640,0xFE0F)),
+    FEMALE_SIGN(intArrayOf(0x2640, 0xFE0F)),
     // ♂️ ♂️ ♂️
-    MALE_SIGN(intArrayOf(0x2642,0xFE0F)),
+    MALE_SIGN(intArrayOf(0x2642, 0xFE0F)),
     // ⚧️ ⚧️ ⚧️
-    TRANSGENDER_SYMBOL(intArrayOf(0x26A7,0xFE0F)),
+    TRANSGENDER_SYMBOL(intArrayOf(0x26A7, 0xFE0F)),
     // ✖️ ✖️ ✖️
-    MULTIPLY(intArrayOf(0x2716,0xFE0F)),
+    MULTIPLY(intArrayOf(0x2716, 0xFE0F)),
     // ➕ ➕ ➕
     PLUS(intArrayOf(0x2795)),
     // ➖ ➖ ➖
@@ -972,11 +972,11 @@ enum class Emoji1(
     // 🟰 🟰 🟰
     HEAVY_EQUALS_SIGN(intArrayOf(0x1F7F0)),
     // ♾️ ♾️ ♾️
-    INFINITY(intArrayOf(0x267E,0xFE0F)),
+    INFINITY(intArrayOf(0x267E, 0xFE0F)),
     // ‼️ ‼️ ‼️
-    DOUBLE_EXCLAMATION_MARK(intArrayOf(0x203C,0xFE0F)),
+    DOUBLE_EXCLAMATION_MARK(intArrayOf(0x203C, 0xFE0F)),
     // ⁉️ ⁉️ ⁉️
-    EXCLAMATION_QUESTION_MARK(intArrayOf(0x2049,0xFE0F)),
+    EXCLAMATION_QUESTION_MARK(intArrayOf(0x2049, 0xFE0F)),
     // ❓ ❓ ❓
     RED_QUESTION_MARK(intArrayOf(0x2753)),
     // ❔ ❔ ❔
@@ -986,17 +986,17 @@ enum class Emoji1(
     // ❗ ❗ ❗
     RED_EXCLAMATION_MARK(intArrayOf(0x2757)),
     // 〰️ 〰️ 〰️
-    WAVY_DASH(intArrayOf(0x3030,0xFE0F)),
+    WAVY_DASH(intArrayOf(0x3030, 0xFE0F)),
     // 💱 💱 💱
     CURRENCY_EXCHANGE(intArrayOf(0x1F4B1)),
     // 💲 💲 💲
     HEAVY_DOLLAR_SIGN(intArrayOf(0x1F4B2)),
     // ⚕️ ⚕️ ⚕️
-    MEDICAL_SYMBOL(intArrayOf(0x2695,0xFE0F)),
+    MEDICAL_SYMBOL(intArrayOf(0x2695, 0xFE0F)),
     // ♻️ ♻️ ♻️
-    RECYCLING_SYMBOL(intArrayOf(0x267B,0xFE0F)),
+    RECYCLING_SYMBOL(intArrayOf(0x267B, 0xFE0F)),
     // ⚜️ ⚜️ ⚜️
-    FLEUR_DE_LIS(intArrayOf(0x269C,0xFE0F)),
+    FLEUR_DE_LIS(intArrayOf(0x269C, 0xFE0F)),
     // 🔱 🔱 🔱
     TRIDENT_EMBLEM(intArrayOf(0x1F531)),
     // 📛 📛 📛
@@ -1008,9 +1008,9 @@ enum class Emoji1(
     // ✅ ✅ ✅
     CHECK_MARK_BUTTON(intArrayOf(0x2705)),
     // ☑️ ☑️ ☑️
-    CHECK_BOX_WITH_CHECK(intArrayOf(0x2611,0xFE0F)),
+    CHECK_BOX_WITH_CHECK(intArrayOf(0x2611, 0xFE0F)),
     // ✔️ ✔️ ✔️
-    CHECK_MARK(intArrayOf(0x2714,0xFE0F)),
+    CHECK_MARK(intArrayOf(0x2714, 0xFE0F)),
     // ❌ ❌ ❌
     CROSS_MARK(intArrayOf(0x274C)),
     // ❎ ❎ ❎
@@ -1020,43 +1020,43 @@ enum class Emoji1(
     // ➿ ➿ ➿
     DOUBLE_CURLY_LOOP(intArrayOf(0x27BF)),
     // 〽️ 〽️ 〽️
-    PART_ALTERNATION_MARK(intArrayOf(0x303D,0xFE0F)),
+    PART_ALTERNATION_MARK(intArrayOf(0x303D, 0xFE0F)),
     // ✳️ ✳️ ✳️
-    EIGHT_SPOKED_ASTERISK(intArrayOf(0x2733,0xFE0F)),
+    EIGHT_SPOKED_ASTERISK(intArrayOf(0x2733, 0xFE0F)),
     // ✴️ ✴️ ✴️
-    EIGHT_POINTED_STAR(intArrayOf(0x2734,0xFE0F)),
+    EIGHT_POINTED_STAR(intArrayOf(0x2734, 0xFE0F)),
     // ❇️ ❇️ ❇️
-    SPARKLE(intArrayOf(0x2747,0xFE0F)),
+    SPARKLE(intArrayOf(0x2747, 0xFE0F)),
     // ©️ ©️ ©️
-    COPYRIGHT(intArrayOf(0x00A9,0xFE0F)),
+    COPYRIGHT(intArrayOf(0x00A9, 0xFE0F)),
     // ®️ ®️ ®️
-    REGISTERED(intArrayOf(0x00AE,0xFE0F)),
+    REGISTERED(intArrayOf(0x00AE, 0xFE0F)),
     // ™️ ™️ ™️
-    TRADE_MARK(intArrayOf(0x2122,0xFE0F)),
+    TRADE_MARK(intArrayOf(0x2122, 0xFE0F)),
     // #️⃣ #️⃣ #️⃣
-    KEYCAP_HASH(intArrayOf(0x0023,0xFE0F,0x20E3)),
+    KEYCAP_HASH(intArrayOf(0x0023, 0xFE0F, 0x20E3)),
     // *️⃣ *️⃣ *️⃣
-    KEYCAP_STAR(intArrayOf(0x002A,0xFE0F,0x20E3)),
+    KEYCAP_STAR(intArrayOf(0x002A, 0xFE0F, 0x20E3)),
     // 0️⃣ 0️⃣ 0️⃣
-    KEYCAP_0(intArrayOf(0x0030,0xFE0F,0x20E3)),
+    KEYCAP_0(intArrayOf(0x0030, 0xFE0F, 0x20E3)),
     // 1️⃣ 1️⃣ 1️⃣
-    KEYCAP_1(intArrayOf(0x0031,0xFE0F,0x20E3)),
+    KEYCAP_1(intArrayOf(0x0031, 0xFE0F, 0x20E3)),
     // 2️⃣ 2️⃣ 2️⃣
-    KEYCAP_2(intArrayOf(0x0032,0xFE0F,0x20E3)),
+    KEYCAP_2(intArrayOf(0x0032, 0xFE0F, 0x20E3)),
     // 3️⃣ 3️⃣ 3️⃣
-    KEYCAP_3(intArrayOf(0x0033,0xFE0F,0x20E3)),
+    KEYCAP_3(intArrayOf(0x0033, 0xFE0F, 0x20E3)),
     // 4️⃣ 4️⃣ 4️⃣
-    KEYCAP_4(intArrayOf(0x0034,0xFE0F,0x20E3)),
+    KEYCAP_4(intArrayOf(0x0034, 0xFE0F, 0x20E3)),
     // 5️⃣ 5️⃣ 5️⃣
-    KEYCAP_5(intArrayOf(0x0035,0xFE0F,0x20E3)),
+    KEYCAP_5(intArrayOf(0x0035, 0xFE0F, 0x20E3)),
     // 6️⃣ 6️⃣ 6️⃣
-    KEYCAP_6(intArrayOf(0x0036,0xFE0F,0x20E3)),
+    KEYCAP_6(intArrayOf(0x0036, 0xFE0F, 0x20E3)),
     // 7️⃣ 7️⃣ 7️⃣
-    KEYCAP_7(intArrayOf(0x0037,0xFE0F,0x20E3)),
+    KEYCAP_7(intArrayOf(0x0037, 0xFE0F, 0x20E3)),
     // 8️⃣ 8️⃣ 8️⃣
-    KEYCAP_8(intArrayOf(0x0038,0xFE0F,0x20E3)),
+    KEYCAP_8(intArrayOf(0x0038, 0xFE0F, 0x20E3)),
     // 9️⃣ 9️⃣ 9️⃣
-    KEYCAP_9(intArrayOf(0x0039,0xFE0F,0x20E3)),
+    KEYCAP_9(intArrayOf(0x0039, 0xFE0F, 0x20E3)),
     // 🔟 🔟 🔟
     KEYCAP_10(intArrayOf(0x1F51F)),
     // 🔠 🔠 🔠
@@ -1070,11 +1070,11 @@ enum class Emoji1(
     // 🔤 🔤 🔤
     INPUT_LATIN_LETTERS(intArrayOf(0x1F524)),
     // 🅰️ 🅰️ 🅰️
-    A_BUTTON_BLOOD_TYPE(intArrayOf(0x1F170,0xFE0F)),
+    A_BUTTON_BLOOD_TYPE(intArrayOf(0x1F170, 0xFE0F)),
     // 🆎 🆎 🆎
     AB_BUTTON_BLOOD_TYPE(intArrayOf(0x1F18E)),
     // 🅱️ 🅱️ 🅱️
-    B_BUTTON_BLOOD_TYPE(intArrayOf(0x1F171,0xFE0F)),
+    B_BUTTON_BLOOD_TYPE(intArrayOf(0x1F171, 0xFE0F)),
     // 🆑 🆑 🆑
     CL_BUTTON(intArrayOf(0x1F191)),
     // 🆒 🆒 🆒
@@ -1082,21 +1082,21 @@ enum class Emoji1(
     // 🆓 🆓 🆓
     FREE_BUTTON(intArrayOf(0x1F193)),
     // ℹ️ ℹ️ ℹ️
-    INFORMATION(intArrayOf(0x2139,0xFE0F)),
+    INFORMATION(intArrayOf(0x2139, 0xFE0F)),
     // 🆔 🆔 🆔
     ID_BUTTON(intArrayOf(0x1F194)),
     // Ⓜ️ Ⓜ️ Ⓜ️
-    CIRCLED_M(intArrayOf(0x24C2,0xFE0F)),
+    CIRCLED_M(intArrayOf(0x24C2, 0xFE0F)),
     // 🆕 🆕 🆕
     NEW_BUTTON(intArrayOf(0x1F195)),
     // 🆖 🆖 🆖
     NG_BUTTON(intArrayOf(0x1F196)),
     // 🅾️ 🅾️ 🅾️
-    O_BUTTON_BLOOD_TYPE(intArrayOf(0x1F17E,0xFE0F)),
+    O_BUTTON_BLOOD_TYPE(intArrayOf(0x1F17E, 0xFE0F)),
     // 🆗 🆗 🆗
     OK_BUTTON(intArrayOf(0x1F197)),
     // 🅿️ 🅿️ 🅿️
-    P_BUTTON(intArrayOf(0x1F17F,0xFE0F)),
+    P_BUTTON(intArrayOf(0x1F17F, 0xFE0F)),
     // 🆘 🆘 🆘
     SOS_BUTTON(intArrayOf(0x1F198)),
     // 🆙 🆙 🆙
@@ -1106,9 +1106,9 @@ enum class Emoji1(
     // 🈁 🈁 🈁
     JAPANESE_HERE_BUTTON(intArrayOf(0x1F201)),
     // 🈂️ 🈂️ 🈂️
-    JAPANESE_SERVICE_CHARGE_BUTTON(intArrayOf(0x1F202,0xFE0F)),
+    JAPANESE_SERVICE_CHARGE_BUTTON(intArrayOf(0x1F202, 0xFE0F)),
     // 🈷️ 🈷️ 🈷️
-    JAPANESE_MONTHLY_AMOUNT_BUTTON(intArrayOf(0x1F237,0xFE0F)),
+    JAPANESE_MONTHLY_AMOUNT_BUTTON(intArrayOf(0x1F237, 0xFE0F)),
     // 🈶 🈶 🈶
     JAPANESE_NOT_FREE_OF_CHARGE_BUTTON(intArrayOf(0x1F236)),
     // 🈯 🈯 🈯
@@ -1130,9 +1130,9 @@ enum class Emoji1(
     // 🈳 🈳 🈳
     JAPANESE_VACANCY_BUTTON(intArrayOf(0x1F233)),
     // ㊗️ ㊗️ ㊗️
-    JAPANESE_CONGRATULATIONS_BUTTON(intArrayOf(0x3297,0xFE0F)),
+    JAPANESE_CONGRATULATIONS_BUTTON(intArrayOf(0x3297, 0xFE0F)),
     // ㊙️ ㊙️ ㊙️
-    JAPANESE_SECRET_BUTTON(intArrayOf(0x3299,0xFE0F)),
+    JAPANESE_SECRET_BUTTON(intArrayOf(0x3299, 0xFE0F)),
     // 🈺 🈺 🈺
     JAPANESE_OPEN_FOR_BUSINESS_BUTTON(intArrayOf(0x1F23A)),
     // 🈵 🈵 🈵
@@ -1174,17 +1174,17 @@ enum class Emoji1(
     // ⬜ ⬜ ⬜
     WHITE_LARGE_SQUARE(intArrayOf(0x2B1C)),
     // ◼️ ◼️ ◼️
-    BLACK_MEDIUM_SQUARE(intArrayOf(0x25FC,0xFE0F)),
+    BLACK_MEDIUM_SQUARE(intArrayOf(0x25FC, 0xFE0F)),
     // ◻️ ◻️ ◻️
-    WHITE_MEDIUM_SQUARE(intArrayOf(0x25FB,0xFE0F)),
+    WHITE_MEDIUM_SQUARE(intArrayOf(0x25FB, 0xFE0F)),
     // ◾ ◾ ◾
     BLACK_MEDIUM_SMALL_SQUARE(intArrayOf(0x25FE)),
     // ◽ ◽ ◽
     WHITE_MEDIUM_SMALL_SQUARE(intArrayOf(0x25FD)),
     // ▪️ ▪️ ▪️
-    BLACK_SMALL_SQUARE(intArrayOf(0x25AA,0xFE0F)),
+    BLACK_SMALL_SQUARE(intArrayOf(0x25AA, 0xFE0F)),
     // ▫️ ▫️ ▫️
-    WHITE_SMALL_SQUARE(intArrayOf(0x25AB,0xFE0F)),
+    WHITE_SMALL_SQUARE(intArrayOf(0x25AB, 0xFE0F)),
     // 🔶 🔶 🔶
     LARGE_ORANGE_DIAMOND(intArrayOf(0x1F536)),
     // 🔷 🔷 🔷
@@ -1214,535 +1214,535 @@ enum class Emoji1(
     // 🏴 🏴 🏴
     BLACK_FLAG(intArrayOf(0x1F3F4)),
     // 🏳️ 🏳️ 🏳️
-    WHITE_FLAG(intArrayOf(0x1F3F3,0xFE0F)),
+    WHITE_FLAG(intArrayOf(0x1F3F3, 0xFE0F)),
     // 🏳️‍🌈 🏳️‍🌈 🏳️‍🌈
-    RAINBOW_FLAG(intArrayOf(0x1F3F3,0xFE0F,0x200D,0x1F308)),
+    RAINBOW_FLAG(intArrayOf(0x1F3F3, 0xFE0F, 0x200D, 0x1F308)),
     // 🏳️‍⚧️ 🏳️‍⚧️ 🏳️‍⚧️
-    TRANSGENDER_FLAG(intArrayOf(0x1F3F3,0xFE0F,0x200D,0x26A7,0xFE0F)),
+    TRANSGENDER_FLAG(intArrayOf(0x1F3F3, 0xFE0F, 0x200D, 0x26A7, 0xFE0F)),
     // 🏴‍☠️ 🏴‍☠️ 🏴‍☠️
-    PIRATE_FLAG(intArrayOf(0x1F3F4,0x200D,0x2620,0xFE0F)),
+    PIRATE_FLAG(intArrayOf(0x1F3F4, 0x200D, 0x2620, 0xFE0F)),
     // 🇦🇨 🇦🇨 🇦🇨
-    FLAG_ASCENSION_ISLAND(intArrayOf(0x1F1E6,0x1F1E8)),
+    FLAG_ASCENSION_ISLAND(intArrayOf(0x1F1E6, 0x1F1E8)),
     // 🇦🇩 🇦🇩 🇦🇩
-    FLAG_ANDORRA(intArrayOf(0x1F1E6,0x1F1E9)),
+    FLAG_ANDORRA(intArrayOf(0x1F1E6, 0x1F1E9)),
     // 🇦🇪 🇦🇪 🇦🇪
-    FLAG_UNITED_ARAB_EMIRATES(intArrayOf(0x1F1E6,0x1F1EA)),
+    FLAG_UNITED_ARAB_EMIRATES(intArrayOf(0x1F1E6, 0x1F1EA)),
     // 🇦🇫 🇦🇫 🇦🇫
-    FLAG_AFGHANISTAN(intArrayOf(0x1F1E6,0x1F1EB)),
+    FLAG_AFGHANISTAN(intArrayOf(0x1F1E6, 0x1F1EB)),
     // 🇦🇬 🇦🇬 🇦🇬
-    FLAG_ANTIGUA_AND_BARBUDA(intArrayOf(0x1F1E6,0x1F1EC)),
+    FLAG_ANTIGUA_AND_BARBUDA(intArrayOf(0x1F1E6, 0x1F1EC)),
     // 🇦🇮 🇦🇮 🇦🇮
-    FLAG_ANGUILLA(intArrayOf(0x1F1E6,0x1F1EE)),
+    FLAG_ANGUILLA(intArrayOf(0x1F1E6, 0x1F1EE)),
     // 🇦🇱 🇦🇱 🇦🇱
-    FLAG_ALBANIA(intArrayOf(0x1F1E6,0x1F1F1)),
+    FLAG_ALBANIA(intArrayOf(0x1F1E6, 0x1F1F1)),
     // 🇦🇲 🇦🇲 🇦🇲
-    FLAG_ARMENIA(intArrayOf(0x1F1E6,0x1F1F2)),
+    FLAG_ARMENIA(intArrayOf(0x1F1E6, 0x1F1F2)),
     // 🇦🇴 🇦🇴 🇦🇴
-    FLAG_ANGOLA(intArrayOf(0x1F1E6,0x1F1F4)),
+    FLAG_ANGOLA(intArrayOf(0x1F1E6, 0x1F1F4)),
     // 🇦🇶 🇦🇶 🇦🇶
-    FLAG_ANTARCTICA(intArrayOf(0x1F1E6,0x1F1F6)),
+    FLAG_ANTARCTICA(intArrayOf(0x1F1E6, 0x1F1F6)),
     // 🇦🇷 🇦🇷 🇦🇷
-    FLAG_ARGENTINA(intArrayOf(0x1F1E6,0x1F1F7)),
+    FLAG_ARGENTINA(intArrayOf(0x1F1E6, 0x1F1F7)),
     // 🇦🇸 🇦🇸 🇦🇸
-    FLAG_AMERICAN_SAMOA(intArrayOf(0x1F1E6,0x1F1F8)),
+    FLAG_AMERICAN_SAMOA(intArrayOf(0x1F1E6, 0x1F1F8)),
     // 🇦🇹 🇦🇹 🇦🇹
-    FLAG_AUSTRIA(intArrayOf(0x1F1E6,0x1F1F9)),
+    FLAG_AUSTRIA(intArrayOf(0x1F1E6, 0x1F1F9)),
     // 🇦🇺 🇦🇺 🇦🇺
-    FLAG_AUSTRALIA(intArrayOf(0x1F1E6,0x1F1FA)),
+    FLAG_AUSTRALIA(intArrayOf(0x1F1E6, 0x1F1FA)),
     // 🇦🇼 🇦🇼 🇦🇼
-    FLAG_ARUBA(intArrayOf(0x1F1E6,0x1F1FC)),
+    FLAG_ARUBA(intArrayOf(0x1F1E6, 0x1F1FC)),
     // 🇦🇽 🇦🇽 🇦🇽
-    FLAG_ÅLAND_ISLANDS(intArrayOf(0x1F1E6,0x1F1FD)),
+    FLAG_ÅLAND_ISLANDS(intArrayOf(0x1F1E6, 0x1F1FD)),
     // 🇦🇿 🇦🇿 🇦🇿
-    FLAG_AZERBAIJAN(intArrayOf(0x1F1E6,0x1F1FF)),
+    FLAG_AZERBAIJAN(intArrayOf(0x1F1E6, 0x1F1FF)),
     // 🇧🇦 🇧🇦 🇧🇦
-    FLAG_BOSNIA_AND_HERZEGOVINA(intArrayOf(0x1F1E7,0x1F1E6)),
+    FLAG_BOSNIA_AND_HERZEGOVINA(intArrayOf(0x1F1E7, 0x1F1E6)),
     // 🇧🇧 🇧🇧 🇧🇧
-    FLAG_BARBADOS(intArrayOf(0x1F1E7,0x1F1E7)),
+    FLAG_BARBADOS(intArrayOf(0x1F1E7, 0x1F1E7)),
     // 🇧🇩 🇧🇩 🇧🇩
-    FLAG_BANGLADESH(intArrayOf(0x1F1E7,0x1F1E9)),
+    FLAG_BANGLADESH(intArrayOf(0x1F1E7, 0x1F1E9)),
     // 🇧🇪 🇧🇪 🇧🇪
-    FLAG_BELGIUM(intArrayOf(0x1F1E7,0x1F1EA)),
+    FLAG_BELGIUM(intArrayOf(0x1F1E7, 0x1F1EA)),
     // 🇧🇫 🇧🇫 🇧🇫
-    FLAG_BURKINA_FASO(intArrayOf(0x1F1E7,0x1F1EB)),
+    FLAG_BURKINA_FASO(intArrayOf(0x1F1E7, 0x1F1EB)),
     // 🇧🇬 🇧🇬 🇧🇬
-    FLAG_BULGARIA(intArrayOf(0x1F1E7,0x1F1EC)),
+    FLAG_BULGARIA(intArrayOf(0x1F1E7, 0x1F1EC)),
     // 🇧🇭 🇧🇭 🇧🇭
-    FLAG_BAHRAIN(intArrayOf(0x1F1E7,0x1F1ED)),
+    FLAG_BAHRAIN(intArrayOf(0x1F1E7, 0x1F1ED)),
     // 🇧🇮 🇧🇮 🇧🇮
-    FLAG_BURUNDI(intArrayOf(0x1F1E7,0x1F1EE)),
+    FLAG_BURUNDI(intArrayOf(0x1F1E7, 0x1F1EE)),
     // 🇧🇯 🇧🇯 🇧🇯
-    FLAG_BENIN(intArrayOf(0x1F1E7,0x1F1EF)),
+    FLAG_BENIN(intArrayOf(0x1F1E7, 0x1F1EF)),
     // 🇧🇱 🇧🇱 🇧🇱
-    FLAG_ST_BARTHÉLEMY(intArrayOf(0x1F1E7,0x1F1F1)),
+    FLAG_ST_BARTHÉLEMY(intArrayOf(0x1F1E7, 0x1F1F1)),
     // 🇧🇲 🇧🇲 🇧🇲
-    FLAG_BERMUDA(intArrayOf(0x1F1E7,0x1F1F2)),
+    FLAG_BERMUDA(intArrayOf(0x1F1E7, 0x1F1F2)),
     // 🇧🇳 🇧🇳 🇧🇳
-    FLAG_BRUNEI(intArrayOf(0x1F1E7,0x1F1F3)),
+    FLAG_BRUNEI(intArrayOf(0x1F1E7, 0x1F1F3)),
     // 🇧🇴 🇧🇴 🇧🇴
-    FLAG_BOLIVIA(intArrayOf(0x1F1E7,0x1F1F4)),
+    FLAG_BOLIVIA(intArrayOf(0x1F1E7, 0x1F1F4)),
     // 🇧🇶 🇧🇶 🇧🇶
-    FLAG_CARIBBEAN_NETHERLANDS(intArrayOf(0x1F1E7,0x1F1F6)),
+    FLAG_CARIBBEAN_NETHERLANDS(intArrayOf(0x1F1E7, 0x1F1F6)),
     // 🇧🇷 🇧🇷 🇧🇷
-    FLAG_BRAZIL(intArrayOf(0x1F1E7,0x1F1F7)),
+    FLAG_BRAZIL(intArrayOf(0x1F1E7, 0x1F1F7)),
     // 🇧🇸 🇧🇸 🇧🇸
-    FLAG_BAHAMAS(intArrayOf(0x1F1E7,0x1F1F8)),
+    FLAG_BAHAMAS(intArrayOf(0x1F1E7, 0x1F1F8)),
     // 🇧🇹 🇧🇹 🇧🇹
-    FLAG_BHUTAN(intArrayOf(0x1F1E7,0x1F1F9)),
+    FLAG_BHUTAN(intArrayOf(0x1F1E7, 0x1F1F9)),
     // 🇧🇻 🇧🇻 🇧🇻
-    FLAG_BOUVET_ISLAND(intArrayOf(0x1F1E7,0x1F1FB)),
+    FLAG_BOUVET_ISLAND(intArrayOf(0x1F1E7, 0x1F1FB)),
     // 🇧🇼 🇧🇼 🇧🇼
-    FLAG_BOTSWANA(intArrayOf(0x1F1E7,0x1F1FC)),
+    FLAG_BOTSWANA(intArrayOf(0x1F1E7, 0x1F1FC)),
     // 🇧🇾 🇧🇾 🇧🇾
-    FLAG_BELARUS(intArrayOf(0x1F1E7,0x1F1FE)),
+    FLAG_BELARUS(intArrayOf(0x1F1E7, 0x1F1FE)),
     // 🇧🇿 🇧🇿 🇧🇿
-    FLAG_BELIZE(intArrayOf(0x1F1E7,0x1F1FF)),
+    FLAG_BELIZE(intArrayOf(0x1F1E7, 0x1F1FF)),
     // 🇨🇦 🇨🇦 🇨🇦
-    FLAG_CANADA(intArrayOf(0x1F1E8,0x1F1E6)),
+    FLAG_CANADA(intArrayOf(0x1F1E8, 0x1F1E6)),
     // 🇨🇨 🇨🇨 🇨🇨
-    FLAG_COCOS_KEELING_ISLANDS(intArrayOf(0x1F1E8,0x1F1E8)),
+    FLAG_COCOS_KEELING_ISLANDS(intArrayOf(0x1F1E8, 0x1F1E8)),
     // 🇨🇩 🇨🇩 🇨🇩
-    FLAG_CONGO___KINSHASA(intArrayOf(0x1F1E8,0x1F1E9)),
+    FLAG_CONGO___KINSHASA(intArrayOf(0x1F1E8, 0x1F1E9)),
     // 🇨🇫 🇨🇫 🇨🇫
-    FLAG_CENTRAL_AFRICAN_REPUBLIC(intArrayOf(0x1F1E8,0x1F1EB)),
+    FLAG_CENTRAL_AFRICAN_REPUBLIC(intArrayOf(0x1F1E8, 0x1F1EB)),
     // 🇨🇬 🇨🇬 🇨🇬
-    FLAG_CONGO___BRAZZAVILLE(intArrayOf(0x1F1E8,0x1F1EC)),
+    FLAG_CONGO___BRAZZAVILLE(intArrayOf(0x1F1E8, 0x1F1EC)),
     // 🇨🇭 🇨🇭 🇨🇭
-    FLAG_SWITZERLAND(intArrayOf(0x1F1E8,0x1F1ED)),
+    FLAG_SWITZERLAND(intArrayOf(0x1F1E8, 0x1F1ED)),
     // 🇨🇮 🇨🇮 🇨🇮
-    FLAG_CÔTE_DIVOIRE(intArrayOf(0x1F1E8,0x1F1EE)),
+    FLAG_CÔTE_DIVOIRE(intArrayOf(0x1F1E8, 0x1F1EE)),
     // 🇨🇰 🇨🇰 🇨🇰
-    FLAG_COOK_ISLANDS(intArrayOf(0x1F1E8,0x1F1F0)),
+    FLAG_COOK_ISLANDS(intArrayOf(0x1F1E8, 0x1F1F0)),
     // 🇨🇱 🇨🇱 🇨🇱
-    FLAG_CHILE(intArrayOf(0x1F1E8,0x1F1F1)),
+    FLAG_CHILE(intArrayOf(0x1F1E8, 0x1F1F1)),
     // 🇨🇲 🇨🇲 🇨🇲
-    FLAG_CAMEROON(intArrayOf(0x1F1E8,0x1F1F2)),
+    FLAG_CAMEROON(intArrayOf(0x1F1E8, 0x1F1F2)),
     // 🇨🇳 🇨🇳 🇨🇳
-    FLAG_CHINA(intArrayOf(0x1F1E8,0x1F1F3)),
+    FLAG_CHINA(intArrayOf(0x1F1E8, 0x1F1F3)),
     // 🇨🇴 🇨🇴 🇨🇴
-    FLAG_COLOMBIA(intArrayOf(0x1F1E8,0x1F1F4)),
+    FLAG_COLOMBIA(intArrayOf(0x1F1E8, 0x1F1F4)),
     // 🇨🇵 🇨🇵 🇨🇵
-    FLAG_CLIPPERTON_ISLAND(intArrayOf(0x1F1E8,0x1F1F5)),
+    FLAG_CLIPPERTON_ISLAND(intArrayOf(0x1F1E8, 0x1F1F5)),
     // 🇨🇷 🇨🇷 🇨🇷
-    FLAG_COSTA_RICA(intArrayOf(0x1F1E8,0x1F1F7)),
+    FLAG_COSTA_RICA(intArrayOf(0x1F1E8, 0x1F1F7)),
     // 🇨🇺 🇨🇺 🇨🇺
-    FLAG_CUBA(intArrayOf(0x1F1E8,0x1F1FA)),
+    FLAG_CUBA(intArrayOf(0x1F1E8, 0x1F1FA)),
     // 🇨🇻 🇨🇻 🇨🇻
-    FLAG_CAPE_VERDE(intArrayOf(0x1F1E8,0x1F1FB)),
+    FLAG_CAPE_VERDE(intArrayOf(0x1F1E8, 0x1F1FB)),
     // 🇨🇼 🇨🇼 🇨🇼
-    FLAG_CURAÇAO(intArrayOf(0x1F1E8,0x1F1FC)),
+    FLAG_CURAÇAO(intArrayOf(0x1F1E8, 0x1F1FC)),
     // 🇨🇽 🇨🇽 🇨🇽
-    FLAG_CHRISTMAS_ISLAND(intArrayOf(0x1F1E8,0x1F1FD)),
+    FLAG_CHRISTMAS_ISLAND(intArrayOf(0x1F1E8, 0x1F1FD)),
     // 🇨🇾 🇨🇾 🇨🇾
-    FLAG_CYPRUS(intArrayOf(0x1F1E8,0x1F1FE)),
+    FLAG_CYPRUS(intArrayOf(0x1F1E8, 0x1F1FE)),
     // 🇨🇿 🇨🇿 🇨🇿
-    FLAG_CZECHIA(intArrayOf(0x1F1E8,0x1F1FF)),
+    FLAG_CZECHIA(intArrayOf(0x1F1E8, 0x1F1FF)),
     // 🇩🇪 🇩🇪 🇩🇪
-    FLAG_GERMANY(intArrayOf(0x1F1E9,0x1F1EA)),
+    FLAG_GERMANY(intArrayOf(0x1F1E9, 0x1F1EA)),
     // 🇩🇬 🇩🇬 🇩🇬
-    FLAG_DIEGO_GARCIA(intArrayOf(0x1F1E9,0x1F1EC)),
+    FLAG_DIEGO_GARCIA(intArrayOf(0x1F1E9, 0x1F1EC)),
     // 🇩🇯 🇩🇯 🇩🇯
-    FLAG_DJIBOUTI(intArrayOf(0x1F1E9,0x1F1EF)),
+    FLAG_DJIBOUTI(intArrayOf(0x1F1E9, 0x1F1EF)),
     // 🇩🇰 🇩🇰 🇩🇰
-    FLAG_DENMARK(intArrayOf(0x1F1E9,0x1F1F0)),
+    FLAG_DENMARK(intArrayOf(0x1F1E9, 0x1F1F0)),
     // 🇩🇲 🇩🇲 🇩🇲
-    FLAG_DOMINICA(intArrayOf(0x1F1E9,0x1F1F2)),
+    FLAG_DOMINICA(intArrayOf(0x1F1E9, 0x1F1F2)),
     // 🇩🇴 🇩🇴 🇩🇴
-    FLAG_DOMINICAN_REPUBLIC(intArrayOf(0x1F1E9,0x1F1F4)),
+    FLAG_DOMINICAN_REPUBLIC(intArrayOf(0x1F1E9, 0x1F1F4)),
     // 🇩🇿 🇩🇿 🇩🇿
-    FLAG_ALGERIA(intArrayOf(0x1F1E9,0x1F1FF)),
+    FLAG_ALGERIA(intArrayOf(0x1F1E9, 0x1F1FF)),
     // 🇪🇦 🇪🇦 🇪🇦
-    FLAG_CEUTA_AND_MELILLA(intArrayOf(0x1F1EA,0x1F1E6)),
+    FLAG_CEUTA_AND_MELILLA(intArrayOf(0x1F1EA, 0x1F1E6)),
     // 🇪🇨 🇪🇨 🇪🇨
-    FLAG_ECUADOR(intArrayOf(0x1F1EA,0x1F1E8)),
+    FLAG_ECUADOR(intArrayOf(0x1F1EA, 0x1F1E8)),
     // 🇪🇪 🇪🇪 🇪🇪
-    FLAG_ESTONIA(intArrayOf(0x1F1EA,0x1F1EA)),
+    FLAG_ESTONIA(intArrayOf(0x1F1EA, 0x1F1EA)),
     // 🇪🇬 🇪🇬 🇪🇬
-    FLAG_EGYPT(intArrayOf(0x1F1EA,0x1F1EC)),
+    FLAG_EGYPT(intArrayOf(0x1F1EA, 0x1F1EC)),
     // 🇪🇭 🇪🇭 🇪🇭
-    FLAG_WESTERN_SAHARA(intArrayOf(0x1F1EA,0x1F1ED)),
+    FLAG_WESTERN_SAHARA(intArrayOf(0x1F1EA, 0x1F1ED)),
     // 🇪🇷 🇪🇷 🇪🇷
-    FLAG_ERITREA(intArrayOf(0x1F1EA,0x1F1F7)),
+    FLAG_ERITREA(intArrayOf(0x1F1EA, 0x1F1F7)),
     // 🇪🇸 🇪🇸 🇪🇸
-    FLAG_SPAIN(intArrayOf(0x1F1EA,0x1F1F8)),
+    FLAG_SPAIN(intArrayOf(0x1F1EA, 0x1F1F8)),
     // 🇪🇹 🇪🇹 🇪🇹
-    FLAG_ETHIOPIA(intArrayOf(0x1F1EA,0x1F1F9)),
+    FLAG_ETHIOPIA(intArrayOf(0x1F1EA, 0x1F1F9)),
     // 🇪🇺 🇪🇺 🇪🇺
-    FLAG_EUROPEAN_UNION(intArrayOf(0x1F1EA,0x1F1FA)),
+    FLAG_EUROPEAN_UNION(intArrayOf(0x1F1EA, 0x1F1FA)),
     // 🇫🇮 🇫🇮 🇫🇮
-    FLAG_FINLAND(intArrayOf(0x1F1EB,0x1F1EE)),
+    FLAG_FINLAND(intArrayOf(0x1F1EB, 0x1F1EE)),
     // 🇫🇯 🇫🇯 🇫🇯
-    FLAG_FIJI(intArrayOf(0x1F1EB,0x1F1EF)),
+    FLAG_FIJI(intArrayOf(0x1F1EB, 0x1F1EF)),
     // 🇫🇰 🇫🇰 🇫🇰
-    FLAG_FALKLAND_ISLANDS(intArrayOf(0x1F1EB,0x1F1F0)),
+    FLAG_FALKLAND_ISLANDS(intArrayOf(0x1F1EB, 0x1F1F0)),
     // 🇫🇲 🇫🇲 🇫🇲
-    FLAG_MICRONESIA(intArrayOf(0x1F1EB,0x1F1F2)),
+    FLAG_MICRONESIA(intArrayOf(0x1F1EB, 0x1F1F2)),
     // 🇫🇴 🇫🇴 🇫🇴
-    FLAG_FAROE_ISLANDS(intArrayOf(0x1F1EB,0x1F1F4)),
+    FLAG_FAROE_ISLANDS(intArrayOf(0x1F1EB, 0x1F1F4)),
     // 🇫🇷 🇫🇷 🇫🇷
-    FLAG_FRANCE(intArrayOf(0x1F1EB,0x1F1F7)),
+    FLAG_FRANCE(intArrayOf(0x1F1EB, 0x1F1F7)),
     // 🇬🇦 🇬🇦 🇬🇦
-    FLAG_GABON(intArrayOf(0x1F1EC,0x1F1E6)),
+    FLAG_GABON(intArrayOf(0x1F1EC, 0x1F1E6)),
     // 🇬🇧 🇬🇧 🇬🇧
-    FLAG_UNITED_KINGDOM(intArrayOf(0x1F1EC,0x1F1E7)),
+    FLAG_UNITED_KINGDOM(intArrayOf(0x1F1EC, 0x1F1E7)),
     // 🇬🇩 🇬🇩 🇬🇩
-    FLAG_GRENADA(intArrayOf(0x1F1EC,0x1F1E9)),
+    FLAG_GRENADA(intArrayOf(0x1F1EC, 0x1F1E9)),
     // 🇬🇪 🇬🇪 🇬🇪
-    FLAG_GEORGIA(intArrayOf(0x1F1EC,0x1F1EA)),
+    FLAG_GEORGIA(intArrayOf(0x1F1EC, 0x1F1EA)),
     // 🇬🇫 🇬🇫 🇬🇫
-    FLAG_FRENCH_GUIANA(intArrayOf(0x1F1EC,0x1F1EB)),
+    FLAG_FRENCH_GUIANA(intArrayOf(0x1F1EC, 0x1F1EB)),
     // 🇬🇬 🇬🇬 🇬🇬
-    FLAG_GUERNSEY(intArrayOf(0x1F1EC,0x1F1EC)),
+    FLAG_GUERNSEY(intArrayOf(0x1F1EC, 0x1F1EC)),
     // 🇬🇭 🇬🇭 🇬🇭
-    FLAG_GHANA(intArrayOf(0x1F1EC,0x1F1ED)),
+    FLAG_GHANA(intArrayOf(0x1F1EC, 0x1F1ED)),
     // 🇬🇮 🇬🇮 🇬🇮
-    FLAG_GIBRALTAR(intArrayOf(0x1F1EC,0x1F1EE)),
+    FLAG_GIBRALTAR(intArrayOf(0x1F1EC, 0x1F1EE)),
     // 🇬🇱 🇬🇱 🇬🇱
-    FLAG_GREENLAND(intArrayOf(0x1F1EC,0x1F1F1)),
+    FLAG_GREENLAND(intArrayOf(0x1F1EC, 0x1F1F1)),
     // 🇬🇲 🇬🇲 🇬🇲
-    FLAG_GAMBIA(intArrayOf(0x1F1EC,0x1F1F2)),
+    FLAG_GAMBIA(intArrayOf(0x1F1EC, 0x1F1F2)),
     // 🇬🇳 🇬🇳 🇬🇳
-    FLAG_GUINEA(intArrayOf(0x1F1EC,0x1F1F3)),
+    FLAG_GUINEA(intArrayOf(0x1F1EC, 0x1F1F3)),
     // 🇬🇵 🇬🇵 🇬🇵
-    FLAG_GUADELOUPE(intArrayOf(0x1F1EC,0x1F1F5)),
+    FLAG_GUADELOUPE(intArrayOf(0x1F1EC, 0x1F1F5)),
     // 🇬🇶 🇬🇶 🇬🇶
-    FLAG_EQUATORIAL_GUINEA(intArrayOf(0x1F1EC,0x1F1F6)),
+    FLAG_EQUATORIAL_GUINEA(intArrayOf(0x1F1EC, 0x1F1F6)),
     // 🇬🇷 🇬🇷 🇬🇷
-    FLAG_GREECE(intArrayOf(0x1F1EC,0x1F1F7)),
+    FLAG_GREECE(intArrayOf(0x1F1EC, 0x1F1F7)),
     // 🇬🇸 🇬🇸 🇬🇸
-    FLAG_SOUTH_GEORGIA_AND_SOUTH_SANDWICH_ISLANDS(intArrayOf(0x1F1EC,0x1F1F8)),
+    FLAG_SOUTH_GEORGIA_AND_SOUTH_SANDWICH_ISLANDS(intArrayOf(0x1F1EC, 0x1F1F8)),
     // 🇬🇹 🇬🇹 🇬🇹
-    FLAG_GUATEMALA(intArrayOf(0x1F1EC,0x1F1F9)),
+    FLAG_GUATEMALA(intArrayOf(0x1F1EC, 0x1F1F9)),
     // 🇬🇺 🇬🇺 🇬🇺
-    FLAG_GUAM(intArrayOf(0x1F1EC,0x1F1FA)),
+    FLAG_GUAM(intArrayOf(0x1F1EC, 0x1F1FA)),
     // 🇬🇼 🇬🇼 🇬🇼
-    FLAG_GUINEA_BISSAU(intArrayOf(0x1F1EC,0x1F1FC)),
+    FLAG_GUINEA_BISSAU(intArrayOf(0x1F1EC, 0x1F1FC)),
     // 🇬🇾 🇬🇾 🇬🇾
-    FLAG_GUYANA(intArrayOf(0x1F1EC,0x1F1FE)),
+    FLAG_GUYANA(intArrayOf(0x1F1EC, 0x1F1FE)),
     // 🇭🇰 🇭🇰 🇭🇰
-    FLAG_HONG_KONG_SAR_CHINA(intArrayOf(0x1F1ED,0x1F1F0)),
+    FLAG_HONG_KONG_SAR_CHINA(intArrayOf(0x1F1ED, 0x1F1F0)),
     // 🇭🇲 🇭🇲 🇭🇲
-    FLAG_HEARD_AND_MCDONALD_ISLANDS(intArrayOf(0x1F1ED,0x1F1F2)),
+    FLAG_HEARD_AND_MCDONALD_ISLANDS(intArrayOf(0x1F1ED, 0x1F1F2)),
     // 🇭🇳 🇭🇳 🇭🇳
-    FLAG_HONDURAS(intArrayOf(0x1F1ED,0x1F1F3)),
+    FLAG_HONDURAS(intArrayOf(0x1F1ED, 0x1F1F3)),
     // 🇭🇷 🇭🇷 🇭🇷
-    FLAG_CROATIA(intArrayOf(0x1F1ED,0x1F1F7)),
+    FLAG_CROATIA(intArrayOf(0x1F1ED, 0x1F1F7)),
     // 🇭🇹 🇭🇹 🇭🇹
-    FLAG_HAITI(intArrayOf(0x1F1ED,0x1F1F9)),
+    FLAG_HAITI(intArrayOf(0x1F1ED, 0x1F1F9)),
     // 🇭🇺 🇭🇺 🇭🇺
-    FLAG_HUNGARY(intArrayOf(0x1F1ED,0x1F1FA)),
+    FLAG_HUNGARY(intArrayOf(0x1F1ED, 0x1F1FA)),
     // 🇮🇨 🇮🇨 🇮🇨
-    FLAG_CANARY_ISLANDS(intArrayOf(0x1F1EE,0x1F1E8)),
+    FLAG_CANARY_ISLANDS(intArrayOf(0x1F1EE, 0x1F1E8)),
     // 🇮🇩 🇮🇩 🇮🇩
-    FLAG_INDONESIA(intArrayOf(0x1F1EE,0x1F1E9)),
+    FLAG_INDONESIA(intArrayOf(0x1F1EE, 0x1F1E9)),
     // 🇮🇪 🇮🇪 🇮🇪
-    FLAG_IRELAND(intArrayOf(0x1F1EE,0x1F1EA)),
+    FLAG_IRELAND(intArrayOf(0x1F1EE, 0x1F1EA)),
     // 🇮🇱 🇮🇱 🇮🇱
-    FLAG_ISRAEL(intArrayOf(0x1F1EE,0x1F1F1)),
+    FLAG_ISRAEL(intArrayOf(0x1F1EE, 0x1F1F1)),
     // 🇮🇲 🇮🇲 🇮🇲
-    FLAG_ISLE_OF_MAN(intArrayOf(0x1F1EE,0x1F1F2)),
+    FLAG_ISLE_OF_MAN(intArrayOf(0x1F1EE, 0x1F1F2)),
     // 🇮🇳 🇮🇳 🇮🇳
-    FLAG_INDIA(intArrayOf(0x1F1EE,0x1F1F3)),
+    FLAG_INDIA(intArrayOf(0x1F1EE, 0x1F1F3)),
     // 🇮🇴 🇮🇴 🇮🇴
-    FLAG_BRITISH_INDIAN_OCEAN_TERRITORY(intArrayOf(0x1F1EE,0x1F1F4)),
+    FLAG_BRITISH_INDIAN_OCEAN_TERRITORY(intArrayOf(0x1F1EE, 0x1F1F4)),
     // 🇮🇶 🇮🇶 🇮🇶
-    FLAG_IRAQ(intArrayOf(0x1F1EE,0x1F1F6)),
+    FLAG_IRAQ(intArrayOf(0x1F1EE, 0x1F1F6)),
     // 🇮🇷 🇮🇷 🇮🇷
-    FLAG_IRAN(intArrayOf(0x1F1EE,0x1F1F7)),
+    FLAG_IRAN(intArrayOf(0x1F1EE, 0x1F1F7)),
     // 🇮🇸 🇮🇸 🇮🇸
-    FLAG_ICELAND(intArrayOf(0x1F1EE,0x1F1F8)),
+    FLAG_ICELAND(intArrayOf(0x1F1EE, 0x1F1F8)),
     // 🇮🇹 🇮🇹 🇮🇹
-    FLAG_ITALY(intArrayOf(0x1F1EE,0x1F1F9)),
+    FLAG_ITALY(intArrayOf(0x1F1EE, 0x1F1F9)),
     // 🇯🇪 🇯🇪 🇯🇪
-    FLAG_JERSEY(intArrayOf(0x1F1EF,0x1F1EA)),
+    FLAG_JERSEY(intArrayOf(0x1F1EF, 0x1F1EA)),
     // 🇯🇲 🇯🇲 🇯🇲
-    FLAG_JAMAICA(intArrayOf(0x1F1EF,0x1F1F2)),
+    FLAG_JAMAICA(intArrayOf(0x1F1EF, 0x1F1F2)),
     // 🇯🇴 🇯🇴 🇯🇴
-    FLAG_JORDAN(intArrayOf(0x1F1EF,0x1F1F4)),
+    FLAG_JORDAN(intArrayOf(0x1F1EF, 0x1F1F4)),
     // 🇯🇵 🇯🇵 🇯🇵
-    FLAG_JAPAN(intArrayOf(0x1F1EF,0x1F1F5)),
+    FLAG_JAPAN(intArrayOf(0x1F1EF, 0x1F1F5)),
     // 🇰🇪 🇰🇪 🇰🇪
-    FLAG_KENYA(intArrayOf(0x1F1F0,0x1F1EA)),
+    FLAG_KENYA(intArrayOf(0x1F1F0, 0x1F1EA)),
     // 🇰🇬 🇰🇬 🇰🇬
-    FLAG_KYRGYZSTAN(intArrayOf(0x1F1F0,0x1F1EC)),
+    FLAG_KYRGYZSTAN(intArrayOf(0x1F1F0, 0x1F1EC)),
     // 🇰🇭 🇰🇭 🇰🇭
-    FLAG_CAMBODIA(intArrayOf(0x1F1F0,0x1F1ED)),
+    FLAG_CAMBODIA(intArrayOf(0x1F1F0, 0x1F1ED)),
     // 🇰🇮 🇰🇮 🇰🇮
-    FLAG_KIRIBATI(intArrayOf(0x1F1F0,0x1F1EE)),
+    FLAG_KIRIBATI(intArrayOf(0x1F1F0, 0x1F1EE)),
     // 🇰🇲 🇰🇲 🇰🇲
-    FLAG_COMOROS(intArrayOf(0x1F1F0,0x1F1F2)),
+    FLAG_COMOROS(intArrayOf(0x1F1F0, 0x1F1F2)),
     // 🇰🇳 🇰🇳 🇰🇳
-    FLAG_ST_KITTS_AND_NEVIS(intArrayOf(0x1F1F0,0x1F1F3)),
+    FLAG_ST_KITTS_AND_NEVIS(intArrayOf(0x1F1F0, 0x1F1F3)),
     // 🇰🇵 🇰🇵 🇰🇵
-    FLAG_NORTH_KOREA(intArrayOf(0x1F1F0,0x1F1F5)),
+    FLAG_NORTH_KOREA(intArrayOf(0x1F1F0, 0x1F1F5)),
     // 🇰🇷 🇰🇷 🇰🇷
-    FLAG_SOUTH_KOREA(intArrayOf(0x1F1F0,0x1F1F7)),
+    FLAG_SOUTH_KOREA(intArrayOf(0x1F1F0, 0x1F1F7)),
     // 🇰🇼 🇰🇼 🇰🇼
-    FLAG_KUWAIT(intArrayOf(0x1F1F0,0x1F1FC)),
+    FLAG_KUWAIT(intArrayOf(0x1F1F0, 0x1F1FC)),
     // 🇰🇾 🇰🇾 🇰🇾
-    FLAG_CAYMAN_ISLANDS(intArrayOf(0x1F1F0,0x1F1FE)),
+    FLAG_CAYMAN_ISLANDS(intArrayOf(0x1F1F0, 0x1F1FE)),
     // 🇰🇿 🇰🇿 🇰🇿
-    FLAG_KAZAKHSTAN(intArrayOf(0x1F1F0,0x1F1FF)),
+    FLAG_KAZAKHSTAN(intArrayOf(0x1F1F0, 0x1F1FF)),
     // 🇱🇦 🇱🇦 🇱🇦
-    FLAG_LAOS(intArrayOf(0x1F1F1,0x1F1E6)),
+    FLAG_LAOS(intArrayOf(0x1F1F1, 0x1F1E6)),
     // 🇱🇧 🇱🇧 🇱🇧
-    FLAG_LEBANON(intArrayOf(0x1F1F1,0x1F1E7)),
+    FLAG_LEBANON(intArrayOf(0x1F1F1, 0x1F1E7)),
     // 🇱🇨 🇱🇨 🇱🇨
-    FLAG_ST_LUCIA(intArrayOf(0x1F1F1,0x1F1E8)),
+    FLAG_ST_LUCIA(intArrayOf(0x1F1F1, 0x1F1E8)),
     // 🇱🇮 🇱🇮 🇱🇮
-    FLAG_LIECHTENSTEIN(intArrayOf(0x1F1F1,0x1F1EE)),
+    FLAG_LIECHTENSTEIN(intArrayOf(0x1F1F1, 0x1F1EE)),
     // 🇱🇰 🇱🇰 🇱🇰
-    FLAG_SRI_LANKA(intArrayOf(0x1F1F1,0x1F1F0)),
+    FLAG_SRI_LANKA(intArrayOf(0x1F1F1, 0x1F1F0)),
     // 🇱🇷 🇱🇷 🇱🇷
-    FLAG_LIBERIA(intArrayOf(0x1F1F1,0x1F1F7)),
+    FLAG_LIBERIA(intArrayOf(0x1F1F1, 0x1F1F7)),
     // 🇱🇸 🇱🇸 🇱🇸
-    FLAG_LESOTHO(intArrayOf(0x1F1F1,0x1F1F8)),
+    FLAG_LESOTHO(intArrayOf(0x1F1F1, 0x1F1F8)),
     // 🇱🇹 🇱🇹 🇱🇹
-    FLAG_LITHUANIA(intArrayOf(0x1F1F1,0x1F1F9)),
+    FLAG_LITHUANIA(intArrayOf(0x1F1F1, 0x1F1F9)),
     // 🇱🇺 🇱🇺 🇱🇺
-    FLAG_LUXEMBOURG(intArrayOf(0x1F1F1,0x1F1FA)),
+    FLAG_LUXEMBOURG(intArrayOf(0x1F1F1, 0x1F1FA)),
     // 🇱🇻 🇱🇻 🇱🇻
-    FLAG_LATVIA(intArrayOf(0x1F1F1,0x1F1FB)),
+    FLAG_LATVIA(intArrayOf(0x1F1F1, 0x1F1FB)),
     // 🇱🇾 🇱🇾 🇱🇾
-    FLAG_LIBYA(intArrayOf(0x1F1F1,0x1F1FE)),
+    FLAG_LIBYA(intArrayOf(0x1F1F1, 0x1F1FE)),
     // 🇲🇦 🇲🇦 🇲🇦
-    FLAG_MOROCCO(intArrayOf(0x1F1F2,0x1F1E6)),
+    FLAG_MOROCCO(intArrayOf(0x1F1F2, 0x1F1E6)),
     // 🇲🇨 🇲🇨 🇲🇨
-    FLAG_MONACO(intArrayOf(0x1F1F2,0x1F1E8)),
+    FLAG_MONACO(intArrayOf(0x1F1F2, 0x1F1E8)),
     // 🇲🇩 🇲🇩 🇲🇩
-    FLAG_MOLDOVA(intArrayOf(0x1F1F2,0x1F1E9)),
+    FLAG_MOLDOVA(intArrayOf(0x1F1F2, 0x1F1E9)),
     // 🇲🇪 🇲🇪 🇲🇪
-    FLAG_MONTENEGRO(intArrayOf(0x1F1F2,0x1F1EA)),
+    FLAG_MONTENEGRO(intArrayOf(0x1F1F2, 0x1F1EA)),
     // 🇲🇫 🇲🇫 🇲🇫
-    FLAG_ST_MARTIN(intArrayOf(0x1F1F2,0x1F1EB)),
+    FLAG_ST_MARTIN(intArrayOf(0x1F1F2, 0x1F1EB)),
     // 🇲🇬 🇲🇬 🇲🇬
-    FLAG_MADAGASCAR(intArrayOf(0x1F1F2,0x1F1EC)),
+    FLAG_MADAGASCAR(intArrayOf(0x1F1F2, 0x1F1EC)),
     // 🇲🇭 🇲🇭 🇲🇭
-    FLAG_MARSHALL_ISLANDS(intArrayOf(0x1F1F2,0x1F1ED)),
+    FLAG_MARSHALL_ISLANDS(intArrayOf(0x1F1F2, 0x1F1ED)),
     // 🇲🇰 🇲🇰 🇲🇰
-    FLAG_NORTH_MACEDONIA(intArrayOf(0x1F1F2,0x1F1F0)),
+    FLAG_NORTH_MACEDONIA(intArrayOf(0x1F1F2, 0x1F1F0)),
     // 🇲🇱 🇲🇱 🇲🇱
-    FLAG_MALI(intArrayOf(0x1F1F2,0x1F1F1)),
+    FLAG_MALI(intArrayOf(0x1F1F2, 0x1F1F1)),
     // 🇲🇲 🇲🇲 🇲🇲
-    FLAG_MYANMAR_BURMA(intArrayOf(0x1F1F2,0x1F1F2)),
+    FLAG_MYANMAR_BURMA(intArrayOf(0x1F1F2, 0x1F1F2)),
     // 🇲🇳 🇲🇳 🇲🇳
-    FLAG_MONGOLIA(intArrayOf(0x1F1F2,0x1F1F3)),
+    FLAG_MONGOLIA(intArrayOf(0x1F1F2, 0x1F1F3)),
     // 🇲🇴 🇲🇴 🇲🇴
-    FLAG_MACAO_SAR_CHINA(intArrayOf(0x1F1F2,0x1F1F4)),
+    FLAG_MACAO_SAR_CHINA(intArrayOf(0x1F1F2, 0x1F1F4)),
     // 🇲🇵 🇲🇵 🇲🇵
-    FLAG_NORTHERN_MARIANA_ISLANDS(intArrayOf(0x1F1F2,0x1F1F5)),
+    FLAG_NORTHERN_MARIANA_ISLANDS(intArrayOf(0x1F1F2, 0x1F1F5)),
     // 🇲🇶 🇲🇶 🇲🇶
-    FLAG_MARTINIQUE(intArrayOf(0x1F1F2,0x1F1F6)),
+    FLAG_MARTINIQUE(intArrayOf(0x1F1F2, 0x1F1F6)),
     // 🇲🇷 🇲🇷 🇲🇷
-    FLAG_MAURITANIA(intArrayOf(0x1F1F2,0x1F1F7)),
+    FLAG_MAURITANIA(intArrayOf(0x1F1F2, 0x1F1F7)),
     // 🇲🇸 🇲🇸 🇲🇸
-    FLAG_MONTSERRAT(intArrayOf(0x1F1F2,0x1F1F8)),
+    FLAG_MONTSERRAT(intArrayOf(0x1F1F2, 0x1F1F8)),
     // 🇲🇹 🇲🇹 🇲🇹
-    FLAG_MALTA(intArrayOf(0x1F1F2,0x1F1F9)),
+    FLAG_MALTA(intArrayOf(0x1F1F2, 0x1F1F9)),
     // 🇲🇺 🇲🇺 🇲🇺
-    FLAG_MAURITIUS(intArrayOf(0x1F1F2,0x1F1FA)),
+    FLAG_MAURITIUS(intArrayOf(0x1F1F2, 0x1F1FA)),
     // 🇲🇻 🇲🇻 🇲🇻
-    FLAG_MALDIVES(intArrayOf(0x1F1F2,0x1F1FB)),
+    FLAG_MALDIVES(intArrayOf(0x1F1F2, 0x1F1FB)),
     // 🇲🇼 🇲🇼 🇲🇼
-    FLAG_MALAWI(intArrayOf(0x1F1F2,0x1F1FC)),
+    FLAG_MALAWI(intArrayOf(0x1F1F2, 0x1F1FC)),
     // 🇲🇽 🇲🇽 🇲🇽
-    FLAG_MEXICO(intArrayOf(0x1F1F2,0x1F1FD)),
+    FLAG_MEXICO(intArrayOf(0x1F1F2, 0x1F1FD)),
     // 🇲🇾 🇲🇾 🇲🇾
-    FLAG_MALAYSIA(intArrayOf(0x1F1F2,0x1F1FE)),
+    FLAG_MALAYSIA(intArrayOf(0x1F1F2, 0x1F1FE)),
     // 🇲🇿 🇲🇿 🇲🇿
-    FLAG_MOZAMBIQUE(intArrayOf(0x1F1F2,0x1F1FF)),
+    FLAG_MOZAMBIQUE(intArrayOf(0x1F1F2, 0x1F1FF)),
     // 🇳🇦 🇳🇦 🇳🇦
-    FLAG_NAMIBIA(intArrayOf(0x1F1F3,0x1F1E6)),
+    FLAG_NAMIBIA(intArrayOf(0x1F1F3, 0x1F1E6)),
     // 🇳🇨 🇳🇨 🇳🇨
-    FLAG_NEW_CALEDONIA(intArrayOf(0x1F1F3,0x1F1E8)),
+    FLAG_NEW_CALEDONIA(intArrayOf(0x1F1F3, 0x1F1E8)),
     // 🇳🇪 🇳🇪 🇳🇪
-    FLAG_NIGER(intArrayOf(0x1F1F3,0x1F1EA)),
+    FLAG_NIGER(intArrayOf(0x1F1F3, 0x1F1EA)),
     // 🇳🇫 🇳🇫 🇳🇫
-    FLAG_NORFOLK_ISLAND(intArrayOf(0x1F1F3,0x1F1EB)),
+    FLAG_NORFOLK_ISLAND(intArrayOf(0x1F1F3, 0x1F1EB)),
     // 🇳🇬 🇳🇬 🇳🇬
-    FLAG_NIGERIA(intArrayOf(0x1F1F3,0x1F1EC)),
+    FLAG_NIGERIA(intArrayOf(0x1F1F3, 0x1F1EC)),
     // 🇳🇮 🇳🇮 🇳🇮
-    FLAG_NICARAGUA(intArrayOf(0x1F1F3,0x1F1EE)),
+    FLAG_NICARAGUA(intArrayOf(0x1F1F3, 0x1F1EE)),
     // 🇳🇱 🇳🇱 🇳🇱
-    FLAG_NETHERLANDS(intArrayOf(0x1F1F3,0x1F1F1)),
+    FLAG_NETHERLANDS(intArrayOf(0x1F1F3, 0x1F1F1)),
     // 🇳🇴 🇳🇴 🇳🇴
-    FLAG_NORWAY(intArrayOf(0x1F1F3,0x1F1F4)),
+    FLAG_NORWAY(intArrayOf(0x1F1F3, 0x1F1F4)),
     // 🇳🇵 🇳🇵 🇳🇵
-    FLAG_NEPAL(intArrayOf(0x1F1F3,0x1F1F5)),
+    FLAG_NEPAL(intArrayOf(0x1F1F3, 0x1F1F5)),
     // 🇳🇷 🇳🇷 🇳🇷
-    FLAG_NAURU(intArrayOf(0x1F1F3,0x1F1F7)),
+    FLAG_NAURU(intArrayOf(0x1F1F3, 0x1F1F7)),
     // 🇳🇺 🇳🇺 🇳🇺
-    FLAG_NIUE(intArrayOf(0x1F1F3,0x1F1FA)),
+    FLAG_NIUE(intArrayOf(0x1F1F3, 0x1F1FA)),
     // 🇳🇿 🇳🇿 🇳🇿
-    FLAG_NEW_ZEALAND(intArrayOf(0x1F1F3,0x1F1FF)),
+    FLAG_NEW_ZEALAND(intArrayOf(0x1F1F3, 0x1F1FF)),
     // 🇴🇲 🇴🇲 🇴🇲
-    FLAG_OMAN(intArrayOf(0x1F1F4,0x1F1F2)),
+    FLAG_OMAN(intArrayOf(0x1F1F4, 0x1F1F2)),
     // 🇵🇦 🇵🇦 🇵🇦
-    FLAG_PANAMA(intArrayOf(0x1F1F5,0x1F1E6)),
+    FLAG_PANAMA(intArrayOf(0x1F1F5, 0x1F1E6)),
     // 🇵🇪 🇵🇪 🇵🇪
-    FLAG_PERU(intArrayOf(0x1F1F5,0x1F1EA)),
+    FLAG_PERU(intArrayOf(0x1F1F5, 0x1F1EA)),
     // 🇵🇫 🇵🇫 🇵🇫
-    FLAG_FRENCH_POLYNESIA(intArrayOf(0x1F1F5,0x1F1EB)),
+    FLAG_FRENCH_POLYNESIA(intArrayOf(0x1F1F5, 0x1F1EB)),
     // 🇵🇬 🇵🇬 🇵🇬
-    FLAG_PAPUA_NEW_GUINEA(intArrayOf(0x1F1F5,0x1F1EC)),
+    FLAG_PAPUA_NEW_GUINEA(intArrayOf(0x1F1F5, 0x1F1EC)),
     // 🇵🇭 🇵🇭 🇵🇭
-    FLAG_PHILIPPINES(intArrayOf(0x1F1F5,0x1F1ED)),
+    FLAG_PHILIPPINES(intArrayOf(0x1F1F5, 0x1F1ED)),
     // 🇵🇰 🇵🇰 🇵🇰
-    FLAG_PAKISTAN(intArrayOf(0x1F1F5,0x1F1F0)),
+    FLAG_PAKISTAN(intArrayOf(0x1F1F5, 0x1F1F0)),
     // 🇵🇱 🇵🇱 🇵🇱
-    FLAG_POLAND(intArrayOf(0x1F1F5,0x1F1F1)),
+    FLAG_POLAND(intArrayOf(0x1F1F5, 0x1F1F1)),
     // 🇵🇲 🇵🇲 🇵🇲
-    FLAG_ST_PIERRE_AND_MIQUELON(intArrayOf(0x1F1F5,0x1F1F2)),
+    FLAG_ST_PIERRE_AND_MIQUELON(intArrayOf(0x1F1F5, 0x1F1F2)),
     // 🇵🇳 🇵🇳 🇵🇳
-    FLAG_PITCAIRN_ISLANDS(intArrayOf(0x1F1F5,0x1F1F3)),
+    FLAG_PITCAIRN_ISLANDS(intArrayOf(0x1F1F5, 0x1F1F3)),
     // 🇵🇷 🇵🇷 🇵🇷
-    FLAG_PUERTO_RICO(intArrayOf(0x1F1F5,0x1F1F7)),
+    FLAG_PUERTO_RICO(intArrayOf(0x1F1F5, 0x1F1F7)),
     // 🇵🇸 🇵🇸 🇵🇸
-    FLAG_PALESTINIAN_TERRITORIES(intArrayOf(0x1F1F5,0x1F1F8)),
+    FLAG_PALESTINIAN_TERRITORIES(intArrayOf(0x1F1F5, 0x1F1F8)),
     // 🇵🇹 🇵🇹 🇵🇹
-    FLAG_PORTUGAL(intArrayOf(0x1F1F5,0x1F1F9)),
+    FLAG_PORTUGAL(intArrayOf(0x1F1F5, 0x1F1F9)),
     // 🇵🇼 🇵🇼 🇵🇼
-    FLAG_PALAU(intArrayOf(0x1F1F5,0x1F1FC)),
+    FLAG_PALAU(intArrayOf(0x1F1F5, 0x1F1FC)),
     // 🇵🇾 🇵🇾 🇵🇾
-    FLAG_PARAGUAY(intArrayOf(0x1F1F5,0x1F1FE)),
+    FLAG_PARAGUAY(intArrayOf(0x1F1F5, 0x1F1FE)),
     // 🇶🇦 🇶🇦 🇶🇦
-    FLAG_QATAR(intArrayOf(0x1F1F6,0x1F1E6)),
+    FLAG_QATAR(intArrayOf(0x1F1F6, 0x1F1E6)),
     // 🇷🇪 🇷🇪 🇷🇪
-    FLAG_RÉUNION(intArrayOf(0x1F1F7,0x1F1EA)),
+    FLAG_RÉUNION(intArrayOf(0x1F1F7, 0x1F1EA)),
     // 🇷🇴 🇷🇴 🇷🇴
-    FLAG_ROMANIA(intArrayOf(0x1F1F7,0x1F1F4)),
+    FLAG_ROMANIA(intArrayOf(0x1F1F7, 0x1F1F4)),
     // 🇷🇸 🇷🇸 🇷🇸
-    FLAG_SERBIA(intArrayOf(0x1F1F7,0x1F1F8)),
+    FLAG_SERBIA(intArrayOf(0x1F1F7, 0x1F1F8)),
     // 🇷🇺 🇷🇺 🇷🇺
-    FLAG_RUSSIA(intArrayOf(0x1F1F7,0x1F1FA)),
+    FLAG_RUSSIA(intArrayOf(0x1F1F7, 0x1F1FA)),
     // 🇷🇼 🇷🇼 🇷🇼
-    FLAG_RWANDA(intArrayOf(0x1F1F7,0x1F1FC)),
+    FLAG_RWANDA(intArrayOf(0x1F1F7, 0x1F1FC)),
     // 🇸🇦 🇸🇦 🇸🇦
-    FLAG_SAUDI_ARABIA(intArrayOf(0x1F1F8,0x1F1E6)),
+    FLAG_SAUDI_ARABIA(intArrayOf(0x1F1F8, 0x1F1E6)),
     // 🇸🇧 🇸🇧 🇸🇧
-    FLAG_SOLOMON_ISLANDS(intArrayOf(0x1F1F8,0x1F1E7)),
+    FLAG_SOLOMON_ISLANDS(intArrayOf(0x1F1F8, 0x1F1E7)),
     // 🇸🇨 🇸🇨 🇸🇨
-    FLAG_SEYCHELLES(intArrayOf(0x1F1F8,0x1F1E8)),
+    FLAG_SEYCHELLES(intArrayOf(0x1F1F8, 0x1F1E8)),
     // 🇸🇩 🇸🇩 🇸🇩
-    FLAG_SUDAN(intArrayOf(0x1F1F8,0x1F1E9)),
+    FLAG_SUDAN(intArrayOf(0x1F1F8, 0x1F1E9)),
     // 🇸🇪 🇸🇪 🇸🇪
-    FLAG_SWEDEN(intArrayOf(0x1F1F8,0x1F1EA)),
+    FLAG_SWEDEN(intArrayOf(0x1F1F8, 0x1F1EA)),
     // 🇸🇬 🇸🇬 🇸🇬
-    FLAG_SINGAPORE(intArrayOf(0x1F1F8,0x1F1EC)),
+    FLAG_SINGAPORE(intArrayOf(0x1F1F8, 0x1F1EC)),
     // 🇸🇭 🇸🇭 🇸🇭
-    FLAG_ST_HELENA(intArrayOf(0x1F1F8,0x1F1ED)),
+    FLAG_ST_HELENA(intArrayOf(0x1F1F8, 0x1F1ED)),
     // 🇸🇮 🇸🇮 🇸🇮
-    FLAG_SLOVENIA(intArrayOf(0x1F1F8,0x1F1EE)),
+    FLAG_SLOVENIA(intArrayOf(0x1F1F8, 0x1F1EE)),
     // 🇸🇯 🇸🇯 🇸🇯
-    FLAG_SVALBARD_AND_JAN_MAYEN(intArrayOf(0x1F1F8,0x1F1EF)),
+    FLAG_SVALBARD_AND_JAN_MAYEN(intArrayOf(0x1F1F8, 0x1F1EF)),
     // 🇸🇰 🇸🇰 🇸🇰
-    FLAG_SLOVAKIA(intArrayOf(0x1F1F8,0x1F1F0)),
+    FLAG_SLOVAKIA(intArrayOf(0x1F1F8, 0x1F1F0)),
     // 🇸🇱 🇸🇱 🇸🇱
-    FLAG_SIERRA_LEONE(intArrayOf(0x1F1F8,0x1F1F1)),
+    FLAG_SIERRA_LEONE(intArrayOf(0x1F1F8, 0x1F1F1)),
     // 🇸🇲 🇸🇲 🇸🇲
-    FLAG_SAN_MARINO(intArrayOf(0x1F1F8,0x1F1F2)),
+    FLAG_SAN_MARINO(intArrayOf(0x1F1F8, 0x1F1F2)),
     // 🇸🇳 🇸🇳 🇸🇳
-    FLAG_SENEGAL(intArrayOf(0x1F1F8,0x1F1F3)),
+    FLAG_SENEGAL(intArrayOf(0x1F1F8, 0x1F1F3)),
     // 🇸🇴 🇸🇴 🇸🇴
-    FLAG_SOMALIA(intArrayOf(0x1F1F8,0x1F1F4)),
+    FLAG_SOMALIA(intArrayOf(0x1F1F8, 0x1F1F4)),
     // 🇸🇷 🇸🇷 🇸🇷
-    FLAG_SURINAME(intArrayOf(0x1F1F8,0x1F1F7)),
+    FLAG_SURINAME(intArrayOf(0x1F1F8, 0x1F1F7)),
     // 🇸🇸 🇸🇸 🇸🇸
-    FLAG_SOUTH_SUDAN(intArrayOf(0x1F1F8,0x1F1F8)),
+    FLAG_SOUTH_SUDAN(intArrayOf(0x1F1F8, 0x1F1F8)),
     // 🇸🇹 🇸🇹 🇸🇹
-    FLAG_SÃO_TOMÉ_AND_PRÍNCIPE(intArrayOf(0x1F1F8,0x1F1F9)),
+    FLAG_SÃO_TOMÉ_AND_PRÍNCIPE(intArrayOf(0x1F1F8, 0x1F1F9)),
     // 🇸🇻 🇸🇻 🇸🇻
-    FLAG_EL_SALVADOR(intArrayOf(0x1F1F8,0x1F1FB)),
+    FLAG_EL_SALVADOR(intArrayOf(0x1F1F8, 0x1F1FB)),
     // 🇸🇽 🇸🇽 🇸🇽
-    FLAG_SINT_MAARTEN(intArrayOf(0x1F1F8,0x1F1FD)),
+    FLAG_SINT_MAARTEN(intArrayOf(0x1F1F8, 0x1F1FD)),
     // 🇸🇾 🇸🇾 🇸🇾
-    FLAG_SYRIA(intArrayOf(0x1F1F8,0x1F1FE)),
+    FLAG_SYRIA(intArrayOf(0x1F1F8, 0x1F1FE)),
     // 🇸🇿 🇸🇿 🇸🇿
-    FLAG_ESWATINI(intArrayOf(0x1F1F8,0x1F1FF)),
+    FLAG_ESWATINI(intArrayOf(0x1F1F8, 0x1F1FF)),
     // 🇹🇦 🇹🇦 🇹🇦
-    FLAG_TRISTAN_DA_CUNHA(intArrayOf(0x1F1F9,0x1F1E6)),
+    FLAG_TRISTAN_DA_CUNHA(intArrayOf(0x1F1F9, 0x1F1E6)),
     // 🇹🇨 🇹🇨 🇹🇨
-    FLAG_TURKS_AND_CAICOS_ISLANDS(intArrayOf(0x1F1F9,0x1F1E8)),
+    FLAG_TURKS_AND_CAICOS_ISLANDS(intArrayOf(0x1F1F9, 0x1F1E8)),
     // 🇹🇩 🇹🇩 🇹🇩
-    FLAG_CHAD(intArrayOf(0x1F1F9,0x1F1E9)),
+    FLAG_CHAD(intArrayOf(0x1F1F9, 0x1F1E9)),
     // 🇹🇫 🇹🇫 🇹🇫
-    FLAG_FRENCH_SOUTHERN_TERRITORIES(intArrayOf(0x1F1F9,0x1F1EB)),
+    FLAG_FRENCH_SOUTHERN_TERRITORIES(intArrayOf(0x1F1F9, 0x1F1EB)),
     // 🇹🇬 🇹🇬 🇹🇬
-    FLAG_TOGO(intArrayOf(0x1F1F9,0x1F1EC)),
+    FLAG_TOGO(intArrayOf(0x1F1F9, 0x1F1EC)),
     // 🇹🇭 🇹🇭 🇹🇭
-    FLAG_THAILAND(intArrayOf(0x1F1F9,0x1F1ED)),
+    FLAG_THAILAND(intArrayOf(0x1F1F9, 0x1F1ED)),
     // 🇹🇯 🇹🇯 🇹🇯
-    FLAG_TAJIKISTAN(intArrayOf(0x1F1F9,0x1F1EF)),
+    FLAG_TAJIKISTAN(intArrayOf(0x1F1F9, 0x1F1EF)),
     // 🇹🇰 🇹🇰 🇹🇰
-    FLAG_TOKELAU(intArrayOf(0x1F1F9,0x1F1F0)),
+    FLAG_TOKELAU(intArrayOf(0x1F1F9, 0x1F1F0)),
     // 🇹🇱 🇹🇱 🇹🇱
-    FLAG_TIMOR_LESTE(intArrayOf(0x1F1F9,0x1F1F1)),
+    FLAG_TIMOR_LESTE(intArrayOf(0x1F1F9, 0x1F1F1)),
     // 🇹🇲 🇹🇲 🇹🇲
-    FLAG_TURKMENISTAN(intArrayOf(0x1F1F9,0x1F1F2)),
+    FLAG_TURKMENISTAN(intArrayOf(0x1F1F9, 0x1F1F2)),
     // 🇹🇳 🇹🇳 🇹🇳
-    FLAG_TUNISIA(intArrayOf(0x1F1F9,0x1F1F3)),
+    FLAG_TUNISIA(intArrayOf(0x1F1F9, 0x1F1F3)),
     // 🇹🇴 🇹🇴 🇹🇴
-    FLAG_TONGA(intArrayOf(0x1F1F9,0x1F1F4)),
+    FLAG_TONGA(intArrayOf(0x1F1F9, 0x1F1F4)),
     // 🇹🇷 🇹🇷 🇹🇷
-    FLAG_TURKEY(intArrayOf(0x1F1F9,0x1F1F7)),
+    FLAG_TURKEY(intArrayOf(0x1F1F9, 0x1F1F7)),
     // 🇹🇹 🇹🇹 🇹🇹
-    FLAG_TRINIDAD_AND_TOBAGO(intArrayOf(0x1F1F9,0x1F1F9)),
+    FLAG_TRINIDAD_AND_TOBAGO(intArrayOf(0x1F1F9, 0x1F1F9)),
     // 🇹🇻 🇹🇻 🇹🇻
-    FLAG_TUVALU(intArrayOf(0x1F1F9,0x1F1FB)),
+    FLAG_TUVALU(intArrayOf(0x1F1F9, 0x1F1FB)),
     // 🇹🇼 🇹🇼 🇹🇼
-    FLAG_TAIWAN(intArrayOf(0x1F1F9,0x1F1FC)),
+    FLAG_TAIWAN(intArrayOf(0x1F1F9, 0x1F1FC)),
     // 🇹🇿 🇹🇿 🇹🇿
-    FLAG_TANZANIA(intArrayOf(0x1F1F9,0x1F1FF)),
+    FLAG_TANZANIA(intArrayOf(0x1F1F9, 0x1F1FF)),
     // 🇺🇦 🇺🇦 🇺🇦
-    FLAG_UKRAINE(intArrayOf(0x1F1FA,0x1F1E6)),
+    FLAG_UKRAINE(intArrayOf(0x1F1FA, 0x1F1E6)),
     // 🇺🇬 🇺🇬 🇺🇬
-    FLAG_UGANDA(intArrayOf(0x1F1FA,0x1F1EC)),
+    FLAG_UGANDA(intArrayOf(0x1F1FA, 0x1F1EC)),
     // 🇺🇲 🇺🇲 🇺🇲
-    FLAG_US_OUTLYING_ISLANDS(intArrayOf(0x1F1FA,0x1F1F2)),
+    FLAG_US_OUTLYING_ISLANDS(intArrayOf(0x1F1FA, 0x1F1F2)),
     // 🇺🇳 🇺🇳 🇺🇳
-    FLAG_UNITED_NATIONS(intArrayOf(0x1F1FA,0x1F1F3)),
+    FLAG_UNITED_NATIONS(intArrayOf(0x1F1FA, 0x1F1F3)),
     // 🇺🇸 🇺🇸 🇺🇸
-    FLAG_UNITED_STATES(intArrayOf(0x1F1FA,0x1F1F8)),
+    FLAG_UNITED_STATES(intArrayOf(0x1F1FA, 0x1F1F8)),
     // 🇺🇾 🇺🇾 🇺🇾
-    FLAG_URUGUAY(intArrayOf(0x1F1FA,0x1F1FE)),
+    FLAG_URUGUAY(intArrayOf(0x1F1FA, 0x1F1FE)),
     // 🇺🇿 🇺🇿 🇺🇿
-    FLAG_UZBEKISTAN(intArrayOf(0x1F1FA,0x1F1FF)),
+    FLAG_UZBEKISTAN(intArrayOf(0x1F1FA, 0x1F1FF)),
     // 🇻🇦 🇻🇦 🇻🇦
-    FLAG_VATICAN_CITY(intArrayOf(0x1F1FB,0x1F1E6)),
+    FLAG_VATICAN_CITY(intArrayOf(0x1F1FB, 0x1F1E6)),
     // 🇻🇨 🇻🇨 🇻🇨
-    FLAG_ST_VINCENT_AND_GRENADINES(intArrayOf(0x1F1FB,0x1F1E8)),
+    FLAG_ST_VINCENT_AND_GRENADINES(intArrayOf(0x1F1FB, 0x1F1E8)),
     // 🇻🇪 🇻🇪 🇻🇪
-    FLAG_VENEZUELA(intArrayOf(0x1F1FB,0x1F1EA)),
+    FLAG_VENEZUELA(intArrayOf(0x1F1FB, 0x1F1EA)),
     // 🇻🇬 🇻🇬 🇻🇬
-    FLAG_BRITISH_VIRGIN_ISLANDS(intArrayOf(0x1F1FB,0x1F1EC)),
+    FLAG_BRITISH_VIRGIN_ISLANDS(intArrayOf(0x1F1FB, 0x1F1EC)),
     // 🇻🇮 🇻🇮 🇻🇮
-    FLAG_US_VIRGIN_ISLANDS(intArrayOf(0x1F1FB,0x1F1EE)),
+    FLAG_US_VIRGIN_ISLANDS(intArrayOf(0x1F1FB, 0x1F1EE)),
     // 🇻🇳 🇻🇳 🇻🇳
-    FLAG_VIETNAM(intArrayOf(0x1F1FB,0x1F1F3)),
+    FLAG_VIETNAM(intArrayOf(0x1F1FB, 0x1F1F3)),
     // 🇻🇺 🇻🇺 🇻🇺
-    FLAG_VANUATU(intArrayOf(0x1F1FB,0x1F1FA)),
+    FLAG_VANUATU(intArrayOf(0x1F1FB, 0x1F1FA)),
     // 🇼🇫 🇼🇫 🇼🇫
-    FLAG_WALLIS_AND_FUTUNA(intArrayOf(0x1F1FC,0x1F1EB)),
+    FLAG_WALLIS_AND_FUTUNA(intArrayOf(0x1F1FC, 0x1F1EB)),
     // 🇼🇸 🇼🇸 🇼🇸
-    FLAG_SAMOA(intArrayOf(0x1F1FC,0x1F1F8)),
+    FLAG_SAMOA(intArrayOf(0x1F1FC, 0x1F1F8)),
     // 🇽🇰 🇽🇰 🇽🇰
-    FLAG_KOSOVO(intArrayOf(0x1F1FD,0x1F1F0)),
+    FLAG_KOSOVO(intArrayOf(0x1F1FD, 0x1F1F0)),
     // 🇾🇪 🇾🇪 🇾🇪
-    FLAG_YEMEN(intArrayOf(0x1F1FE,0x1F1EA)),
+    FLAG_YEMEN(intArrayOf(0x1F1FE, 0x1F1EA)),
     // 🇾🇹 🇾🇹 🇾🇹
-    FLAG_MAYOTTE(intArrayOf(0x1F1FE,0x1F1F9)),
+    FLAG_MAYOTTE(intArrayOf(0x1F1FE, 0x1F1F9)),
     // 🇿🇦 🇿🇦 🇿🇦
-    FLAG_SOUTH_AFRICA(intArrayOf(0x1F1FF,0x1F1E6)),
+    FLAG_SOUTH_AFRICA(intArrayOf(0x1F1FF, 0x1F1E6)),
     // 🇿🇲 🇿🇲 🇿🇲
-    FLAG_ZAMBIA(intArrayOf(0x1F1FF,0x1F1F2)),
+    FLAG_ZAMBIA(intArrayOf(0x1F1FF, 0x1F1F2)),
     // 🇿🇼 🇿🇼 🇿🇼
-    FLAG_ZIMBABWE(intArrayOf(0x1F1FF,0x1F1FC)),
+    FLAG_ZIMBABWE(intArrayOf(0x1F1FF, 0x1F1FC)),
     // 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-    FLAG_ENGLAND(intArrayOf(0x1F3F4,0xE0067,0xE0062,0xE0065,0xE006E,0xE0067,0xE007F)),
+    FLAG_ENGLAND(intArrayOf(0x1F3F4, 0xE0067, 0xE0062, 0xE0065, 0xE006E, 0xE0067, 0xE007F)),
     // 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🏴󠁧󠁢󠁳󠁣󠁴󠁿
-    FLAG_SCOTLAND(intArrayOf(0x1F3F4,0xE0067,0xE0062,0xE0073,0xE0063,0xE0074,0xE007F)),
+    FLAG_SCOTLAND(intArrayOf(0x1F3F4, 0xE0067, 0xE0062, 0xE0073, 0xE0063, 0xE0074, 0xE007F)),
     // 🏴󠁧󠁢󠁷󠁬󠁳󠁿 🏴󠁧󠁢󠁷󠁬󠁳󠁿 🏴󠁧󠁢󠁷󠁬󠁳󠁿
-    FLAG_WALES(intArrayOf(0x1F3F4,0xE0067,0xE0062,0xE0077,0xE006C,0xE0073,0xE007F));
+    FLAG_WALES(intArrayOf(0x1F3F4, 0xE0067, 0xE0062, 0xE0077, 0xE006C, 0xE0073, 0xE007F));
 
     override fun toString() = String(intArray, 0, intArray.size)
 }

@@ -42,7 +42,7 @@ enum class Emoji0(
     // 😗 😗 😗
     KISSING_FACE(intArrayOf(0x1F617)),
     // ☺️ ☺️ ☺️
-    SMILING_FACE(intArrayOf(0x263A,0xFE0F)),
+    SMILING_FACE(intArrayOf(0x263A, 0xFE0F)),
     // 😚 😚 😚
     KISSING_FACE_WITH_CLOSED_EYES(intArrayOf(0x1F61A)),
     // 😙 😙 😙
@@ -88,7 +88,7 @@ enum class Emoji0(
     // 🫥 🫥 🫥
     DOTTED_LINE_FACE(intArrayOf(0x1FAE5)),
     // 😶‍🌫️ 😶‍🌫️ 😶‍🌫️
-    FACE_IN_CLOUDS(intArrayOf(0x1F636,0x200D,0x1F32B,0xFE0F)),
+    FACE_IN_CLOUDS(intArrayOf(0x1F636, 0x200D, 0x1F32B, 0xFE0F)),
     // 😏 😏 😏
     SMIRKING_FACE(intArrayOf(0x1F60F)),
     // 😒 😒 😒
@@ -98,7 +98,7 @@ enum class Emoji0(
     // 😬 😬 😬
     GRIMACING_FACE(intArrayOf(0x1F62C)),
     // 😮‍💨 😮‍💨 😮‍💨
-    FACE_EXHALING(intArrayOf(0x1F62E,0x200D,0x1F4A8)),
+    FACE_EXHALING(intArrayOf(0x1F62E, 0x200D, 0x1F4A8)),
     // 🤥 🤥 🤥
     LYING_FACE(intArrayOf(0x1F925)),
     // 🫨 🫨 🫨
@@ -134,7 +134,7 @@ enum class Emoji0(
     // 😵 😵 😵
     FACE_WITH_CROSSED_OUT_EYES(intArrayOf(0x1F635)),
     // 😵‍💫 😵‍💫 😵‍💫
-    FACE_WITH_SPIRAL_EYES(intArrayOf(0x1F635,0x200D,0x1F4AB)),
+    FACE_WITH_SPIRAL_EYES(intArrayOf(0x1F635, 0x200D, 0x1F4AB)),
     // 🤯 🤯 🤯
     EXPLODING_HEAD(intArrayOf(0x1F92F)),
     // 🤠 🤠 🤠
@@ -158,7 +158,7 @@ enum class Emoji0(
     // 🙁 🙁 🙁
     SLIGHTLY_FROWNING_FACE(intArrayOf(0x1F641)),
     // ☹️ ☹️ ☹️
-    FROWNING_FACE(intArrayOf(0x2639,0xFE0F)),
+    FROWNING_FACE(intArrayOf(0x2639, 0xFE0F)),
     // 😮 😮 😮
     FACE_WITH_OPEN_MOUTH(intArrayOf(0x1F62E)),
     // 😯 😯 😯
@@ -216,7 +216,7 @@ enum class Emoji0(
     // 💀 💀 💀
     SKULL(intArrayOf(0x1F480)),
     // ☠️ ☠️ ☠️
-    SKULL_AND_CROSSBONES(intArrayOf(0x2620,0xFE0F)),
+    SKULL_AND_CROSSBONES(intArrayOf(0x2620, 0xFE0F)),
     // 💩 💩 💩
     PILE_OF_POO(intArrayOf(0x1F4A9)),
     // 🤡 🤡 🤡
@@ -276,15 +276,15 @@ enum class Emoji0(
     // 💟 💟 💟
     HEART_DECORATION(intArrayOf(0x1F49F)),
     // ❣️ ❣️ ❣️
-    HEART_EXCLAMATION(intArrayOf(0x2763,0xFE0F)),
+    HEART_EXCLAMATION(intArrayOf(0x2763, 0xFE0F)),
     // 💔 💔 💔
     BROKEN_HEART(intArrayOf(0x1F494)),
     // ❤️‍🔥 ❤️‍🔥 ❤️‍🔥
-    HEART_ON_FIRE(intArrayOf(0x2764,0xFE0F,0x200D,0x1F525)),
+    HEART_ON_FIRE(intArrayOf(0x2764, 0xFE0F, 0x200D, 0x1F525)),
     // ❤️‍🩹 ❤️‍🩹 ❤️‍🩹
-    MENDING_HEART(intArrayOf(0x2764,0xFE0F,0x200D,0x1FA79)),
+    MENDING_HEART(intArrayOf(0x2764, 0xFE0F, 0x200D, 0x1FA79)),
     // ❤️ ❤️ ❤️
-    RED_HEART(intArrayOf(0x2764,0xFE0F)),
+    RED_HEART(intArrayOf(0x2764, 0xFE0F)),
     // 🩷 🩷 🩷
     PINK_HEART(intArrayOf(0x1FA77)),
     // 🧡 🧡 🧡
@@ -322,15 +322,15 @@ enum class Emoji0(
     // 💨 💨 💨
     DASHING_AWAY(intArrayOf(0x1F4A8)),
     // 🕳️ 🕳️ 🕳️
-    HOLE(intArrayOf(0x1F573,0xFE0F)),
+    HOLE(intArrayOf(0x1F573, 0xFE0F)),
     // 💬 💬 💬
     SPEECH_BALLOON(intArrayOf(0x1F4AC)),
     // 👁️‍🗨️ 👁️‍🗨️ 👁️‍🗨️
-    EYE_IN_SPEECH_BUBBLE(intArrayOf(0x1F441,0xFE0F,0x200D,0x1F5E8,0xFE0F)),
+    EYE_IN_SPEECH_BUBBLE(intArrayOf(0x1F441, 0xFE0F, 0x200D, 0x1F5E8, 0xFE0F)),
     // 🗨️ 🗨️ 🗨️
-    LEFT_SPEECH_BUBBLE(intArrayOf(0x1F5E8,0xFE0F)),
+    LEFT_SPEECH_BUBBLE(intArrayOf(0x1F5E8, 0xFE0F)),
     // 🗯️ 🗯️ 🗯️
-    RIGHT_ANGER_BUBBLE(intArrayOf(0x1F5EF,0xFE0F)),
+    RIGHT_ANGER_BUBBLE(intArrayOf(0x1F5EF, 0xFE0F)),
     // 💭 💭 💭
     THOUGHT_BALLOON(intArrayOf(0x1F4AD)),
     // 💤 💤 💤
@@ -340,7 +340,7 @@ enum class Emoji0(
     // 🤚 🤚 🤚
     RAISED_BACK_OF_HAND(intArrayOf(0x1F91A)),
     // 🖐️ 🖐️ 🖐️
-    HAND_WITH_FINGERS_SPLAYED(intArrayOf(0x1F590,0xFE0F)),
+    HAND_WITH_FINGERS_SPLAYED(intArrayOf(0x1F590, 0xFE0F)),
     // ✋ ✋ ✋
     RAISED_HAND(intArrayOf(0x270B)),
     // 🖖 🖖 🖖
@@ -364,7 +364,7 @@ enum class Emoji0(
     // 🤏 🤏 🤏
     PINCHING_HAND(intArrayOf(0x1F90F)),
     // ✌️ ✌️ ✌️
-    VICTORY_HAND(intArrayOf(0x270C,0xFE0F)),
+    VICTORY_HAND(intArrayOf(0x270C, 0xFE0F)),
     // 🤞 🤞 🤞
     CROSSED_FINGERS(intArrayOf(0x1F91E)),
     // 🫰 🫰 🫰
@@ -386,7 +386,7 @@ enum class Emoji0(
     // 👇 👇 👇
     BACKHAND_INDEX_POINTING_DOWN(intArrayOf(0x1F447)),
     // ☝️ ☝️ ☝️
-    INDEX_POINTING_UP(intArrayOf(0x261D,0xFE0F)),
+    INDEX_POINTING_UP(intArrayOf(0x261D, 0xFE0F)),
     // 🫵 🫵 🫵
     INDEX_POINTING_AT_THE_VIEWER(intArrayOf(0x1FAF5)),
     // 👍 👍 👍
@@ -416,7 +416,7 @@ enum class Emoji0(
     // 🙏 🙏 🙏
     FOLDED_HANDS(intArrayOf(0x1F64F)),
     // ✍️ ✍️ ✍️
-    WRITING_HAND(intArrayOf(0x270D,0xFE0F)),
+    WRITING_HAND(intArrayOf(0x270D, 0xFE0F)),
     // 💅 💅 💅
     NAIL_POLISH(intArrayOf(0x1F485)),
     // 🤳 🤳 🤳
@@ -450,7 +450,7 @@ enum class Emoji0(
     // 👀 👀 👀
     EYES(intArrayOf(0x1F440)),
     // 👁️ 👁️ 👁️
-    EYE(intArrayOf(0x1F441,0xFE0F)),
+    EYE(intArrayOf(0x1F441, 0xFE0F)),
     // 👅 👅 👅
     TONGUE(intArrayOf(0x1F445)),
     // 👄 👄 👄
@@ -474,39 +474,39 @@ enum class Emoji0(
     // 🧔 🧔 🧔
     PERSON_BEARD(intArrayOf(0x1F9D4)),
     // 🧔‍♂️ 🧔‍♂️ 🧔‍♂️
-    MAN_BEARD(intArrayOf(0x1F9D4,0x200D,0x2642,0xFE0F)),
+    MAN_BEARD(intArrayOf(0x1F9D4, 0x200D, 0x2642, 0xFE0F)),
     // 🧔‍♀️ 🧔‍♀️ 🧔‍♀️
-    WOMAN_BEARD(intArrayOf(0x1F9D4,0x200D,0x2640,0xFE0F)),
+    WOMAN_BEARD(intArrayOf(0x1F9D4, 0x200D, 0x2640, 0xFE0F)),
     // 👨‍🦰 👨‍🦰 👨‍🦰
-    MAN_RED_HAIR(intArrayOf(0x1F468,0x200D,0x1F9B0)),
+    MAN_RED_HAIR(intArrayOf(0x1F468, 0x200D, 0x1F9B0)),
     // 👨‍🦱 👨‍🦱 👨‍🦱
-    MAN_CURLY_HAIR(intArrayOf(0x1F468,0x200D,0x1F9B1)),
+    MAN_CURLY_HAIR(intArrayOf(0x1F468, 0x200D, 0x1F9B1)),
     // 👨‍🦳 👨‍🦳 👨‍🦳
-    MAN_WHITE_HAIR(intArrayOf(0x1F468,0x200D,0x1F9B3)),
+    MAN_WHITE_HAIR(intArrayOf(0x1F468, 0x200D, 0x1F9B3)),
     // 👨‍🦲 👨‍🦲 👨‍🦲
-    MAN_BALD(intArrayOf(0x1F468,0x200D,0x1F9B2)),
+    MAN_BALD(intArrayOf(0x1F468, 0x200D, 0x1F9B2)),
     // 👩 👩 👩
     WOMAN(intArrayOf(0x1F469)),
     // 👩‍🦰 👩‍🦰 👩‍🦰
-    WOMAN_RED_HAIR(intArrayOf(0x1F469,0x200D,0x1F9B0)),
+    WOMAN_RED_HAIR(intArrayOf(0x1F469, 0x200D, 0x1F9B0)),
     // 🧑‍🦰 🧑‍🦰 🧑‍🦰
-    PERSON_RED_HAIR(intArrayOf(0x1F9D1,0x200D,0x1F9B0)),
+    PERSON_RED_HAIR(intArrayOf(0x1F9D1, 0x200D, 0x1F9B0)),
     // 👩‍🦱 👩‍🦱 👩‍🦱
-    WOMAN_CURLY_HAIR(intArrayOf(0x1F469,0x200D,0x1F9B1)),
+    WOMAN_CURLY_HAIR(intArrayOf(0x1F469, 0x200D, 0x1F9B1)),
     // 🧑‍🦱 🧑‍🦱 🧑‍🦱
-    PERSON_CURLY_HAIR(intArrayOf(0x1F9D1,0x200D,0x1F9B1)),
+    PERSON_CURLY_HAIR(intArrayOf(0x1F9D1, 0x200D, 0x1F9B1)),
     // 👩‍🦳 👩‍🦳 👩‍🦳
-    WOMAN_WHITE_HAIR(intArrayOf(0x1F469,0x200D,0x1F9B3)),
+    WOMAN_WHITE_HAIR(intArrayOf(0x1F469, 0x200D, 0x1F9B3)),
     // 🧑‍🦳 🧑‍🦳 🧑‍🦳
-    PERSON_WHITE_HAIR(intArrayOf(0x1F9D1,0x200D,0x1F9B3)),
+    PERSON_WHITE_HAIR(intArrayOf(0x1F9D1, 0x200D, 0x1F9B3)),
     // 👩‍🦲 👩‍🦲 👩‍🦲
-    WOMAN_BALD(intArrayOf(0x1F469,0x200D,0x1F9B2)),
+    WOMAN_BALD(intArrayOf(0x1F469, 0x200D, 0x1F9B2)),
     // 🧑‍🦲 🧑‍🦲 🧑‍🦲
-    PERSON_BALD(intArrayOf(0x1F9D1,0x200D,0x1F9B2)),
+    PERSON_BALD(intArrayOf(0x1F9D1, 0x200D, 0x1F9B2)),
     // 👱‍♀️ 👱‍♀️ 👱‍♀️
-    WOMAN_BLOND_HAIR(intArrayOf(0x1F471,0x200D,0x2640,0xFE0F)),
+    WOMAN_BLOND_HAIR(intArrayOf(0x1F471, 0x200D, 0x2640, 0xFE0F)),
     // 👱‍♂️ 👱‍♂️ 👱‍♂️
-    MAN_BLOND_HAIR(intArrayOf(0x1F471,0x200D,0x2642,0xFE0F)),
+    MAN_BLOND_HAIR(intArrayOf(0x1F471, 0x200D, 0x2642, 0xFE0F)),
     // 🧓 🧓 🧓
     OLDER_PERSON(intArrayOf(0x1F9D3)),
     // 👴 👴 👴
@@ -516,185 +516,185 @@ enum class Emoji0(
     // 🙍 🙍 🙍
     PERSON_FROWNING(intArrayOf(0x1F64D)),
     // 🙍‍♂️ 🙍‍♂️ 🙍‍♂️
-    MAN_FROWNING(intArrayOf(0x1F64D,0x200D,0x2642,0xFE0F)),
+    MAN_FROWNING(intArrayOf(0x1F64D, 0x200D, 0x2642, 0xFE0F)),
     // 🙍‍♀️ 🙍‍♀️ 🙍‍♀️
-    WOMAN_FROWNING(intArrayOf(0x1F64D,0x200D,0x2640,0xFE0F)),
+    WOMAN_FROWNING(intArrayOf(0x1F64D, 0x200D, 0x2640, 0xFE0F)),
     // 🙎 🙎 🙎
     PERSON_POUTING(intArrayOf(0x1F64E)),
     // 🙎‍♂️ 🙎‍♂️ 🙎‍♂️
-    MAN_POUTING(intArrayOf(0x1F64E,0x200D,0x2642,0xFE0F)),
+    MAN_POUTING(intArrayOf(0x1F64E, 0x200D, 0x2642, 0xFE0F)),
     // 🙎‍♀️ 🙎‍♀️ 🙎‍♀️
-    WOMAN_POUTING(intArrayOf(0x1F64E,0x200D,0x2640,0xFE0F)),
+    WOMAN_POUTING(intArrayOf(0x1F64E, 0x200D, 0x2640, 0xFE0F)),
     // 🙅 🙅 🙅
     PERSON_GESTURING_NO(intArrayOf(0x1F645)),
     // 🙅‍♂️ 🙅‍♂️ 🙅‍♂️
-    MAN_GESTURING_NO(intArrayOf(0x1F645,0x200D,0x2642,0xFE0F)),
+    MAN_GESTURING_NO(intArrayOf(0x1F645, 0x200D, 0x2642, 0xFE0F)),
     // 🙅‍♀️ 🙅‍♀️ 🙅‍♀️
-    WOMAN_GESTURING_NO(intArrayOf(0x1F645,0x200D,0x2640,0xFE0F)),
+    WOMAN_GESTURING_NO(intArrayOf(0x1F645, 0x200D, 0x2640, 0xFE0F)),
     // 🙆 🙆 🙆
     PERSON_GESTURING_OK(intArrayOf(0x1F646)),
     // 🙆‍♂️ 🙆‍♂️ 🙆‍♂️
-    MAN_GESTURING_OK(intArrayOf(0x1F646,0x200D,0x2642,0xFE0F)),
+    MAN_GESTURING_OK(intArrayOf(0x1F646, 0x200D, 0x2642, 0xFE0F)),
     // 🙆‍♀️ 🙆‍♀️ 🙆‍♀️
-    WOMAN_GESTURING_OK(intArrayOf(0x1F646,0x200D,0x2640,0xFE0F)),
+    WOMAN_GESTURING_OK(intArrayOf(0x1F646, 0x200D, 0x2640, 0xFE0F)),
     // 💁 💁 💁
     PERSON_TIPPING_HAND(intArrayOf(0x1F481)),
     // 💁‍♂️ 💁‍♂️ 💁‍♂️
-    MAN_TIPPING_HAND(intArrayOf(0x1F481,0x200D,0x2642,0xFE0F)),
+    MAN_TIPPING_HAND(intArrayOf(0x1F481, 0x200D, 0x2642, 0xFE0F)),
     // 💁‍♀️ 💁‍♀️ 💁‍♀️
-    WOMAN_TIPPING_HAND(intArrayOf(0x1F481,0x200D,0x2640,0xFE0F)),
+    WOMAN_TIPPING_HAND(intArrayOf(0x1F481, 0x200D, 0x2640, 0xFE0F)),
     // 🙋 🙋 🙋
     PERSON_RAISING_HAND(intArrayOf(0x1F64B)),
     // 🙋‍♂️ 🙋‍♂️ 🙋‍♂️
-    MAN_RAISING_HAND(intArrayOf(0x1F64B,0x200D,0x2642,0xFE0F)),
+    MAN_RAISING_HAND(intArrayOf(0x1F64B, 0x200D, 0x2642, 0xFE0F)),
     // 🙋‍♀️ 🙋‍♀️ 🙋‍♀️
-    WOMAN_RAISING_HAND(intArrayOf(0x1F64B,0x200D,0x2640,0xFE0F)),
+    WOMAN_RAISING_HAND(intArrayOf(0x1F64B, 0x200D, 0x2640, 0xFE0F)),
     // 🧏 🧏 🧏
     DEAF_PERSON(intArrayOf(0x1F9CF)),
     // 🧏‍♂️ 🧏‍♂️ 🧏‍♂️
-    DEAF_MAN(intArrayOf(0x1F9CF,0x200D,0x2642,0xFE0F)),
+    DEAF_MAN(intArrayOf(0x1F9CF, 0x200D, 0x2642, 0xFE0F)),
     // 🧏‍♀️ 🧏‍♀️ 🧏‍♀️
-    DEAF_WOMAN(intArrayOf(0x1F9CF,0x200D,0x2640,0xFE0F)),
+    DEAF_WOMAN(intArrayOf(0x1F9CF, 0x200D, 0x2640, 0xFE0F)),
     // 🙇 🙇 🙇
     PERSON_BOWING(intArrayOf(0x1F647)),
     // 🙇‍♂️ 🙇‍♂️ 🙇‍♂️
-    MAN_BOWING(intArrayOf(0x1F647,0x200D,0x2642,0xFE0F)),
+    MAN_BOWING(intArrayOf(0x1F647, 0x200D, 0x2642, 0xFE0F)),
     // 🙇‍♀️ 🙇‍♀️ 🙇‍♀️
-    WOMAN_BOWING(intArrayOf(0x1F647,0x200D,0x2640,0xFE0F)),
+    WOMAN_BOWING(intArrayOf(0x1F647, 0x200D, 0x2640, 0xFE0F)),
     // 🤦 🤦 🤦
     PERSON_FACEPALMING(intArrayOf(0x1F926)),
     // 🤦‍♂️ 🤦‍♂️ 🤦‍♂️
-    MAN_FACEPALMING(intArrayOf(0x1F926,0x200D,0x2642,0xFE0F)),
+    MAN_FACEPALMING(intArrayOf(0x1F926, 0x200D, 0x2642, 0xFE0F)),
     // 🤦‍♀️ 🤦‍♀️ 🤦‍♀️
-    WOMAN_FACEPALMING(intArrayOf(0x1F926,0x200D,0x2640,0xFE0F)),
+    WOMAN_FACEPALMING(intArrayOf(0x1F926, 0x200D, 0x2640, 0xFE0F)),
     // 🤷 🤷 🤷
     PERSON_SHRUGGING(intArrayOf(0x1F937)),
     // 🤷‍♂️ 🤷‍♂️ 🤷‍♂️
-    MAN_SHRUGGING(intArrayOf(0x1F937,0x200D,0x2642,0xFE0F)),
+    MAN_SHRUGGING(intArrayOf(0x1F937, 0x200D, 0x2642, 0xFE0F)),
     // 🤷‍♀️ 🤷‍♀️ 🤷‍♀️
-    WOMAN_SHRUGGING(intArrayOf(0x1F937,0x200D,0x2640,0xFE0F)),
+    WOMAN_SHRUGGING(intArrayOf(0x1F937, 0x200D, 0x2640, 0xFE0F)),
     // 🧑‍⚕️ 🧑‍⚕️ 🧑‍⚕️
-    HEALTH_WORKER(intArrayOf(0x1F9D1,0x200D,0x2695,0xFE0F)),
+    HEALTH_WORKER(intArrayOf(0x1F9D1, 0x200D, 0x2695, 0xFE0F)),
     // 👨‍⚕️ 👨‍⚕️ 👨‍⚕️
-    MAN_HEALTH_WORKER(intArrayOf(0x1F468,0x200D,0x2695,0xFE0F)),
+    MAN_HEALTH_WORKER(intArrayOf(0x1F468, 0x200D, 0x2695, 0xFE0F)),
     // 👩‍⚕️ 👩‍⚕️ 👩‍⚕️
-    WOMAN_HEALTH_WORKER(intArrayOf(0x1F469,0x200D,0x2695,0xFE0F)),
+    WOMAN_HEALTH_WORKER(intArrayOf(0x1F469, 0x200D, 0x2695, 0xFE0F)),
     // 🧑‍🎓 🧑‍🎓 🧑‍🎓
-    STUDENT(intArrayOf(0x1F9D1,0x200D,0x1F393)),
+    STUDENT(intArrayOf(0x1F9D1, 0x200D, 0x1F393)),
     // 👨‍🎓 👨‍🎓 👨‍🎓
-    MAN_STUDENT(intArrayOf(0x1F468,0x200D,0x1F393)),
+    MAN_STUDENT(intArrayOf(0x1F468, 0x200D, 0x1F393)),
     // 👩‍🎓 👩‍🎓 👩‍🎓
-    WOMAN_STUDENT(intArrayOf(0x1F469,0x200D,0x1F393)),
+    WOMAN_STUDENT(intArrayOf(0x1F469, 0x200D, 0x1F393)),
     // 🧑‍🏫 🧑‍🏫 🧑‍🏫
-    TEACHER(intArrayOf(0x1F9D1,0x200D,0x1F3EB)),
+    TEACHER(intArrayOf(0x1F9D1, 0x200D, 0x1F3EB)),
     // 👨‍🏫 👨‍🏫 👨‍🏫
-    MAN_TEACHER(intArrayOf(0x1F468,0x200D,0x1F3EB)),
+    MAN_TEACHER(intArrayOf(0x1F468, 0x200D, 0x1F3EB)),
     // 👩‍🏫 👩‍🏫 👩‍🏫
-    WOMAN_TEACHER(intArrayOf(0x1F469,0x200D,0x1F3EB)),
+    WOMAN_TEACHER(intArrayOf(0x1F469, 0x200D, 0x1F3EB)),
     // 🧑‍⚖️ 🧑‍⚖️ 🧑‍⚖️
-    JUDGE(intArrayOf(0x1F9D1,0x200D,0x2696,0xFE0F)),
+    JUDGE(intArrayOf(0x1F9D1, 0x200D, 0x2696, 0xFE0F)),
     // 👨‍⚖️ 👨‍⚖️ 👨‍⚖️
-    MAN_JUDGE(intArrayOf(0x1F468,0x200D,0x2696,0xFE0F)),
+    MAN_JUDGE(intArrayOf(0x1F468, 0x200D, 0x2696, 0xFE0F)),
     // 👩‍⚖️ 👩‍⚖️ 👩‍⚖️
-    WOMAN_JUDGE(intArrayOf(0x1F469,0x200D,0x2696,0xFE0F)),
+    WOMAN_JUDGE(intArrayOf(0x1F469, 0x200D, 0x2696, 0xFE0F)),
     // 🧑‍🌾 🧑‍🌾 🧑‍🌾
-    FARMER(intArrayOf(0x1F9D1,0x200D,0x1F33E)),
+    FARMER(intArrayOf(0x1F9D1, 0x200D, 0x1F33E)),
     // 👨‍🌾 👨‍🌾 👨‍🌾
-    MAN_FARMER(intArrayOf(0x1F468,0x200D,0x1F33E)),
+    MAN_FARMER(intArrayOf(0x1F468, 0x200D, 0x1F33E)),
     // 👩‍🌾 👩‍🌾 👩‍🌾
-    WOMAN_FARMER(intArrayOf(0x1F469,0x200D,0x1F33E)),
+    WOMAN_FARMER(intArrayOf(0x1F469, 0x200D, 0x1F33E)),
     // 🧑‍🍳 🧑‍🍳 🧑‍🍳
-    COOK(intArrayOf(0x1F9D1,0x200D,0x1F373)),
+    COOK(intArrayOf(0x1F9D1, 0x200D, 0x1F373)),
     // 👨‍🍳 👨‍🍳 👨‍🍳
-    MAN_COOK(intArrayOf(0x1F468,0x200D,0x1F373)),
+    MAN_COOK(intArrayOf(0x1F468, 0x200D, 0x1F373)),
     // 👩‍🍳 👩‍🍳 👩‍🍳
-    WOMAN_COOK(intArrayOf(0x1F469,0x200D,0x1F373)),
+    WOMAN_COOK(intArrayOf(0x1F469, 0x200D, 0x1F373)),
     // 🧑‍🔧 🧑‍🔧 🧑‍🔧
-    MECHANIC(intArrayOf(0x1F9D1,0x200D,0x1F527)),
+    MECHANIC(intArrayOf(0x1F9D1, 0x200D, 0x1F527)),
     // 👨‍🔧 👨‍🔧 👨‍🔧
-    MAN_MECHANIC(intArrayOf(0x1F468,0x200D,0x1F527)),
+    MAN_MECHANIC(intArrayOf(0x1F468, 0x200D, 0x1F527)),
     // 👩‍🔧 👩‍🔧 👩‍🔧
-    WOMAN_MECHANIC(intArrayOf(0x1F469,0x200D,0x1F527)),
+    WOMAN_MECHANIC(intArrayOf(0x1F469, 0x200D, 0x1F527)),
     // 🧑‍🏭 🧑‍🏭 🧑‍🏭
-    FACTORY_WORKER(intArrayOf(0x1F9D1,0x200D,0x1F3ED)),
+    FACTORY_WORKER(intArrayOf(0x1F9D1, 0x200D, 0x1F3ED)),
     // 👨‍🏭 👨‍🏭 👨‍🏭
-    MAN_FACTORY_WORKER(intArrayOf(0x1F468,0x200D,0x1F3ED)),
+    MAN_FACTORY_WORKER(intArrayOf(0x1F468, 0x200D, 0x1F3ED)),
     // 👩‍🏭 👩‍🏭 👩‍🏭
-    WOMAN_FACTORY_WORKER(intArrayOf(0x1F469,0x200D,0x1F3ED)),
+    WOMAN_FACTORY_WORKER(intArrayOf(0x1F469, 0x200D, 0x1F3ED)),
     // 🧑‍💼 🧑‍💼 🧑‍💼
-    OFFICE_WORKER(intArrayOf(0x1F9D1,0x200D,0x1F4BC)),
+    OFFICE_WORKER(intArrayOf(0x1F9D1, 0x200D, 0x1F4BC)),
     // 👨‍💼 👨‍💼 👨‍💼
-    MAN_OFFICE_WORKER(intArrayOf(0x1F468,0x200D,0x1F4BC)),
+    MAN_OFFICE_WORKER(intArrayOf(0x1F468, 0x200D, 0x1F4BC)),
     // 👩‍💼 👩‍💼 👩‍💼
-    WOMAN_OFFICE_WORKER(intArrayOf(0x1F469,0x200D,0x1F4BC)),
+    WOMAN_OFFICE_WORKER(intArrayOf(0x1F469, 0x200D, 0x1F4BC)),
     // 🧑‍🔬 🧑‍🔬 🧑‍🔬
-    SCIENTIST(intArrayOf(0x1F9D1,0x200D,0x1F52C)),
+    SCIENTIST(intArrayOf(0x1F9D1, 0x200D, 0x1F52C)),
     // 👨‍🔬 👨‍🔬 👨‍🔬
-    MAN_SCIENTIST(intArrayOf(0x1F468,0x200D,0x1F52C)),
+    MAN_SCIENTIST(intArrayOf(0x1F468, 0x200D, 0x1F52C)),
     // 👩‍🔬 👩‍🔬 👩‍🔬
-    WOMAN_SCIENTIST(intArrayOf(0x1F469,0x200D,0x1F52C)),
+    WOMAN_SCIENTIST(intArrayOf(0x1F469, 0x200D, 0x1F52C)),
     // 🧑‍💻 🧑‍💻 🧑‍💻
-    TECHNOLOGIST(intArrayOf(0x1F9D1,0x200D,0x1F4BB)),
+    TECHNOLOGIST(intArrayOf(0x1F9D1, 0x200D, 0x1F4BB)),
     // 👨‍💻 👨‍💻 👨‍💻
-    MAN_TECHNOLOGIST(intArrayOf(0x1F468,0x200D,0x1F4BB)),
+    MAN_TECHNOLOGIST(intArrayOf(0x1F468, 0x200D, 0x1F4BB)),
     // 👩‍💻 👩‍💻 👩‍💻
-    WOMAN_TECHNOLOGIST(intArrayOf(0x1F469,0x200D,0x1F4BB)),
+    WOMAN_TECHNOLOGIST(intArrayOf(0x1F469, 0x200D, 0x1F4BB)),
     // 🧑‍🎤 🧑‍🎤 🧑‍🎤
-    SINGER(intArrayOf(0x1F9D1,0x200D,0x1F3A4)),
+    SINGER(intArrayOf(0x1F9D1, 0x200D, 0x1F3A4)),
     // 👨‍🎤 👨‍🎤 👨‍🎤
-    MAN_SINGER(intArrayOf(0x1F468,0x200D,0x1F3A4)),
+    MAN_SINGER(intArrayOf(0x1F468, 0x200D, 0x1F3A4)),
     // 👩‍🎤 👩‍🎤 👩‍🎤
-    WOMAN_SINGER(intArrayOf(0x1F469,0x200D,0x1F3A4)),
+    WOMAN_SINGER(intArrayOf(0x1F469, 0x200D, 0x1F3A4)),
     // 🧑‍🎨 🧑‍🎨 🧑‍🎨
-    ARTIST(intArrayOf(0x1F9D1,0x200D,0x1F3A8)),
+    ARTIST(intArrayOf(0x1F9D1, 0x200D, 0x1F3A8)),
     // 👨‍🎨 👨‍🎨 👨‍🎨
-    MAN_ARTIST(intArrayOf(0x1F468,0x200D,0x1F3A8)),
+    MAN_ARTIST(intArrayOf(0x1F468, 0x200D, 0x1F3A8)),
     // 👩‍🎨 👩‍🎨 👩‍🎨
-    WOMAN_ARTIST(intArrayOf(0x1F469,0x200D,0x1F3A8)),
+    WOMAN_ARTIST(intArrayOf(0x1F469, 0x200D, 0x1F3A8)),
     // 🧑‍✈️ 🧑‍✈️ 🧑‍✈️
-    PILOT(intArrayOf(0x1F9D1,0x200D,0x2708,0xFE0F)),
+    PILOT(intArrayOf(0x1F9D1, 0x200D, 0x2708, 0xFE0F)),
     // 👨‍✈️ 👨‍✈️ 👨‍✈️
-    MAN_PILOT(intArrayOf(0x1F468,0x200D,0x2708,0xFE0F)),
+    MAN_PILOT(intArrayOf(0x1F468, 0x200D, 0x2708, 0xFE0F)),
     // 👩‍✈️ 👩‍✈️ 👩‍✈️
-    WOMAN_PILOT(intArrayOf(0x1F469,0x200D,0x2708,0xFE0F)),
+    WOMAN_PILOT(intArrayOf(0x1F469, 0x200D, 0x2708, 0xFE0F)),
     // 🧑‍🚀 🧑‍🚀 🧑‍🚀
-    ASTRONAUT(intArrayOf(0x1F9D1,0x200D,0x1F680)),
+    ASTRONAUT(intArrayOf(0x1F9D1, 0x200D, 0x1F680)),
     // 👨‍🚀 👨‍🚀 👨‍🚀
-    MAN_ASTRONAUT(intArrayOf(0x1F468,0x200D,0x1F680)),
+    MAN_ASTRONAUT(intArrayOf(0x1F468, 0x200D, 0x1F680)),
     // 👩‍🚀 👩‍🚀 👩‍🚀
-    WOMAN_ASTRONAUT(intArrayOf(0x1F469,0x200D,0x1F680)),
+    WOMAN_ASTRONAUT(intArrayOf(0x1F469, 0x200D, 0x1F680)),
     // 🧑‍🚒 🧑‍🚒 🧑‍🚒
-    FIREFIGHTER(intArrayOf(0x1F9D1,0x200D,0x1F692)),
+    FIREFIGHTER(intArrayOf(0x1F9D1, 0x200D, 0x1F692)),
     // 👨‍🚒 👨‍🚒 👨‍🚒
-    MAN_FIREFIGHTER(intArrayOf(0x1F468,0x200D,0x1F692)),
+    MAN_FIREFIGHTER(intArrayOf(0x1F468, 0x200D, 0x1F692)),
     // 👩‍🚒 👩‍🚒 👩‍🚒
-    WOMAN_FIREFIGHTER(intArrayOf(0x1F469,0x200D,0x1F692)),
+    WOMAN_FIREFIGHTER(intArrayOf(0x1F469, 0x200D, 0x1F692)),
     // 👮 👮 👮
     POLICE_OFFICER(intArrayOf(0x1F46E)),
     // 👮‍♂️ 👮‍♂️ 👮‍♂️
-    MAN_POLICE_OFFICER(intArrayOf(0x1F46E,0x200D,0x2642,0xFE0F)),
+    MAN_POLICE_OFFICER(intArrayOf(0x1F46E, 0x200D, 0x2642, 0xFE0F)),
     // 👮‍♀️ 👮‍♀️ 👮‍♀️
-    WOMAN_POLICE_OFFICER(intArrayOf(0x1F46E,0x200D,0x2640,0xFE0F)),
+    WOMAN_POLICE_OFFICER(intArrayOf(0x1F46E, 0x200D, 0x2640, 0xFE0F)),
     // 🕵️ 🕵️ 🕵️
-    DETECTIVE(intArrayOf(0x1F575,0xFE0F)),
+    DETECTIVE(intArrayOf(0x1F575, 0xFE0F)),
     // 🕵️‍♂️ 🕵️‍♂️ 🕵️‍♂️
-    MAN_DETECTIVE(intArrayOf(0x1F575,0xFE0F,0x200D,0x2642,0xFE0F)),
+    MAN_DETECTIVE(intArrayOf(0x1F575, 0xFE0F, 0x200D, 0x2642, 0xFE0F)),
     // 🕵️‍♀️ 🕵️‍♀️ 🕵️‍♀️
-    WOMAN_DETECTIVE(intArrayOf(0x1F575,0xFE0F,0x200D,0x2640,0xFE0F)),
+    WOMAN_DETECTIVE(intArrayOf(0x1F575, 0xFE0F, 0x200D, 0x2640, 0xFE0F)),
     // 💂 💂 💂
     GUARD(intArrayOf(0x1F482)),
     // 💂‍♂️ 💂‍♂️ 💂‍♂️
-    MAN_GUARD(intArrayOf(0x1F482,0x200D,0x2642,0xFE0F)),
+    MAN_GUARD(intArrayOf(0x1F482, 0x200D, 0x2642, 0xFE0F)),
     // 💂‍♀️ 💂‍♀️ 💂‍♀️
-    WOMAN_GUARD(intArrayOf(0x1F482,0x200D,0x2640,0xFE0F)),
+    WOMAN_GUARD(intArrayOf(0x1F482, 0x200D, 0x2640, 0xFE0F)),
     // 🥷 🥷 🥷
     NINJA(intArrayOf(0x1F977)),
     // 👷 👷 👷
     CONSTRUCTION_WORKER(intArrayOf(0x1F477)),
     // 👷‍♂️ 👷‍♂️ 👷‍♂️
-    MAN_CONSTRUCTION_WORKER(intArrayOf(0x1F477,0x200D,0x2642,0xFE0F)),
+    MAN_CONSTRUCTION_WORKER(intArrayOf(0x1F477, 0x200D, 0x2642, 0xFE0F)),
     // 👷‍♀️ 👷‍♀️ 👷‍♀️
-    WOMAN_CONSTRUCTION_WORKER(intArrayOf(0x1F477,0x200D,0x2640,0xFE0F)),
+    WOMAN_CONSTRUCTION_WORKER(intArrayOf(0x1F477, 0x200D, 0x2640, 0xFE0F)),
     // 🫅 🫅 🫅
     PERSON_WITH_CROWN(intArrayOf(0x1FAC5)),
     // 🤴 🤴 🤴
@@ -704,9 +704,9 @@ enum class Emoji0(
     // 👳 👳 👳
     PERSON_WEARING_TURBAN(intArrayOf(0x1F473)),
     // 👳‍♂️ 👳‍♂️ 👳‍♂️
-    MAN_WEARING_TURBAN(intArrayOf(0x1F473,0x200D,0x2642,0xFE0F)),
+    MAN_WEARING_TURBAN(intArrayOf(0x1F473, 0x200D, 0x2642, 0xFE0F)),
     // 👳‍♀️ 👳‍♀️ 👳‍♀️
-    WOMAN_WEARING_TURBAN(intArrayOf(0x1F473,0x200D,0x2640,0xFE0F)),
+    WOMAN_WEARING_TURBAN(intArrayOf(0x1F473, 0x200D, 0x2640, 0xFE0F)),
     // 👲 👲 👲
     PERSON_WITH_SKULLCAP(intArrayOf(0x1F472)),
     // 🧕 🧕 🧕
@@ -714,15 +714,15 @@ enum class Emoji0(
     // 🤵 🤵 🤵
     PERSON_IN_TUXEDO(intArrayOf(0x1F935)),
     // 🤵‍♂️ 🤵‍♂️ 🤵‍♂️
-    MAN_IN_TUXEDO(intArrayOf(0x1F935,0x200D,0x2642,0xFE0F)),
+    MAN_IN_TUXEDO(intArrayOf(0x1F935, 0x200D, 0x2642, 0xFE0F)),
     // 🤵‍♀️ 🤵‍♀️ 🤵‍♀️
-    WOMAN_IN_TUXEDO(intArrayOf(0x1F935,0x200D,0x2640,0xFE0F)),
+    WOMAN_IN_TUXEDO(intArrayOf(0x1F935, 0x200D, 0x2640, 0xFE0F)),
     // 👰 👰 👰
     PERSON_WITH_VEIL(intArrayOf(0x1F470)),
     // 👰‍♂️ 👰‍♂️ 👰‍♂️
-    MAN_WITH_VEIL(intArrayOf(0x1F470,0x200D,0x2642,0xFE0F)),
+    MAN_WITH_VEIL(intArrayOf(0x1F470, 0x200D, 0x2642, 0xFE0F)),
     // 👰‍♀️ 👰‍♀️ 👰‍♀️
-    WOMAN_WITH_VEIL(intArrayOf(0x1F470,0x200D,0x2640,0xFE0F)),
+    WOMAN_WITH_VEIL(intArrayOf(0x1F470, 0x200D, 0x2640, 0xFE0F)),
     // 🤰 🤰 🤰
     PREGNANT_WOMAN(intArrayOf(0x1F930)),
     // 🫃 🫃 🫃
@@ -732,11 +732,11 @@ enum class Emoji0(
     // 🤱 🤱 🤱
     BREAST_FEEDING(intArrayOf(0x1F931)),
     // 👩‍🍼 👩‍🍼 👩‍🍼
-    WOMAN_FEEDING_BABY(intArrayOf(0x1F469,0x200D,0x1F37C)),
+    WOMAN_FEEDING_BABY(intArrayOf(0x1F469, 0x200D, 0x1F37C)),
     // 👨‍🍼 👨‍🍼 👨‍🍼
-    MAN_FEEDING_BABY(intArrayOf(0x1F468,0x200D,0x1F37C)),
+    MAN_FEEDING_BABY(intArrayOf(0x1F468, 0x200D, 0x1F37C)),
     // 🧑‍🍼 🧑‍🍼 🧑‍🍼
-    PERSON_FEEDING_BABY(intArrayOf(0x1F9D1,0x200D,0x1F37C)),
+    PERSON_FEEDING_BABY(intArrayOf(0x1F9D1, 0x200D, 0x1F37C)),
     // 👼 👼 👼
     BABY_ANGEL(intArrayOf(0x1F47C)),
     // 🎅 🎅 🎅
@@ -744,239 +744,239 @@ enum class Emoji0(
     // 🤶 🤶 🤶
     MRS_CLAUS(intArrayOf(0x1F936)),
     // 🧑‍🎄 🧑‍🎄 🧑‍🎄
-    MX_CLAUS(intArrayOf(0x1F9D1,0x200D,0x1F384)),
+    MX_CLAUS(intArrayOf(0x1F9D1, 0x200D, 0x1F384)),
     // 🦸 🦸 🦸
     SUPERHERO(intArrayOf(0x1F9B8)),
     // 🦸‍♂️ 🦸‍♂️ 🦸‍♂️
-    MAN_SUPERHERO(intArrayOf(0x1F9B8,0x200D,0x2642,0xFE0F)),
+    MAN_SUPERHERO(intArrayOf(0x1F9B8, 0x200D, 0x2642, 0xFE0F)),
     // 🦸‍♀️ 🦸‍♀️ 🦸‍♀️
-    WOMAN_SUPERHERO(intArrayOf(0x1F9B8,0x200D,0x2640,0xFE0F)),
+    WOMAN_SUPERHERO(intArrayOf(0x1F9B8, 0x200D, 0x2640, 0xFE0F)),
     // 🦹 🦹 🦹
     SUPERVILLAIN(intArrayOf(0x1F9B9)),
     // 🦹‍♂️ 🦹‍♂️ 🦹‍♂️
-    MAN_SUPERVILLAIN(intArrayOf(0x1F9B9,0x200D,0x2642,0xFE0F)),
+    MAN_SUPERVILLAIN(intArrayOf(0x1F9B9, 0x200D, 0x2642, 0xFE0F)),
     // 🦹‍♀️ 🦹‍♀️ 🦹‍♀️
-    WOMAN_SUPERVILLAIN(intArrayOf(0x1F9B9,0x200D,0x2640,0xFE0F)),
+    WOMAN_SUPERVILLAIN(intArrayOf(0x1F9B9, 0x200D, 0x2640, 0xFE0F)),
     // 🧙 🧙 🧙
     MAGE(intArrayOf(0x1F9D9)),
     // 🧙‍♂️ 🧙‍♂️ 🧙‍♂️
-    MAN_MAGE(intArrayOf(0x1F9D9,0x200D,0x2642,0xFE0F)),
+    MAN_MAGE(intArrayOf(0x1F9D9, 0x200D, 0x2642, 0xFE0F)),
     // 🧙‍♀️ 🧙‍♀️ 🧙‍♀️
-    WOMAN_MAGE(intArrayOf(0x1F9D9,0x200D,0x2640,0xFE0F)),
+    WOMAN_MAGE(intArrayOf(0x1F9D9, 0x200D, 0x2640, 0xFE0F)),
     // 🧚 🧚 🧚
     FAIRY(intArrayOf(0x1F9DA)),
     // 🧚‍♂️ 🧚‍♂️ 🧚‍♂️
-    MAN_FAIRY(intArrayOf(0x1F9DA,0x200D,0x2642,0xFE0F)),
+    MAN_FAIRY(intArrayOf(0x1F9DA, 0x200D, 0x2642, 0xFE0F)),
     // 🧚‍♀️ 🧚‍♀️ 🧚‍♀️
-    WOMAN_FAIRY(intArrayOf(0x1F9DA,0x200D,0x2640,0xFE0F)),
+    WOMAN_FAIRY(intArrayOf(0x1F9DA, 0x200D, 0x2640, 0xFE0F)),
     // 🧛 🧛 🧛
     VAMPIRE(intArrayOf(0x1F9DB)),
     // 🧛‍♂️ 🧛‍♂️ 🧛‍♂️
-    MAN_VAMPIRE(intArrayOf(0x1F9DB,0x200D,0x2642,0xFE0F)),
+    MAN_VAMPIRE(intArrayOf(0x1F9DB, 0x200D, 0x2642, 0xFE0F)),
     // 🧛‍♀️ 🧛‍♀️ 🧛‍♀️
-    WOMAN_VAMPIRE(intArrayOf(0x1F9DB,0x200D,0x2640,0xFE0F)),
+    WOMAN_VAMPIRE(intArrayOf(0x1F9DB, 0x200D, 0x2640, 0xFE0F)),
     // 🧜 🧜 🧜
     MERPERSON(intArrayOf(0x1F9DC)),
     // 🧜‍♂️ 🧜‍♂️ 🧜‍♂️
-    MERMAN(intArrayOf(0x1F9DC,0x200D,0x2642,0xFE0F)),
+    MERMAN(intArrayOf(0x1F9DC, 0x200D, 0x2642, 0xFE0F)),
     // 🧜‍♀️ 🧜‍♀️ 🧜‍♀️
-    MERMAID(intArrayOf(0x1F9DC,0x200D,0x2640,0xFE0F)),
+    MERMAID(intArrayOf(0x1F9DC, 0x200D, 0x2640, 0xFE0F)),
     // 🧝 🧝 🧝
     ELF(intArrayOf(0x1F9DD)),
     // 🧝‍♂️ 🧝‍♂️ 🧝‍♂️
-    MAN_ELF(intArrayOf(0x1F9DD,0x200D,0x2642,0xFE0F)),
+    MAN_ELF(intArrayOf(0x1F9DD, 0x200D, 0x2642, 0xFE0F)),
     // 🧝‍♀️ 🧝‍♀️ 🧝‍♀️
-    WOMAN_ELF(intArrayOf(0x1F9DD,0x200D,0x2640,0xFE0F)),
+    WOMAN_ELF(intArrayOf(0x1F9DD, 0x200D, 0x2640, 0xFE0F)),
     // 🧞 🧞 🧞
     GENIE(intArrayOf(0x1F9DE)),
     // 🧞‍♂️ 🧞‍♂️ 🧞‍♂️
-    MAN_GENIE(intArrayOf(0x1F9DE,0x200D,0x2642,0xFE0F)),
+    MAN_GENIE(intArrayOf(0x1F9DE, 0x200D, 0x2642, 0xFE0F)),
     // 🧞‍♀️ 🧞‍♀️ 🧞‍♀️
-    WOMAN_GENIE(intArrayOf(0x1F9DE,0x200D,0x2640,0xFE0F)),
+    WOMAN_GENIE(intArrayOf(0x1F9DE, 0x200D, 0x2640, 0xFE0F)),
     // 🧟 🧟 🧟
     ZOMBIE(intArrayOf(0x1F9DF)),
     // 🧟‍♂️ 🧟‍♂️ 🧟‍♂️
-    MAN_ZOMBIE(intArrayOf(0x1F9DF,0x200D,0x2642,0xFE0F)),
+    MAN_ZOMBIE(intArrayOf(0x1F9DF, 0x200D, 0x2642, 0xFE0F)),
     // 🧟‍♀️ 🧟‍♀️ 🧟‍♀️
-    WOMAN_ZOMBIE(intArrayOf(0x1F9DF,0x200D,0x2640,0xFE0F)),
+    WOMAN_ZOMBIE(intArrayOf(0x1F9DF, 0x200D, 0x2640, 0xFE0F)),
     // 🧌 🧌 🧌
     TROLL(intArrayOf(0x1F9CC)),
     // 💆 💆 💆
     PERSON_GETTING_MASSAGE(intArrayOf(0x1F486)),
     // 💆‍♂️ 💆‍♂️ 💆‍♂️
-    MAN_GETTING_MASSAGE(intArrayOf(0x1F486,0x200D,0x2642,0xFE0F)),
+    MAN_GETTING_MASSAGE(intArrayOf(0x1F486, 0x200D, 0x2642, 0xFE0F)),
     // 💆‍♀️ 💆‍♀️ 💆‍♀️
-    WOMAN_GETTING_MASSAGE(intArrayOf(0x1F486,0x200D,0x2640,0xFE0F)),
+    WOMAN_GETTING_MASSAGE(intArrayOf(0x1F486, 0x200D, 0x2640, 0xFE0F)),
     // 💇 💇 💇
     PERSON_GETTING_HAIRCUT(intArrayOf(0x1F487)),
     // 💇‍♂️ 💇‍♂️ 💇‍♂️
-    MAN_GETTING_HAIRCUT(intArrayOf(0x1F487,0x200D,0x2642,0xFE0F)),
+    MAN_GETTING_HAIRCUT(intArrayOf(0x1F487, 0x200D, 0x2642, 0xFE0F)),
     // 💇‍♀️ 💇‍♀️ 💇‍♀️
-    WOMAN_GETTING_HAIRCUT(intArrayOf(0x1F487,0x200D,0x2640,0xFE0F)),
+    WOMAN_GETTING_HAIRCUT(intArrayOf(0x1F487, 0x200D, 0x2640, 0xFE0F)),
     // 🚶 🚶 🚶
     PERSON_WALKING(intArrayOf(0x1F6B6)),
     // 🚶‍♂️ 🚶‍♂️ 🚶‍♂️
-    MAN_WALKING(intArrayOf(0x1F6B6,0x200D,0x2642,0xFE0F)),
+    MAN_WALKING(intArrayOf(0x1F6B6, 0x200D, 0x2642, 0xFE0F)),
     // 🚶‍♀️ 🚶‍♀️ 🚶‍♀️
-    WOMAN_WALKING(intArrayOf(0x1F6B6,0x200D,0x2640,0xFE0F)),
+    WOMAN_WALKING(intArrayOf(0x1F6B6, 0x200D, 0x2640, 0xFE0F)),
     // 🧍 🧍 🧍
     PERSON_STANDING(intArrayOf(0x1F9CD)),
     // 🧍‍♂️ 🧍‍♂️ 🧍‍♂️
-    MAN_STANDING(intArrayOf(0x1F9CD,0x200D,0x2642,0xFE0F)),
+    MAN_STANDING(intArrayOf(0x1F9CD, 0x200D, 0x2642, 0xFE0F)),
     // 🧍‍♀️ 🧍‍♀️ 🧍‍♀️
-    WOMAN_STANDING(intArrayOf(0x1F9CD,0x200D,0x2640,0xFE0F)),
+    WOMAN_STANDING(intArrayOf(0x1F9CD, 0x200D, 0x2640, 0xFE0F)),
     // 🧎 🧎 🧎
     PERSON_KNEELING(intArrayOf(0x1F9CE)),
     // 🧎‍♂️ 🧎‍♂️ 🧎‍♂️
-    MAN_KNEELING(intArrayOf(0x1F9CE,0x200D,0x2642,0xFE0F)),
+    MAN_KNEELING(intArrayOf(0x1F9CE, 0x200D, 0x2642, 0xFE0F)),
     // 🧎‍♀️ 🧎‍♀️ 🧎‍♀️
-    WOMAN_KNEELING(intArrayOf(0x1F9CE,0x200D,0x2640,0xFE0F)),
+    WOMAN_KNEELING(intArrayOf(0x1F9CE, 0x200D, 0x2640, 0xFE0F)),
     // 🧑‍🦯 🧑‍🦯 🧑‍🦯
-    PERSON_WITH_WHITE_CANE(intArrayOf(0x1F9D1,0x200D,0x1F9AF)),
+    PERSON_WITH_WHITE_CANE(intArrayOf(0x1F9D1, 0x200D, 0x1F9AF)),
     // 👨‍🦯 👨‍🦯 👨‍🦯
-    MAN_WITH_WHITE_CANE(intArrayOf(0x1F468,0x200D,0x1F9AF)),
+    MAN_WITH_WHITE_CANE(intArrayOf(0x1F468, 0x200D, 0x1F9AF)),
     // 👩‍🦯 👩‍🦯 👩‍🦯
-    WOMAN_WITH_WHITE_CANE(intArrayOf(0x1F469,0x200D,0x1F9AF)),
+    WOMAN_WITH_WHITE_CANE(intArrayOf(0x1F469, 0x200D, 0x1F9AF)),
     // 🧑‍🦼 🧑‍🦼 🧑‍🦼
-    PERSON_IN_MOTORIZED_WHEELCHAIR(intArrayOf(0x1F9D1,0x200D,0x1F9BC)),
+    PERSON_IN_MOTORIZED_WHEELCHAIR(intArrayOf(0x1F9D1, 0x200D, 0x1F9BC)),
     // 👨‍🦼 👨‍🦼 👨‍🦼
-    MAN_IN_MOTORIZED_WHEELCHAIR(intArrayOf(0x1F468,0x200D,0x1F9BC)),
+    MAN_IN_MOTORIZED_WHEELCHAIR(intArrayOf(0x1F468, 0x200D, 0x1F9BC)),
     // 👩‍🦼 👩‍🦼 👩‍🦼
-    WOMAN_IN_MOTORIZED_WHEELCHAIR(intArrayOf(0x1F469,0x200D,0x1F9BC)),
+    WOMAN_IN_MOTORIZED_WHEELCHAIR(intArrayOf(0x1F469, 0x200D, 0x1F9BC)),
     // 🧑‍🦽 🧑‍🦽 🧑‍🦽
-    PERSON_IN_MANUAL_WHEELCHAIR(intArrayOf(0x1F9D1,0x200D,0x1F9BD)),
+    PERSON_IN_MANUAL_WHEELCHAIR(intArrayOf(0x1F9D1, 0x200D, 0x1F9BD)),
     // 👨‍🦽 👨‍🦽 👨‍🦽
-    MAN_IN_MANUAL_WHEELCHAIR(intArrayOf(0x1F468,0x200D,0x1F9BD)),
+    MAN_IN_MANUAL_WHEELCHAIR(intArrayOf(0x1F468, 0x200D, 0x1F9BD)),
     // 👩‍🦽 👩‍🦽 👩‍🦽
-    WOMAN_IN_MANUAL_WHEELCHAIR(intArrayOf(0x1F469,0x200D,0x1F9BD)),
+    WOMAN_IN_MANUAL_WHEELCHAIR(intArrayOf(0x1F469, 0x200D, 0x1F9BD)),
     // 🏃 🏃 🏃
     PERSON_RUNNING(intArrayOf(0x1F3C3)),
     // 🏃‍♂️ 🏃‍♂️ 🏃‍♂️
-    MAN_RUNNING(intArrayOf(0x1F3C3,0x200D,0x2642,0xFE0F)),
+    MAN_RUNNING(intArrayOf(0x1F3C3, 0x200D, 0x2642, 0xFE0F)),
     // 🏃‍♀️ 🏃‍♀️ 🏃‍♀️
-    WOMAN_RUNNING(intArrayOf(0x1F3C3,0x200D,0x2640,0xFE0F)),
+    WOMAN_RUNNING(intArrayOf(0x1F3C3, 0x200D, 0x2640, 0xFE0F)),
     // 💃 💃 💃
     WOMAN_DANCING(intArrayOf(0x1F483)),
     // 🕺 🕺 🕺
     MAN_DANCING(intArrayOf(0x1F57A)),
     // 🕴️ 🕴️ 🕴️
-    PERSON_IN_SUIT_LEVITATING(intArrayOf(0x1F574,0xFE0F)),
+    PERSON_IN_SUIT_LEVITATING(intArrayOf(0x1F574, 0xFE0F)),
     // 👯 👯 👯
     PEOPLE_WITH_BUNNY_EARS(intArrayOf(0x1F46F)),
     // 👯‍♂️ 👯‍♂️ 👯‍♂️
-    MEN_WITH_BUNNY_EARS(intArrayOf(0x1F46F,0x200D,0x2642,0xFE0F)),
+    MEN_WITH_BUNNY_EARS(intArrayOf(0x1F46F, 0x200D, 0x2642, 0xFE0F)),
     // 👯‍♀️ 👯‍♀️ 👯‍♀️
-    WOMEN_WITH_BUNNY_EARS(intArrayOf(0x1F46F,0x200D,0x2640,0xFE0F)),
+    WOMEN_WITH_BUNNY_EARS(intArrayOf(0x1F46F, 0x200D, 0x2640, 0xFE0F)),
     // 🧖 🧖 🧖
     PERSON_IN_STEAMY_ROOM(intArrayOf(0x1F9D6)),
     // 🧖‍♂️ 🧖‍♂️ 🧖‍♂️
-    MAN_IN_STEAMY_ROOM(intArrayOf(0x1F9D6,0x200D,0x2642,0xFE0F)),
+    MAN_IN_STEAMY_ROOM(intArrayOf(0x1F9D6, 0x200D, 0x2642, 0xFE0F)),
     // 🧖‍♀️ 🧖‍♀️ 🧖‍♀️
-    WOMAN_IN_STEAMY_ROOM(intArrayOf(0x1F9D6,0x200D,0x2640,0xFE0F)),
+    WOMAN_IN_STEAMY_ROOM(intArrayOf(0x1F9D6, 0x200D, 0x2640, 0xFE0F)),
     // 🧗 🧗 🧗
     PERSON_CLIMBING(intArrayOf(0x1F9D7)),
     // 🧗‍♂️ 🧗‍♂️ 🧗‍♂️
-    MAN_CLIMBING(intArrayOf(0x1F9D7,0x200D,0x2642,0xFE0F)),
+    MAN_CLIMBING(intArrayOf(0x1F9D7, 0x200D, 0x2642, 0xFE0F)),
     // 🧗‍♀️ 🧗‍♀️ 🧗‍♀️
-    WOMAN_CLIMBING(intArrayOf(0x1F9D7,0x200D,0x2640,0xFE0F)),
+    WOMAN_CLIMBING(intArrayOf(0x1F9D7, 0x200D, 0x2640, 0xFE0F)),
     // 🤺 🤺 🤺
     PERSON_FENCING(intArrayOf(0x1F93A)),
     // 🏇 🏇 🏇
     HORSE_RACING(intArrayOf(0x1F3C7)),
     // ⛷️ ⛷️ ⛷️
-    SKIER(intArrayOf(0x26F7,0xFE0F)),
+    SKIER(intArrayOf(0x26F7, 0xFE0F)),
     // 🏂 🏂 🏂
     SNOWBOARDER(intArrayOf(0x1F3C2)),
     // 🏌️ 🏌️ 🏌️
-    PERSON_GOLFING(intArrayOf(0x1F3CC,0xFE0F)),
+    PERSON_GOLFING(intArrayOf(0x1F3CC, 0xFE0F)),
     // 🏌️‍♂️ 🏌️‍♂️ 🏌️‍♂️
-    MAN_GOLFING(intArrayOf(0x1F3CC,0xFE0F,0x200D,0x2642,0xFE0F)),
+    MAN_GOLFING(intArrayOf(0x1F3CC, 0xFE0F, 0x200D, 0x2642, 0xFE0F)),
     // 🏌️‍♀️ 🏌️‍♀️ 🏌️‍♀️
-    WOMAN_GOLFING(intArrayOf(0x1F3CC,0xFE0F,0x200D,0x2640,0xFE0F)),
+    WOMAN_GOLFING(intArrayOf(0x1F3CC, 0xFE0F, 0x200D, 0x2640, 0xFE0F)),
     // 🏄 🏄 🏄
     PERSON_SURFING(intArrayOf(0x1F3C4)),
     // 🏄‍♂️ 🏄‍♂️ 🏄‍♂️
-    MAN_SURFING(intArrayOf(0x1F3C4,0x200D,0x2642,0xFE0F)),
+    MAN_SURFING(intArrayOf(0x1F3C4, 0x200D, 0x2642, 0xFE0F)),
     // 🏄‍♀️ 🏄‍♀️ 🏄‍♀️
-    WOMAN_SURFING(intArrayOf(0x1F3C4,0x200D,0x2640,0xFE0F)),
+    WOMAN_SURFING(intArrayOf(0x1F3C4, 0x200D, 0x2640, 0xFE0F)),
     // 🚣 🚣 🚣
     PERSON_ROWING_BOAT(intArrayOf(0x1F6A3)),
     // 🚣‍♂️ 🚣‍♂️ 🚣‍♂️
-    MAN_ROWING_BOAT(intArrayOf(0x1F6A3,0x200D,0x2642,0xFE0F)),
+    MAN_ROWING_BOAT(intArrayOf(0x1F6A3, 0x200D, 0x2642, 0xFE0F)),
     // 🚣‍♀️ 🚣‍♀️ 🚣‍♀️
-    WOMAN_ROWING_BOAT(intArrayOf(0x1F6A3,0x200D,0x2640,0xFE0F)),
+    WOMAN_ROWING_BOAT(intArrayOf(0x1F6A3, 0x200D, 0x2640, 0xFE0F)),
     // 🏊 🏊 🏊
     PERSON_SWIMMING(intArrayOf(0x1F3CA)),
     // 🏊‍♂️ 🏊‍♂️ 🏊‍♂️
-    MAN_SWIMMING(intArrayOf(0x1F3CA,0x200D,0x2642,0xFE0F)),
+    MAN_SWIMMING(intArrayOf(0x1F3CA, 0x200D, 0x2642, 0xFE0F)),
     // 🏊‍♀️ 🏊‍♀️ 🏊‍♀️
-    WOMAN_SWIMMING(intArrayOf(0x1F3CA,0x200D,0x2640,0xFE0F)),
+    WOMAN_SWIMMING(intArrayOf(0x1F3CA, 0x200D, 0x2640, 0xFE0F)),
     // ⛹️ ⛹️ ⛹️
-    PERSON_BOUNCING_BALL(intArrayOf(0x26F9,0xFE0F)),
+    PERSON_BOUNCING_BALL(intArrayOf(0x26F9, 0xFE0F)),
     // ⛹️‍♂️ ⛹️‍♂️ ⛹️‍♂️
-    MAN_BOUNCING_BALL(intArrayOf(0x26F9,0xFE0F,0x200D,0x2642,0xFE0F)),
+    MAN_BOUNCING_BALL(intArrayOf(0x26F9, 0xFE0F, 0x200D, 0x2642, 0xFE0F)),
     // ⛹️‍♀️ ⛹️‍♀️ ⛹️‍♀️
-    WOMAN_BOUNCING_BALL(intArrayOf(0x26F9,0xFE0F,0x200D,0x2640,0xFE0F)),
+    WOMAN_BOUNCING_BALL(intArrayOf(0x26F9, 0xFE0F, 0x200D, 0x2640, 0xFE0F)),
     // 🏋️ 🏋️ 🏋️
-    PERSON_LIFTING_WEIGHTS(intArrayOf(0x1F3CB,0xFE0F)),
+    PERSON_LIFTING_WEIGHTS(intArrayOf(0x1F3CB, 0xFE0F)),
     // 🏋️‍♂️ 🏋️‍♂️ 🏋️‍♂️
-    MAN_LIFTING_WEIGHTS(intArrayOf(0x1F3CB,0xFE0F,0x200D,0x2642,0xFE0F)),
+    MAN_LIFTING_WEIGHTS(intArrayOf(0x1F3CB, 0xFE0F, 0x200D, 0x2642, 0xFE0F)),
     // 🏋️‍♀️ 🏋️‍♀️ 🏋️‍♀️
-    WOMAN_LIFTING_WEIGHTS(intArrayOf(0x1F3CB,0xFE0F,0x200D,0x2640,0xFE0F)),
+    WOMAN_LIFTING_WEIGHTS(intArrayOf(0x1F3CB, 0xFE0F, 0x200D, 0x2640, 0xFE0F)),
     // 🚴 🚴 🚴
     PERSON_BIKING(intArrayOf(0x1F6B4)),
     // 🚴‍♂️ 🚴‍♂️ 🚴‍♂️
-    MAN_BIKING(intArrayOf(0x1F6B4,0x200D,0x2642,0xFE0F)),
+    MAN_BIKING(intArrayOf(0x1F6B4, 0x200D, 0x2642, 0xFE0F)),
     // 🚴‍♀️ 🚴‍♀️ 🚴‍♀️
-    WOMAN_BIKING(intArrayOf(0x1F6B4,0x200D,0x2640,0xFE0F)),
+    WOMAN_BIKING(intArrayOf(0x1F6B4, 0x200D, 0x2640, 0xFE0F)),
     // 🚵 🚵 🚵
     PERSON_MOUNTAIN_BIKING(intArrayOf(0x1F6B5)),
     // 🚵‍♂️ 🚵‍♂️ 🚵‍♂️
-    MAN_MOUNTAIN_BIKING(intArrayOf(0x1F6B5,0x200D,0x2642,0xFE0F)),
+    MAN_MOUNTAIN_BIKING(intArrayOf(0x1F6B5, 0x200D, 0x2642, 0xFE0F)),
     // 🚵‍♀️ 🚵‍♀️ 🚵‍♀️
-    WOMAN_MOUNTAIN_BIKING(intArrayOf(0x1F6B5,0x200D,0x2640,0xFE0F)),
+    WOMAN_MOUNTAIN_BIKING(intArrayOf(0x1F6B5, 0x200D, 0x2640, 0xFE0F)),
     // 🤸 🤸 🤸
     PERSON_CARTWHEELING(intArrayOf(0x1F938)),
     // 🤸‍♂️ 🤸‍♂️ 🤸‍♂️
-    MAN_CARTWHEELING(intArrayOf(0x1F938,0x200D,0x2642,0xFE0F)),
+    MAN_CARTWHEELING(intArrayOf(0x1F938, 0x200D, 0x2642, 0xFE0F)),
     // 🤸‍♀️ 🤸‍♀️ 🤸‍♀️
-    WOMAN_CARTWHEELING(intArrayOf(0x1F938,0x200D,0x2640,0xFE0F)),
+    WOMAN_CARTWHEELING(intArrayOf(0x1F938, 0x200D, 0x2640, 0xFE0F)),
     // 🤼 🤼 🤼
     PEOPLE_WRESTLING(intArrayOf(0x1F93C)),
     // 🤼‍♂️ 🤼‍♂️ 🤼‍♂️
-    MEN_WRESTLING(intArrayOf(0x1F93C,0x200D,0x2642,0xFE0F)),
+    MEN_WRESTLING(intArrayOf(0x1F93C, 0x200D, 0x2642, 0xFE0F)),
     // 🤼‍♀️ 🤼‍♀️ 🤼‍♀️
-    WOMEN_WRESTLING(intArrayOf(0x1F93C,0x200D,0x2640,0xFE0F)),
+    WOMEN_WRESTLING(intArrayOf(0x1F93C, 0x200D, 0x2640, 0xFE0F)),
     // 🤽 🤽 🤽
     PERSON_PLAYING_WATER_POLO(intArrayOf(0x1F93D)),
     // 🤽‍♂️ 🤽‍♂️ 🤽‍♂️
-    MAN_PLAYING_WATER_POLO(intArrayOf(0x1F93D,0x200D,0x2642,0xFE0F)),
+    MAN_PLAYING_WATER_POLO(intArrayOf(0x1F93D, 0x200D, 0x2642, 0xFE0F)),
     // 🤽‍♀️ 🤽‍♀️ 🤽‍♀️
-    WOMAN_PLAYING_WATER_POLO(intArrayOf(0x1F93D,0x200D,0x2640,0xFE0F)),
+    WOMAN_PLAYING_WATER_POLO(intArrayOf(0x1F93D, 0x200D, 0x2640, 0xFE0F)),
     // 🤾 🤾 🤾
     PERSON_PLAYING_HANDBALL(intArrayOf(0x1F93E)),
     // 🤾‍♂️ 🤾‍♂️ 🤾‍♂️
-    MAN_PLAYING_HANDBALL(intArrayOf(0x1F93E,0x200D,0x2642,0xFE0F)),
+    MAN_PLAYING_HANDBALL(intArrayOf(0x1F93E, 0x200D, 0x2642, 0xFE0F)),
     // 🤾‍♀️ 🤾‍♀️ 🤾‍♀️
-    WOMAN_PLAYING_HANDBALL(intArrayOf(0x1F93E,0x200D,0x2640,0xFE0F)),
+    WOMAN_PLAYING_HANDBALL(intArrayOf(0x1F93E, 0x200D, 0x2640, 0xFE0F)),
     // 🤹 🤹 🤹
     PERSON_JUGGLING(intArrayOf(0x1F939)),
     // 🤹‍♂️ 🤹‍♂️ 🤹‍♂️
-    MAN_JUGGLING(intArrayOf(0x1F939,0x200D,0x2642,0xFE0F)),
+    MAN_JUGGLING(intArrayOf(0x1F939, 0x200D, 0x2642, 0xFE0F)),
     // 🤹‍♀️ 🤹‍♀️ 🤹‍♀️
-    WOMAN_JUGGLING(intArrayOf(0x1F939,0x200D,0x2640,0xFE0F)),
+    WOMAN_JUGGLING(intArrayOf(0x1F939, 0x200D, 0x2640, 0xFE0F)),
     // 🧘 🧘 🧘
     PERSON_IN_LOTUS_POSITION(intArrayOf(0x1F9D8)),
     // 🧘‍♂️ 🧘‍♂️ 🧘‍♂️
-    MAN_IN_LOTUS_POSITION(intArrayOf(0x1F9D8,0x200D,0x2642,0xFE0F)),
+    MAN_IN_LOTUS_POSITION(intArrayOf(0x1F9D8, 0x200D, 0x2642, 0xFE0F)),
     // 🧘‍♀️ 🧘‍♀️ 🧘‍♀️
-    WOMAN_IN_LOTUS_POSITION(intArrayOf(0x1F9D8,0x200D,0x2640,0xFE0F)),
+    WOMAN_IN_LOTUS_POSITION(intArrayOf(0x1F9D8, 0x200D, 0x2640, 0xFE0F)),
     // 🛀 🛀 🛀
     PERSON_TAKING_BATH(intArrayOf(0x1F6C0)),
     // 🛌 🛌 🛌
     PERSON_IN_BED(intArrayOf(0x1F6CC)),
     // 🧑‍🤝‍🧑 🧑‍🤝‍🧑 🧑‍🤝‍🧑
-    PEOPLE_HOLDING_HANDS(intArrayOf(0x1F9D1,0x200D,0x1F91D,0x200D,0x1F9D1)),
+    PEOPLE_HOLDING_HANDS(intArrayOf(0x1F9D1, 0x200D, 0x1F91D, 0x200D, 0x1F9D1)),
     // 👭 👭 👭
     WOMEN_HOLDING_HANDS(intArrayOf(0x1F46D)),
     // 👫 👫 👫
@@ -986,73 +986,73 @@ enum class Emoji0(
     // 💏 💏 💏
     KISS(intArrayOf(0x1F48F)),
     // 👩‍❤️‍💋‍👨 👩‍❤️‍💋‍👨 👩‍❤️‍💋‍👨
-    KISS_WOMANCOMMA_MAN(intArrayOf(0x1F469,0x200D,0x2764,0xFE0F,0x200D,0x1F48B,0x200D,0x1F468)),
+    KISS_WOMANCOMMA_MAN(intArrayOf(0x1F469, 0x200D, 0x2764, 0xFE0F, 0x200D, 0x1F48B, 0x200D, 0x1F468)),
     // 👨‍❤️‍💋‍👨 👨‍❤️‍💋‍👨 👨‍❤️‍💋‍👨
-    KISS_MANCOMMA_MAN(intArrayOf(0x1F468,0x200D,0x2764,0xFE0F,0x200D,0x1F48B,0x200D,0x1F468)),
+    KISS_MANCOMMA_MAN(intArrayOf(0x1F468, 0x200D, 0x2764, 0xFE0F, 0x200D, 0x1F48B, 0x200D, 0x1F468)),
     // 👩‍❤️‍💋‍👩 👩‍❤️‍💋‍👩 👩‍❤️‍💋‍👩
-    KISS_WOMANCOMMA_WOMAN(intArrayOf(0x1F469,0x200D,0x2764,0xFE0F,0x200D,0x1F48B,0x200D,0x1F469)),
+    KISS_WOMANCOMMA_WOMAN(intArrayOf(0x1F469, 0x200D, 0x2764, 0xFE0F, 0x200D, 0x1F48B, 0x200D, 0x1F469)),
     // 💑 💑 💑
     COUPLE_WITH_HEART(intArrayOf(0x1F491)),
     // 👩‍❤️‍👨 👩‍❤️‍👨 👩‍❤️‍👨
-    COUPLE_WITH_HEART_WOMANCOMMA_MAN(intArrayOf(0x1F469,0x200D,0x2764,0xFE0F,0x200D,0x1F468)),
+    COUPLE_WITH_HEART_WOMANCOMMA_MAN(intArrayOf(0x1F469, 0x200D, 0x2764, 0xFE0F, 0x200D, 0x1F468)),
     // 👨‍❤️‍👨 👨‍❤️‍👨 👨‍❤️‍👨
-    COUPLE_WITH_HEART_MANCOMMA_MAN(intArrayOf(0x1F468,0x200D,0x2764,0xFE0F,0x200D,0x1F468)),
+    COUPLE_WITH_HEART_MANCOMMA_MAN(intArrayOf(0x1F468, 0x200D, 0x2764, 0xFE0F, 0x200D, 0x1F468)),
     // 👩‍❤️‍👩 👩‍❤️‍👩 👩‍❤️‍👩
-    COUPLE_WITH_HEART_WOMANCOMMA_WOMAN(intArrayOf(0x1F469,0x200D,0x2764,0xFE0F,0x200D,0x1F469)),
+    COUPLE_WITH_HEART_WOMANCOMMA_WOMAN(intArrayOf(0x1F469, 0x200D, 0x2764, 0xFE0F, 0x200D, 0x1F469)),
     // 👪 👪 👪
     FAMILY(intArrayOf(0x1F46A)),
     // 👨‍👩‍👦 👨‍👩‍👦 👨‍👩‍👦
-    FAMILY_MANCOMMA_WOMANCOMMA_BOY(intArrayOf(0x1F468,0x200D,0x1F469,0x200D,0x1F466)),
+    FAMILY_MANCOMMA_WOMANCOMMA_BOY(intArrayOf(0x1F468, 0x200D, 0x1F469, 0x200D, 0x1F466)),
     // 👨‍👩‍👧 👨‍👩‍👧 👨‍👩‍👧
-    FAMILY_MANCOMMA_WOMANCOMMA_GIRL(intArrayOf(0x1F468,0x200D,0x1F469,0x200D,0x1F467)),
+    FAMILY_MANCOMMA_WOMANCOMMA_GIRL(intArrayOf(0x1F468, 0x200D, 0x1F469, 0x200D, 0x1F467)),
     // 👨‍👩‍👧‍👦 👨‍👩‍👧‍👦 👨‍👩‍👧‍👦
-    FAMILY_MANCOMMA_WOMANCOMMA_GIRLCOMMA_BOY(intArrayOf(0x1F468,0x200D,0x1F469,0x200D,0x1F467,0x200D,0x1F466)),
+    FAMILY_MANCOMMA_WOMANCOMMA_GIRLCOMMA_BOY(intArrayOf(0x1F468, 0x200D, 0x1F469, 0x200D, 0x1F467, 0x200D, 0x1F466)),
     // 👨‍👩‍👦‍👦 👨‍👩‍👦‍👦 👨‍👩‍👦‍👦
-    FAMILY_MANCOMMA_WOMANCOMMA_BOYCOMMA_BOY(intArrayOf(0x1F468,0x200D,0x1F469,0x200D,0x1F466,0x200D,0x1F466)),
+    FAMILY_MANCOMMA_WOMANCOMMA_BOYCOMMA_BOY(intArrayOf(0x1F468, 0x200D, 0x1F469, 0x200D, 0x1F466, 0x200D, 0x1F466)),
     // 👨‍👩‍👧‍👧 👨‍👩‍👧‍👧 👨‍👩‍👧‍👧
-    FAMILY_MANCOMMA_WOMANCOMMA_GIRLCOMMA_GIRL(intArrayOf(0x1F468,0x200D,0x1F469,0x200D,0x1F467,0x200D,0x1F467)),
+    FAMILY_MANCOMMA_WOMANCOMMA_GIRLCOMMA_GIRL(intArrayOf(0x1F468, 0x200D, 0x1F469, 0x200D, 0x1F467, 0x200D, 0x1F467)),
     // 👨‍👨‍👦 👨‍👨‍👦 👨‍👨‍👦
-    FAMILY_MANCOMMA_MANCOMMA_BOY(intArrayOf(0x1F468,0x200D,0x1F468,0x200D,0x1F466)),
+    FAMILY_MANCOMMA_MANCOMMA_BOY(intArrayOf(0x1F468, 0x200D, 0x1F468, 0x200D, 0x1F466)),
     // 👨‍👨‍👧 👨‍👨‍👧 👨‍👨‍👧
-    FAMILY_MANCOMMA_MANCOMMA_GIRL(intArrayOf(0x1F468,0x200D,0x1F468,0x200D,0x1F467)),
+    FAMILY_MANCOMMA_MANCOMMA_GIRL(intArrayOf(0x1F468, 0x200D, 0x1F468, 0x200D, 0x1F467)),
     // 👨‍👨‍👧‍👦 👨‍👨‍👧‍👦 👨‍👨‍👧‍👦
-    FAMILY_MANCOMMA_MANCOMMA_GIRLCOMMA_BOY(intArrayOf(0x1F468,0x200D,0x1F468,0x200D,0x1F467,0x200D,0x1F466)),
+    FAMILY_MANCOMMA_MANCOMMA_GIRLCOMMA_BOY(intArrayOf(0x1F468, 0x200D, 0x1F468, 0x200D, 0x1F467, 0x200D, 0x1F466)),
     // 👨‍👨‍👦‍👦 👨‍👨‍👦‍👦 👨‍👨‍👦‍👦
-    FAMILY_MANCOMMA_MANCOMMA_BOYCOMMA_BOY(intArrayOf(0x1F468,0x200D,0x1F468,0x200D,0x1F466,0x200D,0x1F466)),
+    FAMILY_MANCOMMA_MANCOMMA_BOYCOMMA_BOY(intArrayOf(0x1F468, 0x200D, 0x1F468, 0x200D, 0x1F466, 0x200D, 0x1F466)),
     // 👨‍👨‍👧‍👧 👨‍👨‍👧‍👧 👨‍👨‍👧‍👧
-    FAMILY_MANCOMMA_MANCOMMA_GIRLCOMMA_GIRL(intArrayOf(0x1F468,0x200D,0x1F468,0x200D,0x1F467,0x200D,0x1F467)),
+    FAMILY_MANCOMMA_MANCOMMA_GIRLCOMMA_GIRL(intArrayOf(0x1F468, 0x200D, 0x1F468, 0x200D, 0x1F467, 0x200D, 0x1F467)),
     // 👩‍👩‍👦 👩‍👩‍👦 👩‍👩‍👦
-    FAMILY_WOMANCOMMA_WOMANCOMMA_BOY(intArrayOf(0x1F469,0x200D,0x1F469,0x200D,0x1F466)),
+    FAMILY_WOMANCOMMA_WOMANCOMMA_BOY(intArrayOf(0x1F469, 0x200D, 0x1F469, 0x200D, 0x1F466)),
     // 👩‍👩‍👧 👩‍👩‍👧 👩‍👩‍👧
-    FAMILY_WOMANCOMMA_WOMANCOMMA_GIRL(intArrayOf(0x1F469,0x200D,0x1F469,0x200D,0x1F467)),
+    FAMILY_WOMANCOMMA_WOMANCOMMA_GIRL(intArrayOf(0x1F469, 0x200D, 0x1F469, 0x200D, 0x1F467)),
     // 👩‍👩‍👧‍👦 👩‍👩‍👧‍👦 👩‍👩‍👧‍👦
-    FAMILY_WOMANCOMMA_WOMANCOMMA_GIRLCOMMA_BOY(intArrayOf(0x1F469,0x200D,0x1F469,0x200D,0x1F467,0x200D,0x1F466)),
+    FAMILY_WOMANCOMMA_WOMANCOMMA_GIRLCOMMA_BOY(intArrayOf(0x1F469, 0x200D, 0x1F469, 0x200D, 0x1F467, 0x200D, 0x1F466)),
     // 👩‍👩‍👦‍👦 👩‍👩‍👦‍👦 👩‍👩‍👦‍👦
-    FAMILY_WOMANCOMMA_WOMANCOMMA_BOYCOMMA_BOY(intArrayOf(0x1F469,0x200D,0x1F469,0x200D,0x1F466,0x200D,0x1F466)),
+    FAMILY_WOMANCOMMA_WOMANCOMMA_BOYCOMMA_BOY(intArrayOf(0x1F469, 0x200D, 0x1F469, 0x200D, 0x1F466, 0x200D, 0x1F466)),
     // 👩‍👩‍👧‍👧 👩‍👩‍👧‍👧 👩‍👩‍👧‍👧
-    FAMILY_WOMANCOMMA_WOMANCOMMA_GIRLCOMMA_GIRL(intArrayOf(0x1F469,0x200D,0x1F469,0x200D,0x1F467,0x200D,0x1F467)),
+    FAMILY_WOMANCOMMA_WOMANCOMMA_GIRLCOMMA_GIRL(intArrayOf(0x1F469, 0x200D, 0x1F469, 0x200D, 0x1F467, 0x200D, 0x1F467)),
     // 👨‍👦 👨‍👦 👨‍👦
-    FAMILY_MANCOMMA_BOY(intArrayOf(0x1F468,0x200D,0x1F466)),
+    FAMILY_MANCOMMA_BOY(intArrayOf(0x1F468, 0x200D, 0x1F466)),
     // 👨‍👦‍👦 👨‍👦‍👦 👨‍👦‍👦
-    FAMILY_MANCOMMA_BOYCOMMA_BOY(intArrayOf(0x1F468,0x200D,0x1F466,0x200D,0x1F466)),
+    FAMILY_MANCOMMA_BOYCOMMA_BOY(intArrayOf(0x1F468, 0x200D, 0x1F466, 0x200D, 0x1F466)),
     // 👨‍👧 👨‍👧 👨‍👧
-    FAMILY_MANCOMMA_GIRL(intArrayOf(0x1F468,0x200D,0x1F467)),
+    FAMILY_MANCOMMA_GIRL(intArrayOf(0x1F468, 0x200D, 0x1F467)),
     // 👨‍👧‍👦 👨‍👧‍👦 👨‍👧‍👦
-    FAMILY_MANCOMMA_GIRLCOMMA_BOY(intArrayOf(0x1F468,0x200D,0x1F467,0x200D,0x1F466)),
+    FAMILY_MANCOMMA_GIRLCOMMA_BOY(intArrayOf(0x1F468, 0x200D, 0x1F467, 0x200D, 0x1F466)),
     // 👨‍👧‍👧 👨‍👧‍👧 👨‍👧‍👧
-    FAMILY_MANCOMMA_GIRLCOMMA_GIRL(intArrayOf(0x1F468,0x200D,0x1F467,0x200D,0x1F467)),
+    FAMILY_MANCOMMA_GIRLCOMMA_GIRL(intArrayOf(0x1F468, 0x200D, 0x1F467, 0x200D, 0x1F467)),
     // 👩‍👦 👩‍👦 👩‍👦
-    FAMILY_WOMANCOMMA_BOY(intArrayOf(0x1F469,0x200D,0x1F466)),
+    FAMILY_WOMANCOMMA_BOY(intArrayOf(0x1F469, 0x200D, 0x1F466)),
     // 👩‍👦‍👦 👩‍👦‍👦 👩‍👦‍👦
-    FAMILY_WOMANCOMMA_BOYCOMMA_BOY(intArrayOf(0x1F469,0x200D,0x1F466,0x200D,0x1F466)),
+    FAMILY_WOMANCOMMA_BOYCOMMA_BOY(intArrayOf(0x1F469, 0x200D, 0x1F466, 0x200D, 0x1F466)),
     // 👩‍👧 👩‍👧 👩‍👧
-    FAMILY_WOMANCOMMA_GIRL(intArrayOf(0x1F469,0x200D,0x1F467)),
+    FAMILY_WOMANCOMMA_GIRL(intArrayOf(0x1F469, 0x200D, 0x1F467)),
     // 👩‍👧‍👦 👩‍👧‍👦 👩‍👧‍👦
-    FAMILY_WOMANCOMMA_GIRLCOMMA_BOY(intArrayOf(0x1F469,0x200D,0x1F467,0x200D,0x1F466)),
+    FAMILY_WOMANCOMMA_GIRLCOMMA_BOY(intArrayOf(0x1F469, 0x200D, 0x1F467, 0x200D, 0x1F466)),
     // 👩‍👧‍👧 👩‍👧‍👧 👩‍👧‍👧
-    FAMILY_WOMANCOMMA_GIRLCOMMA_GIRL(intArrayOf(0x1F469,0x200D,0x1F467,0x200D,0x1F467)),
+    FAMILY_WOMANCOMMA_GIRLCOMMA_GIRL(intArrayOf(0x1F469, 0x200D, 0x1F467, 0x200D, 0x1F467)),
     // 🗣️ 🗣️ 🗣️
-    SPEAKING_HEAD(intArrayOf(0x1F5E3,0xFE0F)),
+    SPEAKING_HEAD(intArrayOf(0x1F5E3, 0xFE0F)),
     // 👤 👤 👤
     BUST_IN_SILHOUETTE(intArrayOf(0x1F464)),
     // 👥 👥 👥
@@ -1076,7 +1076,7 @@ enum class Emoji0(
     // 🦮 🦮 🦮
     GUIDE_DOG(intArrayOf(0x1F9AE)),
     // 🐕‍🦺 🐕‍🦺 🐕‍🦺
-    SERVICE_DOG(intArrayOf(0x1F415,0x200D,0x1F9BA)),
+    SERVICE_DOG(intArrayOf(0x1F415, 0x200D, 0x1F9BA)),
     // 🐩 🐩 🐩
     POODLE(intArrayOf(0x1F429)),
     // 🐺 🐺 🐺
@@ -1090,7 +1090,7 @@ enum class Emoji0(
     // 🐈 🐈 🐈
     CAT(intArrayOf(0x1F408)),
     // 🐈‍⬛ 🐈‍⬛ 🐈‍⬛
-    BLACK_CAT(intArrayOf(0x1F408,0x200D,0x2B1B)),
+    BLACK_CAT(intArrayOf(0x1F408, 0x200D, 0x2B1B)),
     // 🦁 🦁 🦁
     LION(intArrayOf(0x1F981)),
     // 🐯 🐯 🐯
@@ -1166,7 +1166,7 @@ enum class Emoji0(
     // 🐇 🐇 🐇
     RABBIT(intArrayOf(0x1F407)),
     // 🐿️ 🐿️ 🐿️
-    CHIPMUNK(intArrayOf(0x1F43F,0xFE0F)),
+    CHIPMUNK(intArrayOf(0x1F43F, 0xFE0F)),
     // 🦫 🦫 🦫
     BEAVER(intArrayOf(0x1F9AB)),
     // 🦔 🦔 🦔
@@ -1176,7 +1176,7 @@ enum class Emoji0(
     // 🐻 🐻 🐻
     BEAR(intArrayOf(0x1F43B)),
     // 🐻‍❄️ 🐻‍❄️ 🐻‍❄️
-    POLAR_BEAR(intArrayOf(0x1F43B,0x200D,0x2744,0xFE0F)),
+    POLAR_BEAR(intArrayOf(0x1F43B, 0x200D, 0x2744, 0xFE0F)),
     // 🐨 🐨 🐨
     KOALA(intArrayOf(0x1F428)),
     // 🐼 🐼 🐼
@@ -1210,7 +1210,7 @@ enum class Emoji0(
     // 🐧 🐧 🐧
     PENGUIN(intArrayOf(0x1F427)),
     // 🕊️ 🕊️ 🕊️
-    DOVE(intArrayOf(0x1F54A,0xFE0F)),
+    DOVE(intArrayOf(0x1F54A, 0xFE0F)),
     // 🦅 🦅 🦅
     EAGLE(intArrayOf(0x1F985)),
     // 🦆 🦆 🦆
@@ -1232,7 +1232,7 @@ enum class Emoji0(
     // 🪽 🪽 🪽
     WING(intArrayOf(0x1FABD)),
     // 🐦‍⬛ 🐦‍⬛ 🐦‍⬛
-    BLACK_BIRD(intArrayOf(0x1F426,0x200D,0x2B1B)),
+    BLACK_BIRD(intArrayOf(0x1F426, 0x200D, 0x2B1B)),
     // 🪿 🪿 🪿
     GOOSE(intArrayOf(0x1FABF)),
     // 🐸 🐸 🐸
@@ -1296,9 +1296,9 @@ enum class Emoji0(
     // 🪳 🪳 🪳
     COCKROACH(intArrayOf(0x1FAB3)),
     // 🕷️ 🕷️ 🕷️
-    SPIDER(intArrayOf(0x1F577,0xFE0F)),
+    SPIDER(intArrayOf(0x1F577, 0xFE0F)),
     // 🕸️ 🕸️ 🕸️
-    SPIDER_WEB(intArrayOf(0x1F578,0xFE0F)),
+    SPIDER_WEB(intArrayOf(0x1F578, 0xFE0F)),
     // 🦂 🦂 🦂
     SCORPION(intArrayOf(0x1F982)),
     // 🦟 🦟 🦟
@@ -1318,7 +1318,7 @@ enum class Emoji0(
     // 🪷 🪷 🪷
     LOTUS(intArrayOf(0x1FAB7)),
     // 🏵️ 🏵️ 🏵️
-    ROSETTE(intArrayOf(0x1F3F5,0xFE0F)),
+    ROSETTE(intArrayOf(0x1F3F5, 0xFE0F)),
     // 🌹 🌹 🌹
     ROSE(intArrayOf(0x1F339)),
     // 🥀 🥀 🥀
@@ -1350,7 +1350,7 @@ enum class Emoji0(
     // 🌿 🌿 🌿
     HERB(intArrayOf(0x1F33F)),
     // ☘️ ☘️ ☘️
-    SHAMROCK(intArrayOf(0x2618,0xFE0F)),
+    SHAMROCK(intArrayOf(0x2618, 0xFE0F)),
     // 🍀 🍀 🍀
     FOUR_LEAF_CLOVER(intArrayOf(0x1F340)),
     // 🍁 🍁 🍁
@@ -1414,7 +1414,7 @@ enum class Emoji0(
     // 🌽 🌽 🌽
     EAR_OF_CORN(intArrayOf(0x1F33D)),
     // 🌶️ 🌶️ 🌶️
-    HOT_PEPPER(intArrayOf(0x1F336,0xFE0F)),
+    HOT_PEPPER(intArrayOf(0x1F336, 0xFE0F)),
     // 🫑 🫑 🫑
     BELL_PEPPER(intArrayOf(0x1FAD1)),
     // 🥒 🥒 🥒
@@ -1620,7 +1620,7 @@ enum class Emoji0(
     // 🥢 🥢 🥢
     CHOPSTICKS(intArrayOf(0x1F962)),
     // 🍽️ 🍽️ 🍽️
-    FORK_AND_KNIFE_WITH_PLATE(intArrayOf(0x1F37D,0xFE0F)),
+    FORK_AND_KNIFE_WITH_PLATE(intArrayOf(0x1F37D, 0xFE0F)),
     // 🍴 🍴 🍴
     FORK_AND_KNIFE(intArrayOf(0x1F374)),
     // 🥄 🥄 🥄
@@ -1640,35 +1640,35 @@ enum class Emoji0(
     // 🌐 🌐 🌐
     GLOBE_WITH_MERIDIANS(intArrayOf(0x1F310)),
     // 🗺️ 🗺️ 🗺️
-    WORLD_MAP(intArrayOf(0x1F5FA,0xFE0F)),
+    WORLD_MAP(intArrayOf(0x1F5FA, 0xFE0F)),
     // 🗾 🗾 🗾
     MAP_OF_JAPAN(intArrayOf(0x1F5FE)),
     // 🧭 🧭 🧭
     COMPASS(intArrayOf(0x1F9ED)),
     // 🏔️ 🏔️ 🏔️
-    SNOW_CAPPED_MOUNTAIN(intArrayOf(0x1F3D4,0xFE0F)),
+    SNOW_CAPPED_MOUNTAIN(intArrayOf(0x1F3D4, 0xFE0F)),
     // ⛰️ ⛰️ ⛰️
-    MOUNTAIN(intArrayOf(0x26F0,0xFE0F)),
+    MOUNTAIN(intArrayOf(0x26F0, 0xFE0F)),
     // 🌋 🌋 🌋
     VOLCANO(intArrayOf(0x1F30B)),
     // 🗻 🗻 🗻
     MOUNT_FUJI(intArrayOf(0x1F5FB)),
     // 🏕️ 🏕️ 🏕️
-    CAMPING(intArrayOf(0x1F3D5,0xFE0F)),
+    CAMPING(intArrayOf(0x1F3D5, 0xFE0F)),
     // 🏖️ 🏖️ 🏖️
-    BEACH_WITH_UMBRELLA(intArrayOf(0x1F3D6,0xFE0F)),
+    BEACH_WITH_UMBRELLA(intArrayOf(0x1F3D6, 0xFE0F)),
     // 🏜️ 🏜️ 🏜️
-    DESERT(intArrayOf(0x1F3DC,0xFE0F)),
+    DESERT(intArrayOf(0x1F3DC, 0xFE0F)),
     // 🏝️ 🏝️ 🏝️
-    DESERT_ISLAND(intArrayOf(0x1F3DD,0xFE0F)),
+    DESERT_ISLAND(intArrayOf(0x1F3DD, 0xFE0F)),
     // 🏞️ 🏞️ 🏞️
-    NATIONAL_PARK(intArrayOf(0x1F3DE,0xFE0F)),
+    NATIONAL_PARK(intArrayOf(0x1F3DE, 0xFE0F)),
     // 🏟️ 🏟️ 🏟️
-    STADIUM(intArrayOf(0x1F3DF,0xFE0F)),
+    STADIUM(intArrayOf(0x1F3DF, 0xFE0F)),
     // 🏛️ 🏛️ 🏛️
-    CLASSICAL_BUILDING(intArrayOf(0x1F3DB,0xFE0F)),
+    CLASSICAL_BUILDING(intArrayOf(0x1F3DB, 0xFE0F)),
     // 🏗️ 🏗️ 🏗️
-    BUILDING_CONSTRUCTION(intArrayOf(0x1F3D7,0xFE0F)),
+    BUILDING_CONSTRUCTION(intArrayOf(0x1F3D7, 0xFE0F)),
     // 🧱 🧱 🧱
     BRICK(intArrayOf(0x1F9F1)),
     // 🪨 🪨 🪨
@@ -1678,9 +1678,9 @@ enum class Emoji0(
     // 🛖 🛖 🛖
     HUT(intArrayOf(0x1F6D6)),
     // 🏘️ 🏘️ 🏘️
-    HOUSES(intArrayOf(0x1F3D8,0xFE0F)),
+    HOUSES(intArrayOf(0x1F3D8, 0xFE0F)),
     // 🏚️ 🏚️ 🏚️
-    DERELICT_HOUSE(intArrayOf(0x1F3DA,0xFE0F)),
+    DERELICT_HOUSE(intArrayOf(0x1F3DA, 0xFE0F)),
     // 🏠 🏠 🏠
     HOUSE(intArrayOf(0x1F3E0)),
     // 🏡 🏡 🏡
@@ -1726,7 +1726,7 @@ enum class Emoji0(
     // 🕍 🕍 🕍
     SYNAGOGUE(intArrayOf(0x1F54D)),
     // ⛩️ ⛩️ ⛩️
-    SHINTO_SHRINE(intArrayOf(0x26E9,0xFE0F)),
+    SHINTO_SHRINE(intArrayOf(0x26E9, 0xFE0F)),
     // 🕋 🕋 🕋
     KAABA(intArrayOf(0x1F54B)),
     // ⛲ ⛲ ⛲
@@ -1738,7 +1738,7 @@ enum class Emoji0(
     // 🌃 🌃 🌃
     NIGHT_WITH_STARS(intArrayOf(0x1F303)),
     // 🏙️ 🏙️ 🏙️
-    CITYSCAPE(intArrayOf(0x1F3D9,0xFE0F)),
+    CITYSCAPE(intArrayOf(0x1F3D9, 0xFE0F)),
     // 🌄 🌄 🌄
     SUNRISE_OVER_MOUNTAINS(intArrayOf(0x1F304)),
     // 🌅 🌅 🌅
@@ -1750,7 +1750,7 @@ enum class Emoji0(
     // 🌉 🌉 🌉
     BRIDGE_AT_NIGHT(intArrayOf(0x1F309)),
     // ♨️ ♨️ ♨️
-    HOT_SPRINGS(intArrayOf(0x2668,0xFE0F)),
+    HOT_SPRINGS(intArrayOf(0x2668, 0xFE0F)),
     // 🎠 🎠 🎠
     CAROUSEL_HORSE(intArrayOf(0x1F3A0)),
     // 🛝 🛝 🛝
@@ -1822,9 +1822,9 @@ enum class Emoji0(
     // 🚜 🚜 🚜
     TRACTOR(intArrayOf(0x1F69C)),
     // 🏎️ 🏎️ 🏎️
-    RACING_CAR(intArrayOf(0x1F3CE,0xFE0F)),
+    RACING_CAR(intArrayOf(0x1F3CE, 0xFE0F)),
     // 🏍️ 🏍️ 🏍️
-    MOTORCYCLE(intArrayOf(0x1F3CD,0xFE0F)),
+    MOTORCYCLE(intArrayOf(0x1F3CD, 0xFE0F)),
     // 🛵 🛵 🛵
     MOTOR_SCOOTER(intArrayOf(0x1F6F5)),
     // 🦽 🦽 🦽
@@ -1844,11 +1844,11 @@ enum class Emoji0(
     // 🚏 🚏 🚏
     BUS_STOP(intArrayOf(0x1F68F)),
     // 🛣️ 🛣️ 🛣️
-    MOTORWAY(intArrayOf(0x1F6E3,0xFE0F)),
+    MOTORWAY(intArrayOf(0x1F6E3, 0xFE0F)),
     // 🛤️ 🛤️ 🛤️
-    RAILWAY_TRACK(intArrayOf(0x1F6E4,0xFE0F)),
+    RAILWAY_TRACK(intArrayOf(0x1F6E4, 0xFE0F)),
     // 🛢️ 🛢️ 🛢️
-    OIL_DRUM(intArrayOf(0x1F6E2,0xFE0F)),
+    OIL_DRUM(intArrayOf(0x1F6E2, 0xFE0F)),
     // ⛽ ⛽ ⛽
     FUEL_PUMP(intArrayOf(0x26FD)),
     // 🛞 🛞 🛞
@@ -1874,17 +1874,17 @@ enum class Emoji0(
     // 🚤 🚤 🚤
     SPEEDBOAT(intArrayOf(0x1F6A4)),
     // 🛳️ 🛳️ 🛳️
-    PASSENGER_SHIP(intArrayOf(0x1F6F3,0xFE0F)),
+    PASSENGER_SHIP(intArrayOf(0x1F6F3, 0xFE0F)),
     // ⛴️ ⛴️ ⛴️
-    FERRY(intArrayOf(0x26F4,0xFE0F)),
+    FERRY(intArrayOf(0x26F4, 0xFE0F)),
     // 🛥️ 🛥️ 🛥️
-    MOTOR_BOAT(intArrayOf(0x1F6E5,0xFE0F)),
+    MOTOR_BOAT(intArrayOf(0x1F6E5, 0xFE0F)),
     // 🚢 🚢 🚢
     SHIP(intArrayOf(0x1F6A2)),
     // ✈️ ✈️ ✈️
-    AIRPLANE(intArrayOf(0x2708,0xFE0F)),
+    AIRPLANE(intArrayOf(0x2708, 0xFE0F)),
     // 🛩️ 🛩️ 🛩️
-    SMALL_AIRPLANE(intArrayOf(0x1F6E9,0xFE0F)),
+    SMALL_AIRPLANE(intArrayOf(0x1F6E9, 0xFE0F)),
     // 🛫 🛫 🛫
     AIRPLANE_DEPARTURE(intArrayOf(0x1F6EB)),
     // 🛬 🛬 🛬
@@ -1902,13 +1902,13 @@ enum class Emoji0(
     // 🚡 🚡 🚡
     AERIAL_TRAMWAY(intArrayOf(0x1F6A1)),
     // 🛰️ 🛰️ 🛰️
-    SATELLITE(intArrayOf(0x1F6F0,0xFE0F)),
+    SATELLITE(intArrayOf(0x1F6F0, 0xFE0F)),
     // 🚀 🚀 🚀
     ROCKET(intArrayOf(0x1F680)),
     // 🛸 🛸 🛸
     FLYING_SAUCER(intArrayOf(0x1F6F8)),
     // 🛎️ 🛎️ 🛎️
-    BELLHOP_BELL(intArrayOf(0x1F6CE,0xFE0F)),
+    BELLHOP_BELL(intArrayOf(0x1F6CE, 0xFE0F)),
     // 🧳 🧳 🧳
     LUGGAGE(intArrayOf(0x1F9F3)),
     // ⌛ ⌛ ⌛
@@ -1920,11 +1920,11 @@ enum class Emoji0(
     // ⏰ ⏰ ⏰
     ALARM_CLOCK(intArrayOf(0x23F0)),
     // ⏱️ ⏱️ ⏱️
-    STOPWATCH(intArrayOf(0x23F1,0xFE0F)),
+    STOPWATCH(intArrayOf(0x23F1, 0xFE0F)),
     // ⏲️ ⏲️ ⏲️
-    TIMER_CLOCK(intArrayOf(0x23F2,0xFE0F)),
+    TIMER_CLOCK(intArrayOf(0x23F2, 0xFE0F)),
     // 🕰️ 🕰️ 🕰️
-    MANTELPIECE_CLOCK(intArrayOf(0x1F570,0xFE0F)),
+    MANTELPIECE_CLOCK(intArrayOf(0x1F570, 0xFE0F)),
     // 🕛 🕛 🕛
     TWELVE_OCLOCK(intArrayOf(0x1F55B)),
     // 🕧 🕧 🕧
@@ -1998,9 +1998,9 @@ enum class Emoji0(
     // 🌜 🌜 🌜
     LAST_QUARTER_MOON_FACE(intArrayOf(0x1F31C)),
     // 🌡️ 🌡️ 🌡️
-    THERMOMETER(intArrayOf(0x1F321,0xFE0F)),
+    THERMOMETER(intArrayOf(0x1F321, 0xFE0F)),
     // ☀️ ☀️ ☀️
-    SUN(intArrayOf(0x2600,0xFE0F)),
+    SUN(intArrayOf(0x2600, 0xFE0F)),
     // 🌝 🌝 🌝
     FULL_MOON_FACE(intArrayOf(0x1F31D));
 
