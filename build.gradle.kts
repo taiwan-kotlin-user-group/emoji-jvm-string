@@ -17,6 +17,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.8.2")
+    testImplementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.14.1")
 }
 
 tasks.withType<KotlinCompile> {
