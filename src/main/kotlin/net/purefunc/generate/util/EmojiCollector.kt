@@ -7,6 +7,8 @@ class EmojiCollector {
             source
                 .filter {
                     it.contains("fully-qualified")
+                }.filterNot {
+                    it.contains("skin tone")
                 }.map {
                     it.split(" ")
                 }.map { elements ->
